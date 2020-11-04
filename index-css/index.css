@@ -1,0 +1,53 @@
+nav > ol {
+    list-style-type: none;
+    padding-left: 0;
+    text-align: center;
+}
+
+header {
+    background-image: url("../img/header.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header > div {
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.6);
+    text-align: center;
+}
+
+nav > ol > li {
+    display: inline-block;
+    margin: 0 10px;
+    border-bottom: 3px solid transparent;
+    font-size: 2em;
+}
+
+nav > ol > li:hover {
+    border-bottom: 3px solid black;
+}
+
+nav > ol > li > a {
+    text-decoration: none;
+    font-family: 'Viga', sans-serif;
+}
+
+nav > ol > li > a:visited {
+    color: black;
+}
+
+nav > ol > li > a.underlined {
+    text-decoration: underline;
+}
+
+section {
+    width: 50%;
+    margin: auto;
+}
+
+iframe {
+    display: block;
+    width: 70%;
+    height: 500px;
+    margin: auto;
+}
