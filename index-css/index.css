@@ -30,6 +30,7 @@ nav > ol > li:hover {
 nav > ol > li > a {
     text-decoration: none;
     font-family: 'Viga', sans-serif;
+    color: black;
 }
 
 nav > ol > li > a:visited {
