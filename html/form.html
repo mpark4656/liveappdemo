@@ -27,5 +27,143 @@
             <button>Submit</button>
         </div>
     </form>
+    <h1>Quora Search Form</h1>
+    <form action="https://www.quora.com/search" method="get" target="_blank">
+        <p>
+            <label for="search-string">Search String: </label>
+            <input id="search-string" type="text" name = "q">
+        </p>
+        <button type="submit">Search Quora</button>
+    </form>
+    <form action="" method="get">
+        <h1>Checkboxes</h1>
+        <div>
+            <input type="checkbox" name="agreed_tox" id="agreement-checkbox" checked>
+            <label for="agreement-checkbox">I agree to the terms of service.</label>
+        </div>
+        <h1>Radio Buttons</h1>
+        <p>What is your favorite color?</p>
+        <div>
+            <input type="radio" name="color-selection" id="green" value="green">
+            <label for="green">Green</label>
+        </div>
+        <div>
+            <input type="radio" name="color-selection" id="red" value="red">
+            <label for="red">Red</label>
+        </div>
+        <div>
+            <input type="radio" name="color-selection" id="orange" value="orange">
+            <label for="orange">Orange</label>
+        </div>
+        <h1>Select Input (Dropdown)</h1>
+        <div>
+            <label for="select-pet">Select your favorite pet:</label>
+            <select name="pets" id="select-pet">
+                <option value="parrot">Parrot</option>
+                <option value="dog">Dog</option>
+                <option value="cat" selected>Cat</option>
+            </select>
+        </div>
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+    <form action="" method="get">
+        <h1>Range Input</h1>
+        <div>
+            <label for="amount-cheese">Amount of Cheese:</label>
+            <input id="amount-cheese" type="range" step="0.1" max="10" min="1" name="cheese-amount">
+        </div>
+        <div>
+            <label for="essay">Text Area:</label><br>
+            <textarea id="essay" rows="10" name="essay"></textarea>
+        </div>
+    </form>
+    <h3>Code for this Page</h3>
+    <pre><code>
+            &lt;!DOCTYPE html&gt;
+            &lt;html lang="en"&gt;
+            &lt;head&gt;
+                &lt;meta charset="UTF-8"&gt;
+                &lt;title&gt;HTML Form&lt;/title&gt;
+            &lt;/head&gt;
+            &lt;body&gt;
+                &lt;h1&gt;HTML Form&lt;/h1&gt;
+                &lt;form action=""&gt;
+                    &lt;div&gt;
+                        &lt;label for="username"&gt;Username:&lt;/label&gt;
+                        &lt;input id="username" type="text" placeholder="text"&gt;
+                    &lt;/div&gt;
+                    &lt;div&gt;
+                        &lt;label for="password"&gt;Password:&lt;/label&gt;
+                        &lt;input id="password" type="password" placeholder="password"&gt;
+                    &lt;/div&gt;
+                    &lt;div&gt;
+                        &lt;label for="color"&gt;Choose your color:&lt;/label&gt;
+                        &lt;input id="color" type="color"&gt;
+                    &lt;/div&gt;
+                    &lt;div&gt;
+                        &lt;label for="age"&gt;Age:&lt;/label&gt;
+                        &lt;input id="age" type="number" placeholder="number"&gt;
+                    &lt;/div&gt;
+                    &lt;div&gt;
+                        &lt;button&gt;Submit&lt;/button&gt;
+                    &lt;/div&gt;
+                &lt;/form&gt;
+                &lt;h1&gt;Quora Search Form&lt;/h1&gt;
+                &lt;form action="https://www.quora.com/search" method="get" target="_blank"&gt;
+                    &lt;p&gt;
+                        &lt;label for="search-string"&gt;Search String: &lt;/label&gt;
+                        &lt;input id="search-string" type="text" name = "q"&gt;
+                    &lt;/p&gt;
+                    &lt;button type="submit"&gt;Search Quora&lt;/button&gt;
+                &lt;/form&gt;
+                &lt;form action="" method="get"&gt;
+                    &lt;h1&gt;Checkboxes&lt;/h1&gt;
+                    &lt;div&gt;
+                        &lt;input type="checkbox" name="agreed_tox" id="agreement-checkbox" checked&gt;
+                        &lt;label for="agreement-checkbox"&gt;I agree to the terms of service.&lt;/label&gt;
+                    &lt;/div&gt;
+                    &lt;h1&gt;Radio Buttons&lt;/h1&gt;
+                    &lt;p&gt;What is your favorite color?&lt;/p&gt;
+                    &lt;div&gt;
+                        &lt;input type="radio" name="color-selection" id="green" value="green"&gt;
+                        &lt;label for="green"&gt;Green&lt;/label&gt;
+                    &lt;/div&gt;
+                    &lt;div&gt;
+                        &lt;input type="radio" name="color-selection" id="red" value="red"&gt;
+                        &lt;label for="red"&gt;Red&lt;/label&gt;
+                    &lt;/div&gt;
+                    &lt;div&gt;
+                        &lt;input type="radio" name="color-selection" id="orange" value="orange"&gt;
+                        &lt;label for="orange"&gt;Orange&lt;/label&gt;
+                    &lt;/div&gt;
+                    &lt;h1&gt;Select Input (Dropdown)&lt;/h1&gt;
+                    &lt;div&gt;
+                        &lt;label for="select-pet"&gt;Select your favorite pet:&lt;/label&gt;
+                        &lt;select name="pets" id="select-pet"&gt;
+                            &lt;option value="parrot"&gt;Parrot&lt;/option&gt;
+                            &lt;option value="dog"&gt;Dog&lt;/option&gt;
+                            &lt;option value="cat" selected&gt;Cat&lt;/option&gt;
+                        &lt;/select&gt;
+                    &lt;/div&gt;
+                    &lt;div&gt;
+                        &lt;button type="submit"&gt;Submit&lt;/button&gt;
+                    &lt;/div&gt;
+                &lt;/form&gt;
+                &lt;form action="" method="get"&gt;
+                    &lt;h1&gt;Range Input&lt;/h1&gt;
+                    &lt;div&gt;
+                        &lt;label for="amount-cheese"&gt;Amount of Cheese:&lt;/label&gt;
+                        &lt;input id="amount-cheese" type="range" step="0.1" max="10" min="1" name="cheese-amount"&gt;
+                    &lt;/div&gt;
+                    &lt;div&gt;
+                        &lt;label for="essay"&gt;Text Area:&lt;/label&gt;&lt;br&gt;
+                        &lt;textarea id="essay" rows="10" name="essay"&gt;&lt;/textarea&gt;
+                    &lt;/div&gt;
+                &lt;/form&gt;
+            &lt;/body&gt;
+            &lt;/html&gt;
+    </code></pre>
 </body>
 </html>
