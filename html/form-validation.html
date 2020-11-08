@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Validation</title>
+</head>
+<body>
+    <h1> Form Validation</h1>
+    <form action="" method="get">
+        <div>
+            <label for="required-text">Required Text Field: </label>
+            <input id="required-text" type="text" placeholder="Enter something here" required>
+        </div>
+        <div>
+            <label for="password">Password (Min length: 8, Max length: 20): </label>
+            <input id="password" type="password" minlength="8" maxlength="20" required>
+        </div>
+        <div>
+            <label for="number">Enter a number (Min: 0, Max: 20</label>
+            <input id="number" type="number" min="0" max="20" required>
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input id="email" type="email" required>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+    <pre><code>
+        &lt;!DOCTYPE html&gt;
+        &lt;html lang="en"&gt;
+        &lt;head&gt;
+            &lt;meta charset="UTF-8"&gt;
+            &lt;title&gt;Form Validation&lt;/title&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+            &lt;h1&gt; Form Validation&lt;/h1&gt;
+            &lt;form action="" method="get"&gt;
+                &lt;div&gt;
+                    &lt;label for="required-text"&gt;Required Text Field: &lt;/label&gt;
+                    &lt;input id="required-text" type="text" placeholder="Enter something here" required&gt;
+                &lt;/div&gt;
+                &lt;div&gt;
+                    &lt;label for="password"&gt;Password (Min length: 8, Max length: 20): &lt;/label&gt;
+                    &lt;input id="password" type="password" minlength="8" maxlength="20" required&gt;
+                &lt;/div&gt;
+                &lt;div&gt;
+                    &lt;label for="number"&gt;Enter a number (Min: 0, Max: 20&lt;/label&gt;
+                    &lt;input id="number" type="number" min="0" max="20" required&gt;
+                &lt;/div&gt;
+                &lt;div&gt;
+                    &lt;label for="email"&gt;Email:&lt;/label&gt;
+                    &lt;input id="email" type="email" required&gt;
+                &lt;/div&gt;
+                &lt;button type="submit"&gt;Submit&lt;/button&gt;
+            &lt;/form&gt;
+        &lt;/body&gt;
+        &lt;/html&gt;
+    </code></pre>
+</body>
+</html>
