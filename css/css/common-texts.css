@@ -1,0 +1,31 @@
+#text-alignment-right {
+    text-align: right;
+}
+
+#text-alignment-left {
+    text-align: left;
+}
+
+#text-alignment-center {
+    text-align: center;
+}
+
+#text-font-weight-400 {
+    font-weight: 400;
+}
+
+#text-font-weight-700 {
+    font-weight: 700;
+}
+
+#text-decoration-underline {
+    text-decoration: underline;
+}
+
+#text-decoration-overline-green {
+    text-decoration: green overline;
+}
+
+#text-decoration-overline-blue-wavy {
+    text-decoration: blue wavy overline;
+}
