@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Basic CSS Selectors</title>
+    <link rel="stylesheet" href="css/css-selectors.css">
+</head>
+<body>
+    <h1>Basic CSS Selectors</h1>
+    <p>Universal Selector to make all texts color purple. This isn't commonly used.</p>
+    <p>All buttons have font-size 30px.</p>
+    <button>Button One</button> <button>Button Two</button> <button>Button Three</button>
+    <p>h2 and h4 have red dotted underline.</p>
+    <h2>This is h2.</h2>
+    <h3>This is h3</h3>
+    <h4>This is h4.</h4>
+    <p id="green-background-p">This paragraph has an id. This id element has green background</p>
+    <p class="text-center">This paragraph has a class.</p>
+    <h5 class="text-center">This h5 has the same class id as the above paragraph</h5>
+    <p>Used the class selector to make all elements with the class have centered texts.</p>
+
+    <h3>HTML Code for this Page</h3>
+    <pre><code>
+        &lt;!DOCTYPE html&gt;
+        &lt;html lang="en"&gt;
+        &lt;head&gt;
+            &lt;meta charset="UTF-8"&gt;
+            &lt;title&gt;Basic CSS Selectors&lt;/title&gt;
+            &lt;link rel="stylesheet" href="css/css-selectors.css"&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+            &lt;h1&gt;Basic CSS Selectors&lt;/h1&gt;
+            &lt;p&gt;Universal Selector to make all texts color purple. This isn't commonly used.&lt;/p&gt;
+            &lt;p&gt;All buttons have font-size 30px.&lt;/p&gt;
+            &lt;button&gt;Button One&lt;/button&gt; &lt;button&gt;Button Two&lt;/button&gt;
+            &lt;button&gt;Button Three&lt;/button&gt;
+            &lt;p&gt;h2 and h4 have red dotted underline.&lt;/p&gt;
+            &lt;h2&gt;This is h2.&lt;/h2&gt;
+            &lt;h3&gt;This is h3&lt;/h3&gt;
+            &lt;h4&gt;This is h4.&lt;/h4&gt;
+            &lt;p id="green-background-p"&gt;This paragraph has an id. This id element has green background&lt;/p&gt;
+            &lt;p class="text-center"&gt;This paragraph has a class.&lt;/p&gt;
+            &lt;h5 class="text-center"&gt;This h5 has the same class id as the above paragraph&lt;/h5&gt;
+            &lt;p&gt;Used the class selector to make all elements with the class have centered texts.&lt;/p&gt;
+        &lt;/body&gt;
+        &lt;/html&gt;
+    </code></pre>
+    <h3>CSS Code for this Page</h3>
+    <pre><code>
+        * {
+            color: purple;
+        }
+
+        button {
+            font-size: 30px;
+        }
+
+        h2, h4 {
+            text-decoration: underline red dotted;
+        }
+
+        #green-background-p {
+            background: green;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        h3 {
+            color: black;
+        }
+
+        code {
+            color: black;
+        }
+    </code></pre>
+</body>
+</html>

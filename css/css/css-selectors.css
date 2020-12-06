@@ -1,0 +1,27 @@
+* {
+    color: purple;
+}
+
+button {
+    font-size: 30px;
+}
+
+h2, h4 {
+    text-decoration: underline red dotted;
+}
+
+#green-background-p {
+    background: green;
+}
+
+.text-center {
+    text-align: center;
+}
+
+h3 {
+    color: black;
+}
+
+code {
+    color: black;
+}

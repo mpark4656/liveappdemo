@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="eb8c7c76-3401-44f5-bf95-d2ca4fa3a038" name="Default Changelist" comment="Starting CSS">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/html-intro.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/css-selectors.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/css/css-selectors.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Pull.Settings">
+    <option name="BRANCH" value="main" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1jKbgKRQrqVVB0jEj4iLtiedOZa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mpark\Google Drive\Projects\web\liveappdemo\img" />
+      <recent name="C:\Users\mpark\Google Drive\Projects\web\liveappdemo\index-css" />
+      <recent name="C:\Users\mpark\Google Drive\Projects\web\liveappdemo\index-js" />
+      <recent name="C:\Users\mpark\Google Drive\Projects\web\liveappdemo" />
+      <recent name="C:\Users\mpark\Google Drive\Projects\web\liveappdemo\html" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mpark\Google Drive\Projects\web\liveappdemo\jss" />
+      <recent name="C:\Users\mpark\Google Drive\Projects\web\liveappdemo\css" />
+      <recent name="C:\Users\mpark\Google Drive\Projects\web\liveappdemo\basic-html" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration name="basic-tags.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/html-intro/basic-tags.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/liveappdemo/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.basic-tags.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eb8c7c76-3401-44f5-bf95-d2ca4fa3a038" name="Default Changelist" comment="" />
+      <created>1603555840916</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603555840916</updated>
+      <workItem from="1603555842156" duration="1577000" />
+      <workItem from="1604100451512" duration="32000" />
+      <workItem from="1604100626363" duration="6670000" />
+      <workItem from="1604156908311" duration="1709000" />
+      <workItem from="1604158869905" duration="5938000" />
+      <workItem from="1604279916254" duration="517000" />
+      <workItem from="1604442434550" duration="2973000" />
+      <workItem from="1604448220428" duration="7299000" />
+      <workItem from="1604631302177" duration="1201000" />
+      <workItem from="1604714581461" duration="2454000" />
+      <workItem from="1604799801847" duration="6967000" />
+      <workItem from="1604862065498" duration="2235000" />
+      <workItem from="1604969354284" duration="596000" />
+      <workItem from="1604971363463" duration="174000" />
+      <workItem from="1605140066617" duration="595000" />
+      <workItem from="1605744742469" duration="3119000" />
+      <workItem from="1605833166876" duration="481000" />
+      <workItem from="1606534842664" duration="1137000" />
+      <workItem from="1606676540182" duration="1132000" />
+      <workItem from="1606705823705" duration="33000" />
+      <workItem from="1606877323502" duration="2050000" />
+      <workItem from="1607129836408" duration="1508000" />
+      <workItem from="1607136906538" duration="124000" />
+      <workItem from="1607137782251" duration="26000" />
+      <workItem from="1607272333448" duration="1313000" />
+    </task>
+    <task id="LOCAL-00001" summary="Initial Commit">
+      <created>1604101357040</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604101357040</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added HTML Lists">
+      <created>1604103433814</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604103433814</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added anchor and image tags">
+      <created>1604111408736</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1604111408736</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Corrected HTML entities formatting">
+      <created>1604159369059</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1604159369059</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Completed entities.html">
+      <created>1604160234053</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1604160234053</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Finished semantic">
+      <created>1604280138759</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1604280138759</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Updated Readme">
+      <created>1604448403738</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1604448403738</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Redesigned index pages">
+      <created>1604454765374</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1604454765374</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Added more HTML sections">
+      <created>1604717140406</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1604717140406</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Completed form.html">
+      <created>1604803566287</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1604803566287</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Starting CSS">
+      <created>1604810915628</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1604810915628</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Added Color CSS">
+      <created>1604864252898</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1604864252899</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Remove iframe from root index.html">
+      <created>1604864347513</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1604864347513</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Added text CSS">
+      <created>1605748525320</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1605748525320</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Added Font Size examples">
+      <created>1606878036053</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1606878036053</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Specified that the pixel unit is used for font size for this example">
+      <created>1606878102731</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1606878102731</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Minor changes">
+      <created>1607136565876</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1607136565876</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial Commit" />
+    <MESSAGE value="Added HTML Lists" />
+    <MESSAGE value="Added anchor and image tags" />
+    <MESSAGE value="Corrected HTML entities formatting" />
+    <MESSAGE value="Completed entities.html" />
+    <MESSAGE value="Finished semantic" />
+    <MESSAGE value="Updated Readme" />
+    <MESSAGE value="Redesigned index pages" />
+    <MESSAGE value="Added more HTML sections" />
+    <MESSAGE value="Completed form.html" />
+    <MESSAGE value="Starting CSS" />
+    <MESSAGE value="Added Color CSS" />
+    <MESSAGE value="Remove iframe from root index.html" />
+    <MESSAGE value="Added text CSS" />
+    <MESSAGE value="Added Font Size examples" />
+    <MESSAGE value="Specified that the pixel unit is used for font size for this example" />
+    <MESSAGE value="Minor changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Minor changes" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="828" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603556512808">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="828" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603556512808" />
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604452749372">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604452749372" />
+    <state x="582" y="95" key="CommitChangelistDialog2" timestamp="1607136564844">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="582" y="95" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1607136564844" />
+    <state x="1214" y="278" key="FileChooserDialogImpl" timestamp="1606676589604">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1214" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1606676589604" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1604448284456">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604448284456" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1607136812038">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607136812038" />
+    <state x="761" y="429" width="395" height="184" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1604101643251">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="761" y="429" width="395" height="184" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604101643251" />
+    <state x="712" y="419" key="git4idea.ui.GitStashDialog" timestamp="1604101578698">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="712" y="419" key="git4idea.ui.GitStashDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604101578698" />
+    <state x="712" y="309" key="git4idea.ui.GitUnstashDialog" timestamp="1604101701553">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="712" y="309" key="git4idea.ui.GitUnstashDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604101701553" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1607273283405">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607273283405" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1604801298080">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604801298080" />
+  </component>
+</project>
