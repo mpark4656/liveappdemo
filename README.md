@@ -2,8 +2,7 @@
 URL: https://liveappdemo.com
 
 ## Description
-Compilation of my personal HTML/CSS/JS practice files
-that demonstrates familiarity with the web languages.
+Compilation of my personal HTML/CSS/JS practice files.
 
 ## Languages
 * HTML
