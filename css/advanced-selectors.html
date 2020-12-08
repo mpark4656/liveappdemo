@@ -7,14 +7,22 @@
 </head>
 <body>
     <h1>Advanced CSS Selectors</h1>
-    <p>Descendant Selectors - Only color the texts of &lt;a&gt; element nested inside li red.</p>
+    <p><strong>Descendant Selectors</strong> - Only color the texts of &lt;a&gt; element nested inside li red.</p>
     <ul>
         <li>
             <a href="https://www.google.com">Go to Google!</a>
         </li>
     </ul>
     <a href="">This is also &lt;a&gt;, but I'm not inside an li</a>
-
+    <p><strong>Adjacent and Direct-Descendent Selectors</strong></p>
+    <p>The button right next to p is going to have a green background.</p>
+    <button>This button should be green</button>
+    <p>
+        The input that is a direct descendent of this p has green background, but not the input that is nested
+        further down.
+        <input type="text"> <br/>
+        <label>This input is not a direct descendant: <input type="text"></label>
+    </p>
 
 </body>
 </html>
