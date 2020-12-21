@@ -1,0 +1,19 @@
+a:hover {
+    background: red;
+}
+
+button:hover {
+    background: red;
+}
+
+button:active {
+    background: purple;
+}
+
+table, thead th,tbody td{
+    border: solid black 1px;
+}
+
+table tbody tr:nth-of-type(2n) {
+    background: gray;
+}
