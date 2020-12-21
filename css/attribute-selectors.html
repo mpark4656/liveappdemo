@@ -21,5 +21,43 @@
         <li href="#section2">Section 2</li>
         <li href="#section3">Section 3</li>
     </ul>
+    <h3>HTML Code for this Page</h3>
+    <pre><code>
+        &lt;!DOCTYPE html&gt;
+        &lt;html lang="en"&gt;
+        &lt;head&gt;
+            &lt;meta charset="UTF-8"&gt;
+            &lt;title&gt;Attribute Selectors&lt;/title&gt;
+            &lt;link rel="stylesheet" href="css/attribute-selectors.css"&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+            &lt;h1&gt;Attribute Selectors&lt;/h1&gt;
+            &lt;p&gt;Select text inputs and change background to red.&lt;/p&gt;
+            &lt;input type="text" placeholder="Text Input"&gt;
+            &lt;input type="password" placeholder="Password Input"&gt;
+            &lt;input type="email" placeholder="Email Input"&gt;
+        
+            &lt;p&gt;
+                Match Attribute Value using *= to select attribute that contains a certain value&lt;br/&gt;
+                Underline section 2 using attribute selector.
+            &lt;/p&gt;
+            &lt;ul&gt;
+                &lt;li href="#section1"&gt;Section 1&lt;/li&gt;
+                &lt;li href="#section2"&gt;Section 2&lt;/li&gt;
+                &lt;li href="#section3"&gt;Section 3&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/body&gt;
+        &lt;/html&gt;
+    </code></pre>
+    <h3>CSS Code for this Page</h3>
+    <pre><code>
+        input[type="text"] {
+            background: red;
+        }
+
+        li[href*="section2"] {
+            text-decoration: underline black solid;
+        }
+    </code></pre>
 </body>
 </html>
