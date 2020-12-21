@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pseudo Classes</title>
+    <link rel="stylesheet" href="css/pseudo-classes.css">
+</head>
+<body>
+    <h1>Pseudo Classes</h1>
+    <p>Select a element when hovered and change the background.</p>
+    <a href="">This is an anchor tag.</a>
+    <p>Make this button red background when hovered but purple when active.</p>
+    <button>Click Me</button>
+    <p>nth of element: Make every other table rows have gray background</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Column 1</th>
+                <th>Column 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Data 1</td>
+                <td>Data 2</td>
+            </tr>
+            <tr>
+                <td>Data 3</td>
+                <td>Data 4</td>
+            </tr>
+            <tr>
+                <td>Data 5</td>
+                <td>Data 6</td>
+            </tr>
+            <tr>
+                <td>Data 7</td>
+                <td>Data 8</td>
+            </tr>
+            <tr>
+                <td>Data 9</td>
+                <td>Data 10</td>
+            </tr>
+        </tbody>
+    </table>
+    <h3>HTML Code for this Page</h3>
+    <pre><code>
+        &lt;!DOCTYPE html&gt;
+        &lt;html lang="en"&gt;
+        &lt;head&gt;
+            &lt;meta charset="UTF-8"&gt;
+            &lt;title&gt;Pseudo Classes&lt;/title&gt;
+            &lt;link rel="stylesheet" href="css/pseudo-classes.css"&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+            &lt;h1&gt;Pseudo Classes&lt;/h1&gt;
+            &lt;p&gt;Select a element when hovered and change the background.&lt;/p&gt;
+            &lt;a href=""&gt;This is an anchor tag.&lt;/a&gt;
+            &lt;p&gt;Make this button red background when hovered but purple when active.&lt;/p&gt;
+            &lt;button&gt;Click Me&lt;/button&gt;
+            &lt;p&gt;nth of element: Make every other table rows have gray background&lt;/p&gt;
+            &lt;table&gt;
+                &lt;thead&gt;
+                    &lt;tr&gt;
+                        &lt;th&gt;Column 1&lt;/th&gt;
+                        &lt;th&gt;Column 2&lt;/th&gt;
+                    &lt;/tr&gt;
+                &lt;/thead&gt;
+                &lt;tbody&gt;
+                    &lt;tr&gt;
+                        &lt;td&gt;Data 1&lt;/td&gt;
+                        &lt;td&gt;Data 2&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td&gt;Data 3&lt;/td&gt;
+                        &lt;td&gt;Data 4&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td&gt;Data 5&lt;/td&gt;
+                        &lt;td&gt;Data 6&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td&gt;Data 7&lt;/td&gt;
+                        &lt;td&gt;Data 8&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td&gt;Data 9&lt;/td&gt;
+                        &lt;td&gt;Data 10&lt;/td&gt;
+                    &lt;/tr&gt;
+                &lt;/tbody&gt;
+            &lt;/table&gt;
+        &lt;/body&gt;
+        &lt;/html&gt;
+    </code></pre>
+    <h3>CSS Code for this Page</h3>
+    <pre><code>
+        a:hover {
+            background: red;
+        }
+
+        button:hover {
+            background: red;
+        }
+
+        button:active {
+            background: purple;
+        }
+
+        table, thead th,tbody td{
+            border: solid black 1px;
+        }
+
+        table tbody tr:nth-of-type(2n) {
+            background: gray;
+        }
+    </code></pre>
+</body>
+</html>
