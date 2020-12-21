@@ -1,0 +1,7 @@
+input[type="text"] {
+    background: red;
+}
+
+li[href*="section2"] {
+    text-decoration: underline black solid;
+}
