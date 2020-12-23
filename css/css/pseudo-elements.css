@@ -1,0 +1,17 @@
+.highlight-first-letter::first-letter {
+    background: green;
+    color: white;
+    font-size: 2em;
+}
+
+.highlight-first-line::first-line {
+    background: lightgreen;
+    color: white;
+}
+
+.highlight-selection::selection {
+    background: lightgreen;
+    color: black;
+    font-weight: bolder;
+    font-size: 1.25em;
+}
