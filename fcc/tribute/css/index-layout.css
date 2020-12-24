@@ -1,0 +1,23 @@
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#img-div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#image, #img-caption {
+    max-width: 30%;
+}
+
+#img-caption {
+    max-width: 50%;
+}
+
+ul {
+    padding-left: 0;
+    max-width: 30%;
+}
