@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb8c7c76-3401-44f5-bf95-d2ca4fa3a038" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/css/pseudo-elements.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/pseudo-elements.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fcc/tribute/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/fcc/tribute/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -45,11 +48,6 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\mpark\Google Drive\Projects\web\liveappdemo\jss" />
-      <recent name="C:\Users\mpark\Google Drive\Projects\web\liveappdemo\css" />
-      <recent name="C:\Users\mpark\Google Drive\Projects\web\liveappdemo\basic-html" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\mpark\Google Drive\Projects\web\liveappdemo\css" />
       <recent name="C:\Users\mpark\Google Drive\Projects\web\liveappdemo\img" />
@@ -57,9 +55,17 @@
       <recent name="C:\Users\mpark\Google Drive\Projects\web\liveappdemo\index-js" />
       <recent name="C:\Users\mpark\Google Drive\Projects\web\liveappdemo" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mpark\Google Drive\Projects\web\liveappdemo\jss" />
+      <recent name="C:\Users\mpark\Google Drive\Projects\web\liveappdemo\css" />
+      <recent name="C:\Users\mpark\Google Drive\Projects\web\liveappdemo\basic-html" />
+    </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration name="basic-tags.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/html-intro/basic-tags.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/liveappdemo/fcc/tribute/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/liveappdemo/index.html" useBuiltInWebServerPort="true">
@@ -68,6 +74,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.index.html (1)" />
         <item itemvalue="JavaScript Debug.basic-tags.html" />
       </list>
     </recent_temporary>
@@ -107,7 +114,10 @@
       <workItem from="1607272333448" duration="5048000" />
       <workItem from="1607392959399" duration="513000" />
       <workItem from="1608569717000" duration="2812000" />
-      <workItem from="1608752904448" duration="927000" />
+      <workItem from="1608752904448" duration="1707000" />
+      <workItem from="1608768527577" duration="595000" />
+      <workItem from="1608838350892" duration="116000" />
+      <workItem from="1608844608707" duration="3357000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1604101357040</created>
@@ -312,15 +322,34 @@
       <option name="project" value="LOCAL" />
       <updated>1608572292392</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Completed pseudo elements">
+      <created>1608754002997</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1608754002997</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Added FreeCodeCamp project">
+      <created>1608844690056</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1608844690056</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Worked on responsiveness and font styles">
+      <created>1608850134017</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1608850134017</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Initial Commit" />
-    <MESSAGE value="Added HTML Lists" />
     <MESSAGE value="Added anchor and image tags" />
     <MESSAGE value="Corrected HTML entities formatting" />
     <MESSAGE value="Completed entities.html" />
@@ -343,7 +372,10 @@
     <MESSAGE value="Added attribute selectors" />
     <MESSAGE value="Added cope snipplets" />
     <MESSAGE value="Added peudo classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added peudo classes" />
+    <MESSAGE value="Completed pseudo elements" />
+    <MESSAGE value="Added FreeCodeCamp project" />
+    <MESSAGE value="Worked on responsiveness and font styles" />
+    <option name="LAST_COMMIT_MESSAGE" value="Worked on responsiveness and font styles" />
   </component>
   <component name="WindowStateProjectService">
     <state x="828" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603556512808">
@@ -354,22 +386,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604452749372" />
-    <state x="582" y="95" key="CommitChangelistDialog2" timestamp="1608572291854">
+    <state x="582" y="95" key="CommitChangelistDialog2" timestamp="1608850133422">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="582" y="95" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1608572291854" />
-    <state x="1214" y="278" key="FileChooserDialogImpl" timestamp="1607304909506">
+    <state x="582" y="95" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1608850133422" />
+    <state x="1214" y="278" key="FileChooserDialogImpl" timestamp="1608838435568">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1214" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1607304909506" />
+    <state x="1214" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1608838435568" />
     <state x="461" y="165" key="SettingsEditor" timestamp="1604448284456">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604448284456" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1608572297974">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1608850139056">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608572297974" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608850139056" />
     <state x="761" y="429" width="395" height="184" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1604101643251">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
