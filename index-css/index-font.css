@@ -16,7 +16,7 @@ nav a.underlined {
     text-decoration: underline;
 }
 
-section ol {
+section ol a {
     color: black;
 }
 
