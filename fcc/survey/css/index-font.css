@@ -1,0 +1,29 @@
+header {
+    color: white;
+    text-align: center;
+}
+
+#title {
+    font-family: 'Kanit', sans-serif;
+    font-size: 3em;
+}
+
+#description {
+    font-style: italic;
+    font-size: 1.4em;
+}
+
+section {
+    color: black;
+    font-size: 16px;
+    font-family: 'Questrial', sans-serif;
+}
+
+input, select, button, textarea {
+    font-size: 16px;
+    font-family: 'Questrial', sans-serif;
+}
+
+button {
+    color: white;
+}

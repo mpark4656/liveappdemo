@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FCC: Survey Form</title>
+    <link rel="stylesheet" href="css/index-layout.css">
+    <link rel="stylesheet" href="css/index-font.css">
+    <link rel="stylesheet" href="css/index-appearance.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <header>
+            <h1 id="title">freeCodeCamp Survey Form</h1>
+            <p id="description">Thank you for taking the time to help us improve the platform</p>
+        </header>
+        <section>
+            <form id="survey-form">
+                <div class="input-group">
+                    <label id="name-label" for="name">Name:</label>
+                    <input id="name" type="text" placeholder="Enter your name" required>
+                </div>
+                <div class="input-group">
+                    <label id="email-label" for="email">Email:</label>
+                    <input id="email" type="email" placeholder="Enter your email address" required>
+                </div>
+                <div class="input-group">
+                    <label id="number-label" for="number">Age:</label>
+                    <input id="number" type="number" min="0" max="120" placeholder="Enter your age">
+                </div>
+                <div class="input-group">
+                    <label id="dropdown-label" for="dropdown">Which option best describes your current role?</label>
+                    <select id="dropdown" name="current-role">
+                        <option selected disabled>Select your current role</option>
+                        <option value="student">Student</option>
+                        <option value="full-time-jobs">Full Time Job</option>
+                        <option value="full-time-learner">Full Time Learner</option>
+                        <option value="prefer-not-to-say">Prefer Not to Say</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="input-group">
+                    <p>Would you recommend freeCodeCamp to a friend?</p>
+                    <label>
+                        <input class="radio" type="radio" name="user-recommend" value="1">
+                        Definitely
+                    </label>
+                    <label>
+                        <input class="radio" type="radio" name="user-recommend" value="2">
+                        Maybe
+                    </label>
+                    <label>
+                        <input class="radio" type="radio" name="user-recommend" value="3">
+                        Not Sure
+                    </label>
+                </div>
+                <div class="input-group">
+                    <label for="dropdown-favorite">What is your favorite feature of freeCodeCamp?</label>
+                    <select id="dropdown-favorite" name="favorite">
+                        <option selected disabled>Select an option</option>
+                        <option value="challenges">Challenges</option>
+                        <option value="projects">Projects</option>
+                        <option value="community">Community</option>
+                        <option value="open-source">Open Source</option>
+                    </select>
+                </div>
+                <div class="input-group">
+                    <p>What would you like to see improved? (Check all that apply)</p>
+                    <label>
+                        <input type="checkbox" value="front-end-projects" name="improvement">
+                        Front-end Projects
+                    </label>
+                    <label>
+                        <input type="checkbox" value="back-end-projects" name="improvement">
+                        Back-end Projects
+                    </label>
+                    <label>
+                        <input type="checkbox" value="data-visualization" name="improvement">
+                        Data Visualization
+                    </label>
+                    <label>
+                        <input type="checkbox" value="challenges" name="improvement">
+                        Challenges
+                    </label>
+                    <label>
+                        <input type="checkbox" value="open-source-community" name="improvement">
+                        Open Source Community
+                    </label>
+                    <label>
+                        <input type="checkbox" value="gitter-help-rooms" name="improvement">
+                        Gitter Help Rooms
+                    </label>
+                    <label>
+                        <input type="checkbox" value="videos" name="improvement">
+                        Videos
+                    </label>
+                    <label>
+                        <input type="checkbox" value="city-meetups" name="improvement">
+                        City Meetups
+                    </label>
+                    <label>
+                        <input type="checkbox" value="city-meetups" name="improvement">
+                        City Meetups
+                    </label>
+                    <label>
+                        <input type="checkbox" value="wiki" name="improvement">
+                        Wiki
+                    </label>
+                    <label>
+                        <input type="checkbox" value="forum" name="improvement">
+                        Forum
+                    </label>
+                    <label>
+                        <input type="checkbox" value="additional-courses" name="improvement">
+                        Additional Courses
+                    </label>
+                </div>
+                <div class="input-group">
+                    <label for="textarea-comment">Any comments or suggestions?</label>
+                    <textarea id="textarea-comment"
+                              placeholder="Enter your comment here"></textarea>
+                </div>
+                <div class="input-group">
+                    <button id="submit" type="submit">Submit</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>

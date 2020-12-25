@@ -1,0 +1,77 @@
+main {
+    display: grid;
+    grid-template-columns: auto;
+    justify-items: center;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+#title {
+    margin-bottom: 0;
+}
+
+#description {
+    margin-top: 5px;
+}
+
+section {
+    padding: 2em;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input, select {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+textarea {
+    padding: 10px;
+}
+
+@media (min-width: 550px) {
+    section {
+        width: 70%;
+    }
+}
+
+@media (min-width: 650px) {
+    section {
+        width: 60%;
+    }
+}
+
+@media (min-width: 750px) {
+    section {
+        width: 50%;
+    }
+}
+
+@media (min-width: 850px) {
+    section {
+        width: 40%;
+    }
+}
+
+@media (min-width: 950px) {
+    section {
+        width: 30%;
+    }
+}
