@@ -19,7 +19,6 @@ nav li {
 section {
     margin: 2em auto;
     padding: 2em;
-    width: 99%;
     height: 900px;
 }
 
@@ -42,14 +41,30 @@ iframe {
     margin: auto;
 }
 
-@media (min-width: 500px) {
+
+@media (min-device-width: 100px) {
     section {
-        width: 80%;
+        width: 99%;
     }
 }
 
-@media (min-width: 900px) {
+@media (min-device-width: 800px) {
     section {
-        width: 50%;
+        width: 60%;
     }
 }
+
+@media (min-device-width: 1200px) {
+    section {
+        width: 40%;
+    }
+
+    @media (max-width: 1200px) {
+        section {
+            width: 80%;
+        }
+    }
+}
+
+
+
