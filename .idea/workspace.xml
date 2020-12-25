@@ -2,13 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb8c7c76-3401-44f5-bf95-d2ca4fa3a038" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/projects/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index-css/index-appearance.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index-css/index-font.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index-css/index-layout.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fcc/tribute/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/fcc/tribute/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index-css/index.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -48,6 +51,11 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mpark\Google Drive\Projects\web\liveappdemo\jss" />
+      <recent name="C:\Users\mpark\Google Drive\Projects\web\liveappdemo\css" />
+      <recent name="C:\Users\mpark\Google Drive\Projects\web\liveappdemo\basic-html" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\mpark\Google Drive\Projects\web\liveappdemo\css" />
       <recent name="C:\Users\mpark\Google Drive\Projects\web\liveappdemo\img" />
@@ -55,17 +63,18 @@
       <recent name="C:\Users\mpark\Google Drive\Projects\web\liveappdemo\index-js" />
       <recent name="C:\Users\mpark\Google Drive\Projects\web\liveappdemo" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\mpark\Google Drive\Projects\web\liveappdemo\jss" />
-      <recent name="C:\Users\mpark\Google Drive\Projects\web\liveappdemo\css" />
-      <recent name="C:\Users\mpark\Google Drive\Projects\web\liveappdemo\basic-html" />
-    </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
+  <component name="RunManager" selected="JavaScript Debug.index.html (3)">
     <configuration name="basic-tags.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/html-intro/basic-tags.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/liveappdemo/fcc/tribute/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/liveappdemo/fcc/survey/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html (3)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/liveappdemo/projects/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/liveappdemo/index.html" useBuiltInWebServerPort="true">
@@ -73,6 +82,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html (3)" />
+        <item itemvalue="JavaScript Debug.index.html (2)" />
         <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.index.html (1)" />
         <item itemvalue="JavaScript Debug.basic-tags.html" />
@@ -117,7 +128,8 @@
       <workItem from="1608752904448" duration="1707000" />
       <workItem from="1608768527577" duration="595000" />
       <workItem from="1608838350892" duration="116000" />
-      <workItem from="1608844608707" duration="3357000" />
+      <workItem from="1608844608707" duration="4779000" />
+      <workItem from="1608914902356" duration="16202000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1604101357040</created>
@@ -343,16 +355,48 @@
       <option name="project" value="LOCAL" />
       <updated>1608850134017</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Added links to projects">
+      <created>1608850826059</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1608850826059</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Completed Survey project">
+      <created>1608925984119</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1608925984119</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Completed Survey project">
+      <created>1608925996122</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1608925996122</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Added link to the survey project">
+      <created>1608926242132</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1608926242132</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Added link to the survey project">
+      <created>1608926822515</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1608926822515</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added anchor and image tags" />
-    <MESSAGE value="Corrected HTML entities formatting" />
-    <MESSAGE value="Completed entities.html" />
     <MESSAGE value="Finished semantic" />
     <MESSAGE value="Updated Readme" />
     <MESSAGE value="Redesigned index pages" />
@@ -375,7 +419,10 @@
     <MESSAGE value="Completed pseudo elements" />
     <MESSAGE value="Added FreeCodeCamp project" />
     <MESSAGE value="Worked on responsiveness and font styles" />
-    <option name="LAST_COMMIT_MESSAGE" value="Worked on responsiveness and font styles" />
+    <MESSAGE value="Added links to projects" />
+    <MESSAGE value="Completed Survey project" />
+    <MESSAGE value="Added link to the survey project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added link to the survey project" />
   </component>
   <component name="WindowStateProjectService">
     <state x="828" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603556512808">
@@ -386,10 +433,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604452749372" />
-    <state x="582" y="95" key="CommitChangelistDialog2" timestamp="1608850133422">
+    <state x="582" y="95" key="CommitChangelistDialog2" timestamp="1608926821976">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="582" y="95" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1608850133422" />
+    <state x="582" y="95" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1608926821976" />
     <state x="1214" y="278" key="FileChooserDialogImpl" timestamp="1608838435568">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -398,10 +445,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604448284456" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1608850139056">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1608926828168">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608850139056" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608926828168" />
     <state x="761" y="429" width="395" height="184" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1604101643251">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -414,13 +461,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="712" y="309" key="git4idea.ui.GitUnstashDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604101701553" />
-    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1608571112492">
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1608922699033">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1608571112492" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1604801298080">
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1608922699033" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1608919092669">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604801298080" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1608919092669" />
   </component>
 </project>
