@@ -23,6 +23,50 @@
         <input type="text"> <br/>
         <label>This input is not a direct descendant: <input type="text"></label>
     </p>
+    <h3>HTML Code for this Page</h3>
+    <pre><code>
+        &lt;!DOCTYPE html&gt;
+        &lt;html lang="en"&gt;
+        &lt;head&gt;
+            &lt;meta charset="UTF-8"&gt;
+            &lt;title&gt;Advanced CSS Selectors&lt;/title&gt;
+            &lt;link rel="stylesheet" href="css/advanced-selectors.css"&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+            &lt;h1&gt;Advanced CSS Selectors&lt;/h1&gt;
+            &lt;p&gt;&lt;strong&gt;Descendant Selectors&lt;/strong&gt; - Only color the texts of &lt;a&gt; element nested inside li red.&lt;/p&gt;
+            &lt;ul&gt;
+                &lt;li&gt;
+                    &lt;a href="https://www.google.com"&gt;Go to Google!&lt;/a&gt;
+                &lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;a href=""&gt;This is also &lt;a&gt;, but I'm not inside an li&lt;/a&gt;
+            &lt;p&gt;&lt;strong&gt;Adjacent and Direct-Descendent Selectors&lt;/strong&gt;&lt;/p&gt;
+            &lt;p&gt;The button right next to p is going to have a green background.&lt;/p&gt;
+            &lt;button&gt;This button should be green&lt;/button&gt;
+            &lt;p&gt;
+                The input that is a direct descendent of this p has green background, but not the input that is nested
+                further down.
+                &lt;input type="text"&gt; &lt;br/&gt;
+                &lt;label&gt;This input is not a direct descendant: &lt;input type="text"&gt;&lt;/label&gt;
+            &lt;/p&gt;
+        
+        &lt;/body&gt;
+        &lt;/html&gt;
+    </code></pre>
+    <h3>HTML Code for this Page</h3>
+    <pre><code>
+        li a {
+            color: red;
+        }
 
+        p + button {
+            background: green;
+        }
+
+        p > input {
+            background: green;
+        }
+    </code></pre>
 </body>
 </html>
