@@ -19,6 +19,7 @@ header {
 section {
     padding: 2em;
     margin-bottom: 20px;
+    width: 30%;
 }
 
 form {
@@ -46,32 +47,8 @@ textarea {
     padding: 10px;
 }
 
-@media (min-width: 550px) {
+@media (max-width: 1024px) {
     section {
         width: 70%;
-    }
-}
-
-@media (min-width: 650px) {
-    section {
-        width: 60%;
-    }
-}
-
-@media (min-width: 750px) {
-    section {
-        width: 50%;
-    }
-}
-
-@media (min-width: 850px) {
-    section {
-        width: 40%;
-    }
-}
-
-@media (min-width: 950px) {
-    section {
-        width: 30%;
     }
 }
