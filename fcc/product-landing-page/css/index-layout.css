@@ -164,7 +164,6 @@ main {
 .card {
     border: 1px black solid;
     width: 300px;
-
     margin: 10px;
 
     display: grid;
@@ -192,7 +191,7 @@ main {
 .card-description {
     grid-area: card-description;
     justify-self: center;
-    text-align: center;
+
 }
 
 .card-button {

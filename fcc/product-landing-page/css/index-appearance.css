@@ -26,6 +26,10 @@ header ul, footer ul, #dropdown-list ul {
     background: white;
 }
 
+#header-title {
+    text-align: center;
+}
+
 #form input[type="email"] {
     border: 1px gray solid;
     border-radius: 5px;
@@ -41,6 +45,10 @@ header ul, footer ul, #dropdown-list ul {
 
 .card {
     padding: 2em;
+}
+
+.card-description {
+    text-align: center;
 }
 
 footer {
