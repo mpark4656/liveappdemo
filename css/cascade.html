@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cascading</title>
+    <link rel="stylesheet" href="css/cascade.css">
+</head>
+<body>
+    <h1>How CSS "Cascades"</h1>
+    <p>
+        The order matters in CSS! If there are two pieces of CSS codes that select the same element and apply
+        different values for the same attribute, the latter will be applied and the former will be overridden.
+    </p>
+    <p>
+        For example, this button below is applied a green color first and then red. Obviously, the red wins because
+        it was applied after the green.
+    </p>
+    <button>This button should be red!</button>
+    <p>
+        The same rules are applied on CSS files that are referenced via the link element.
+        If there is a conflict, the attributes from the last added CSS files are applied
+    </p>
+    <h3>HTML Code for this Page</h3>
+    <pre><code>
+        &lt;!DOCTYPE html&gt;
+        &lt;html lang="en"&gt;
+        &lt;head&gt;
+            &lt;meta charset="UTF-8"&gt;
+            &lt;title&gt;Cascading&lt;/title&gt;
+            &lt;link rel="stylesheet" href="css/cascade.css"&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+            &lt;h1&gt;How CSS "Cascades"&lt;/h1&gt;
+            &lt;p&gt;
+                The order matters in CSS! If there are two pieces of CSS codes that select the same element and apply
+                different values for the same attribute, the latter will be applied and the former will be overridden.
+            &lt;/p&gt;
+            &lt;p&gt;
+                For example, this button below is applied a green color first and then red. Obviously, the red wins because
+                it was applied after the green.
+            &lt;/p&gt;
+            &lt;button&gt;This button should be red!&lt;/button&gt;
+            &lt;p&gt;
+                The same rules are applied on CSS files that are referenced via the link element.
+                If there is a conflict, the attributes from the last added CSS files are applied
+            &lt;/p&gt;
+        &lt;/body&gt;
+        &lt;/html&gt;
+    </code></pre>
+    <h3>CSS Code for this Page</h3>
+    <pre><code>
+        button {
+            background: green;
+        }
+
+        button {
+            background: red;
+        }
+    </code></pre>
+</body>
+</html>

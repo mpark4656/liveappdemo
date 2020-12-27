@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Specificity</title>
+    <link rel="stylesheet" href="css/specificity.css">
+</head>
+<body>
+    <h1>Specificity of CSS</h1>
+    <p>
+        General Rule of Thumb: The more specific a selector is, the more likely that it will win over
+        less specific selector referencing the same element.
+    </p>
+    <p>
+        The paragraph below is given two different colors through two separate CSS selectors:
+        One selector is using the paragraph's id while the other selector is referencing the paragraph through the class.
+        The selector using an id is more specific than a class, so the id wins and the background color of green is
+        applied.
+    </p>
+    <p id="green-background-p" class="red-background">This paragraph will probably have a green background.</p>
+    <p>The general order of specificity is id > class > element (tag)</p>
+    <h3>HTML Code for this Page</h3>
+    <pre><code>
+        &lt;!DOCTYPE html&gt;
+        &lt;html lang="en"&gt;
+        &lt;head&gt;
+            &lt;meta charset="UTF-8"&gt;
+            &lt;title&gt;Specificity&lt;/title&gt;
+            &lt;link rel="stylesheet" href="css/specificity.css"&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+            &lt;h1&gt;Specificity of CSS&lt;/h1&gt;
+            &lt;p&gt;
+                General Rule of Thumb: The more specific a selector is, the more likely that it will win over
+                less specific selector referencing the same element.
+            &lt;/p&gt;
+            &lt;p&gt;
+                The paragraph below is given two different colors through two separate CSS selectors:
+                One selector is using the paragraph's id while the other selector is referencing the paragraph through the class.
+                The selector using an id is more specific than a class, so the id wins and the background color of green is
+                applied.
+            &lt;/p&gt;
+            &lt;p id="green-background-p" class="red-background"&gt;This paragraph will probably have a green background.&lt;/p&gt;
+            &lt;p&gt;The general order of specificity is id &gt; class &gt; element (tag)&lt;/p&gt;
+        &lt;/body&gt;
+        &lt;/html&gt;
+    </code></pre>
+    <h3>CSS Code for this Page</h3>
+    <pre><code>
+        #green-background-p {
+            background: green;
+        }
+
+        .red-background {
+            background: red;
+        }
+    </code></pre>
+</body>
+</html>
