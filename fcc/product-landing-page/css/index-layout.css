@@ -1,6 +1,159 @@
+header {
+    margin-bottom: 10px;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+}
+
+#nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: white;
+}
+
+#navbar-logo {
+    margin-left: 3em;
+}
+
+#navbar-logo a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#navbar-logo-img {
+    width: 5em;
+    height: auto;
+}
+
+#navbar-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.nav-link {
+    margin-right: 2em;
+}
+
+#header-content {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#header-img {
+    width: 20em;
+    height: auto;
+}
+
+#form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+#form input[type="email"] {
+    border: 1px gray solid;
+    border-radius: 5px;
+    height: 30px;
+    width: 100%;
+    padding: 5px 10px;
+}
+
+#submit {
+    margin-top: 15px;
+    border-radius: 1px;
+    background: rgb(234, 203, 26);
+    border: none;
+    padding: 10px 20px;
+}
+
+#header-features {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header-features-item {
+    display: grid;
+    grid-template-columns: auto 6% 30% auto;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+        ". icon feature-title ."
+        ". icon feature-description .";
+}
 
 
-header li {
-    display: inline;
-    float: right;
+@media (max-width: 1000px) {
+    .header-features-item {
+        grid-template-columns: auto 90% auto;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+        ". icon. "
+        ". feature-title ."
+        ". feature-description. ";
+    }
+
+    .icon-container, .header-features-item h2, .header-features-item p {
+        justify-self: center;
+        align-self: center;
+    }
+
+    #form {
+        width: 60%;
+    }
+}
+
+@media (max-width: 600px) {
+    #form {
+        width: 90%;
+    }
+}
+
+.icon-container {
+    grid-area: icon;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+}
+
+.header-features-item h2 {
+    grid-area: feature-title;
+    margin-bottom: 0;
+}
+
+.header-features-item p {
+    grid-area: feature-description;
+    margin-top: 0;
+}
+
+#header-features li {
+    margin-bottom: 5px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    bottom: 0;
 }

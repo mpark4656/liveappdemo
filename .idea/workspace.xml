@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb8c7c76-3401-44f5-bf95-d2ca4fa3a038" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/index-css/index-appearance.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index-css/index-font.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index-css/index-layout.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index-css/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fcc/product-landing-page/css/index-appearance.css" beforeDir="false" afterPath="$PROJECT_DIR$/fcc/product-landing-page/css/index-appearance.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fcc/product-landing-page/css/index-font.css" beforeDir="false" afterPath="$PROJECT_DIR$/fcc/product-landing-page/css/index-font.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fcc/product-landing-page/css/index-layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/fcc/product-landing-page/css/index-layout.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fcc/product-landing-page/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/fcc/product-landing-page/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fcc/tribute/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/fcc/tribute/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,11 +47,6 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\mpark\Google Drive\Projects\web\liveappdemo\jss" />
-      <recent name="C:\Users\mpark\Google Drive\Projects\web\liveappdemo\css" />
-      <recent name="C:\Users\mpark\Google Drive\Projects\web\liveappdemo\basic-html" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\mpark\Google Drive\Projects\web\liveappdemo\css" />
       <recent name="C:\Users\mpark\Google Drive\Projects\web\liveappdemo\img" />
@@ -63,11 +54,13 @@
       <recent name="C:\Users\mpark\Google Drive\Projects\web\liveappdemo\index-js" />
       <recent name="C:\Users\mpark\Google Drive\Projects\web\liveappdemo" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mpark\Google Drive\Projects\web\liveappdemo\jss" />
+      <recent name="C:\Users\mpark\Google Drive\Projects\web\liveappdemo\css" />
+      <recent name="C:\Users\mpark\Google Drive\Projects\web\liveappdemo\basic-html" />
+    </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html (3)">
-    <configuration name="basic-tags.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/html-intro/basic-tags.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
     <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/liveappdemo/fcc/tribute/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -77,16 +70,19 @@
     <configuration name="index.html (3)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/liveappdemo/projects/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="index.html (4)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/liveappdemo/fcc/product-landing-page/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/liveappdemo/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.index.html (3)" />
-        <item itemvalue="JavaScript Debug.index.html (2)" />
-        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.index.html (1)" />
-        <item itemvalue="JavaScript Debug.basic-tags.html" />
+        <item itemvalue="JavaScript Debug.index.html (2)" />
+        <item itemvalue="JavaScript Debug.index.html (4)" />
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.index.html (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -129,7 +125,11 @@
       <workItem from="1608768527577" duration="595000" />
       <workItem from="1608838350892" duration="116000" />
       <workItem from="1608844608707" duration="4779000" />
-      <workItem from="1608914902356" duration="16202000" />
+      <workItem from="1608914902356" duration="16255000" />
+      <workItem from="1608931386593" duration="4621000" />
+      <workItem from="1609023611166" duration="3012000" />
+      <workItem from="1609027466412" duration="8918000" />
+      <workItem from="1609094453695" duration="7158000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1604101357040</created>
@@ -390,23 +390,90 @@
       <option name="project" value="LOCAL" />
       <updated>1608926822515</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Changed look &amp; feel">
+      <created>1608931278035</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1608931278035</updated>
+    </task>
+    <task id="LOCAL-00039" summary="New wallpaper">
+      <created>1608931404517</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1608931404517</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Fixed minor font color in section">
+      <created>1608931611505</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1608931611505</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Fixed minor font color in section">
+      <created>1608931652088</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1608931652088</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Minor Changes">
+      <created>1608932853354</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1608932853354</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Minor responsiveness change">
+      <created>1608933794117</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1608933794117</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Added code snippets">
+      <created>1608942653998</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1608942653998</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Added a link to the third responsive webpage project">
+      <created>1608942778217</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1608942778218</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Added cascading and specificity of CSS">
+      <created>1609027204416</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1609027204416</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Started the product landing page project">
+      <created>1609035205183</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1609035205183</updated>
+    </task>
+    <task id="LOCAL-00048" summary="fixed responsiveness">
+      <created>1609101688819</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1609101688819</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finished semantic" />
-    <MESSAGE value="Updated Readme" />
-    <MESSAGE value="Redesigned index pages" />
-    <MESSAGE value="Added more HTML sections" />
-    <MESSAGE value="Completed form.html" />
-    <MESSAGE value="Starting CSS" />
-    <MESSAGE value="Added Color CSS" />
-    <MESSAGE value="Remove iframe from root index.html" />
-    <MESSAGE value="Added text CSS" />
-    <MESSAGE value="Added Font Size examples" />
     <MESSAGE value="Specified that the pixel unit is used for font size for this example" />
     <MESSAGE value="Minor changes" />
     <MESSAGE value="Completed basic selectors and added menu item for projects" />
@@ -422,7 +489,17 @@
     <MESSAGE value="Added links to projects" />
     <MESSAGE value="Completed Survey project" />
     <MESSAGE value="Added link to the survey project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added link to the survey project" />
+    <MESSAGE value="Changed look &amp; feel" />
+    <MESSAGE value="New wallpaper" />
+    <MESSAGE value="Fixed minor font color in section" />
+    <MESSAGE value="Minor Changes" />
+    <MESSAGE value="Minor responsiveness change" />
+    <MESSAGE value="Added code snippets" />
+    <MESSAGE value="Added a link to the third responsive webpage project" />
+    <MESSAGE value="Added cascading and specificity of CSS" />
+    <MESSAGE value="Started the product landing page project" />
+    <MESSAGE value="fixed responsiveness" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed responsiveness" />
   </component>
   <component name="WindowStateProjectService">
     <state x="828" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603556512808">
@@ -433,10 +510,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604452749372" />
-    <state x="582" y="95" key="CommitChangelistDialog2" timestamp="1608926821976">
+    <state x="582" y="95" key="CommitChangelistDialog2" timestamp="1609101687974">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="582" y="95" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1608926821976" />
+    <state x="582" y="95" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1609101687974" />
     <state x="1214" y="278" key="FileChooserDialogImpl" timestamp="1608838435568">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -445,10 +522,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604448284456" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1608926828168">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1608933798851">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608926828168" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608933798851" />
     <state x="761" y="429" width="395" height="184" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1604101643251">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -465,9 +542,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1608922699033" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1608919092669">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1609097971459">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1608919092669" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1609097971459" />
   </component>
 </project>
