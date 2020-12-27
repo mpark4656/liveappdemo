@@ -11,11 +11,3 @@ function showMenuBar() {
 document.getElementById('dropdown-list').addEventListener('click', function() {
     this.style.display = 'none';
 });
-
-/*
-document.addEventListener('click', function(event) {
-    let clickedInside = document.getElementById('dropdown-list').contains(event.target);
-    if(!clickedInside && document.getElementById('dropdown-list').style.display === 'block') {
-        document.getElementById('dropdown-list').style.display = 'none';
-    }
-});*/

@@ -6,7 +6,7 @@ header ul, footer ul, #dropdown-list ul {
     margin: 0;
 }
 
-#navbar {
+#nav-bar {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
