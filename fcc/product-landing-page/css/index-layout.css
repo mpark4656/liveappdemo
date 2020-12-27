@@ -2,19 +2,17 @@ header {
     margin-bottom: 10px;
 }
 
-header ul {
+header ul, footer ul, #dropdown-list ul {
     margin: 0;
-    padding: 0;
 }
 
-#nav-bar {
+#navbar {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     position: fixed;
     top: 0;
     width: 100%;
-    background: white;
 }
 
 #navbar-logo {
@@ -38,10 +36,35 @@ header ul {
     justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
+    margin-right: 1em;
+}
+
+#navbar-right {
+    display: flex;
+    flex-direction: row;
+}
+
+#navbar-hamburger-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 1em;
+}
+
+#dropdown-list {
+    margin-top: 4em;
+}
+
+#dropdown-list ul {
+    width: 100%;
+}
+
+#dropdown-list a {
+    display: block;
 }
 
 .nav-link {
-    margin-right: 2em;
+    margin-right: 0.5em;
 }
 
 #header-content {
@@ -67,19 +90,12 @@ header ul {
 }
 
 #form input[type="email"] {
-    border: 1px gray solid;
-    border-radius: 5px;
     height: 30px;
     width: 100%;
-    padding: 5px 10px;
 }
 
 #submit {
     margin-top: 15px;
-    border-radius: 1px;
-    background: rgb(234, 203, 26);
-    border: none;
-    padding: 10px 20px;
 }
 
 #header-features {
@@ -96,33 +112,6 @@ header ul {
     grid-template-areas:
         ". icon feature-title ."
         ". icon feature-description .";
-}
-
-
-@media (max-width: 1000px) {
-    .header-features-item {
-        grid-template-columns: auto 90% auto;
-        grid-template-rows: auto auto auto;
-        grid-template-areas:
-        ". icon. "
-        ". feature-title ."
-        ". feature-description. ";
-    }
-
-    .icon-container, .header-features-item h2, .header-features-item p {
-        justify-self: center;
-        align-self: center;
-    }
-
-    #form {
-        width: 60%;
-    }
-}
-
-@media (max-width: 600px) {
-    #form {
-        width: 90%;
-    }
 }
 
 .icon-container {
@@ -154,6 +143,143 @@ main {
     align-items: center;
 }
 
+#video-container {
+    width: 40%;
+    height: 400px;
+}
+
+#video {
+    width: 100%;
+    height: 100%;
+}
+
+#pricing {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 3em;
+}
+
+.card {
+    border: 1px black solid;
+    width: 300px;
+
+    margin: 10px;
+
+    display: grid;
+    grid-template-columns: auto 90% auto;
+    grid-template-rows: 30px 70px auto auto;
+    grid-template-areas:
+        ". card-title ."
+        ". card-price ."
+        ". card-description ."
+        ". card-button .";
+}
+
+.card-title {
+    margin-bottom: 0;
+    grid-area: card-title;
+    justify-self: center;
+}
+
+.card-price-tag {
+    margin-bottom: 0;
+    grid-area: card-price;
+    justify-self: center;
+}
+
+.card-description {
+    grid-area: card-description;
+    justify-self: center;
+    text-align: center;
+}
+
+.card-button {
+    grid-area: card-button;
+    width: 50%;
+    justify-self: center;
+}
+
 footer {
     bottom: 0;
+    width: 100%;
+    margin-top: 10px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#footer-content {
+    width: 60%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#footer-list {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-list-items {
+    margin-right: 1em;
+}
+
+@media (max-width: 1200px) {
+    .card {
+        width: 280px;
+    }
+}
+
+@media (max-width: 1130px) {
+    .card {
+        width: 220px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .header-features-item {
+        grid-template-columns: auto 90% auto;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+        ". icon. "
+        ". feature-title ."
+        ". feature-description .";
+    }
+
+    .icon-container, .header-features-item h2, .header-features-item p {
+        justify-self: center;
+        align-self: center;
+    }
+
+    #form {
+        width: 60%;
+    }
+
+    #video-container {
+        width: 80%;
+    }
+
+    #pricing {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 300px;
+    }
+}
+
+@media (max-width: 600px) {
+    #form {
+        width: 90%;
+    }
+
+    #video-container {
+        width: 90%;
+        height: 300px;
+    }
 }

@@ -1,17 +1,46 @@
-#nav-bar a {
+#navbar, footer, .dropdown-item a {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+#navbar a, .footer-list-items a, .dropdown-item a {
     color: black;
     text-decoration: none;
 }
 
-#nav-bar a:visited {
+#nav-bar a:visited, .footer-list-items a:visited, .dropdown-item a:visited {
     color: black;
 }
 
-#submit {
-    font-weight: bold;
+#header-title, .card-price-tag {
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+#header-title {
+    font-size: 2.5em;
+}
+
+#submit, .card-button {
+    font-family: 'Staatliches', cursive;
+    font-size: 1.5em;
+}
+
+.header-features-item h2, .card-title {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.card-price-tag {
+    font-size: 2em;
+}
+
+.header-features-item p, .card-description {
+    font-family: 'Inter', sans-serif;
 }
 
 .fas {
     font-size: 3em;
     color: orange;
+}
+
+.footer-list-items a {
+    font-weight: bold;
 }

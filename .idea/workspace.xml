@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb8c7c76-3401-44f5-bf95-d2ca4fa3a038" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/fcc/product-landing-page/js/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index-css/index-layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/index-css/index-layout.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fcc/product-landing-page/css/index-appearance.css" beforeDir="false" afterPath="$PROJECT_DIR$/fcc/product-landing-page/css/index-appearance.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fcc/product-landing-page/css/index-font.css" beforeDir="false" afterPath="$PROJECT_DIR$/fcc/product-landing-page/css/index-font.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fcc/product-landing-page/css/index-layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/fcc/product-landing-page/css/index-layout.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fcc/product-landing-page/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/fcc/product-landing-page/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +20,7 @@
       <list>
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -57,7 +62,7 @@
       <recent name="C:\Users\mpark\Google Drive\Projects\web\liveappdemo\basic-html" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
+  <component name="RunManager" selected="JavaScript Debug.index.html (4)">
     <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/liveappdemo/fcc/tribute/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -75,10 +80,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html (4)" />
         <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.index.html (1)" />
         <item itemvalue="JavaScript Debug.index.html (2)" />
-        <item itemvalue="JavaScript Debug.index.html (4)" />
         <item itemvalue="JavaScript Debug.index.html (3)" />
       </list>
     </recent_temporary>
@@ -126,21 +131,7 @@
       <workItem from="1608931386593" duration="4621000" />
       <workItem from="1609023611166" duration="3012000" />
       <workItem from="1609027466412" duration="8918000" />
-      <workItem from="1609094453695" duration="7517000" />
-    </task>
-    <task id="LOCAL-00002" summary="Added HTML Lists">
-      <created>1604103433814</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1604103433814</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Added anchor and image tags">
-      <created>1604111408736</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1604111408736</updated>
+      <workItem from="1609094453695" duration="17873000" />
     </task>
     <task id="LOCAL-00004" summary="Corrected HTML entities formatting">
       <created>1604159369059</created>
@@ -471,15 +462,27 @@
       <option name="project" value="LOCAL" />
       <updated>1609101791329</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="Changed responsiveness a little bit">
+      <created>1609102162114</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1609102162114</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Changed description of the landing page project">
+      <created>1609102225186</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1609102225186</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Completed basic selectors and added menu item for projects" />
-    <MESSAGE value="Minor change" />
     <MESSAGE value="Started advanced selectors CSS" />
     <MESSAGE value="Added descendant selectors and direct-descendant and adjacent selectors" />
     <MESSAGE value="Added attribute selectors" />
@@ -503,7 +506,9 @@
     <MESSAGE value="fixed responsiveness" />
     <MESSAGE value="Added viewport meta" />
     <MESSAGE value="Still working on product landing page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Still working on product landing page" />
+    <MESSAGE value="Changed responsiveness a little bit" />
+    <MESSAGE value="Changed description of the landing page project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed description of the landing page project" />
   </component>
   <component name="WindowStateProjectService">
     <state x="828" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603556512808">
@@ -514,10 +519,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604452749372" />
-    <state x="582" y="95" key="CommitChangelistDialog2" timestamp="1609101790668">
+    <state x="582" y="95" key="CommitChangelistDialog2" timestamp="1609102224689">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="582" y="95" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1609101790668" />
+    <state x="582" y="95" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1609102224689" />
     <state x="1214" y="278" key="FileChooserDialogImpl" timestamp="1608838435568">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -526,10 +531,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604448284456" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1609101794761">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1609102167925">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609101794761" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609102167925" />
     <state x="761" y="429" width="395" height="184" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1604101643251">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
