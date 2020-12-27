@@ -20,6 +20,7 @@ section {
     margin: 2em auto;
     padding: 2em;
     height: 900px;
+    width: 50%;
 }
 
 section li {
@@ -41,28 +42,15 @@ iframe {
     margin: auto;
 }
 
-
-@media (min-device-width: 100px) {
+@media (max-width: 768px) {
     section {
-        width: 99%;
+        width: 80%;
     }
 }
 
-@media (min-device-width: 800px) {
+@media (max-width: 1024px) {
     section {
-        width: 60%;
-    }
-}
-
-@media (min-device-width: 1200px) {
-    section {
-        width: 40%;
-    }
-
-    @media (max-width: 1200px) {
-        section {
-            width: 80%;
-        }
+        width: 70%;
     }
 }
 
