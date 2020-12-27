@@ -48,11 +48,11 @@ header ul, footer ul, #dropdown-list ul {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-right: 1em;
+    margin-right: 2em;
 }
 
 #dropdown-list {
-    margin-top: 4em;
+    margin-top: 5em;
 }
 
 #dropdown-list ul {
