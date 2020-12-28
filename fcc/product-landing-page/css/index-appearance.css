@@ -17,12 +17,12 @@ header ul, footer ul, #dropdown-list ul {
     display: none;
 }
 
-.dropdown-item {
-    padding: 0.5em;
+.dropdown-item a {
+    padding: 20px;
     background: rgb(217, 215, 215);
 }
 
-.dropdown-item:hover {
+.dropdown-item a:hover {
     background: white;
 }
 

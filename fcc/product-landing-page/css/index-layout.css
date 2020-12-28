@@ -52,11 +52,8 @@ header ul, footer ul, #dropdown-list ul {
 }
 
 #dropdown-list {
-    margin-top: 5em;
-}
-
-#dropdown-list ul {
     width: 100%;
+    position: fixed;
 }
 
 #dropdown-list a {
@@ -68,7 +65,7 @@ header ul, footer ul, #dropdown-list ul {
 }
 
 #header-content {
-    margin-top: 100px;
+    margin-top: 3.7em;
     display: flex;
     flex-direction: column;
     justify-content: center;
