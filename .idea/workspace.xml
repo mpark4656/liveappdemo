@@ -3,11 +3,28 @@
   <component name="ChangeListManager">
     <list default="true" id="eb8c7c76-3401-44f5-bf95-d2ca4fa3a038" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fcc/product-landing-page/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/fcc/product-landing-page/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/advanced-selectors.html" beforeDir="false" afterPath="$PROJECT_DIR$/css/advanced-selectors.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/attribute-selectors.html" beforeDir="false" afterPath="$PROJECT_DIR$/css/attribute-selectors.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/cascade.html" beforeDir="false" afterPath="$PROJECT_DIR$/css/cascade.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/color.html" beforeDir="false" afterPath="$PROJECT_DIR$/css/color.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/common-texts.html" beforeDir="false" afterPath="$PROJECT_DIR$/css/common-texts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/css-selectors.html" beforeDir="false" afterPath="$PROJECT_DIR$/css/css-selectors.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/font-size.html" beforeDir="false" afterPath="$PROJECT_DIR$/css/font-size.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/pseudo-classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/css/pseudo-classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/pseudo-elements.html" beforeDir="false" afterPath="$PROJECT_DIR$/css/pseudo-elements.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/specificity.html" beforeDir="false" afterPath="$PROJECT_DIR$/css/specificity.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/anchor.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/anchor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/basic-tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/basic-tags.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/divs-and-spans.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/divs-and-spans.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/entities.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/entities.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/form-practice.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/form-practice.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/form-validation.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/form-validation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/image.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/image.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/lists.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/lists.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/other-elements.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/other-elements.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/semantic-elements.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/semantic-elements.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/table.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/table.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,14 +147,7 @@
       <workItem from="1608931386593" duration="4621000" />
       <workItem from="1609023611166" duration="3012000" />
       <workItem from="1609027466412" duration="8918000" />
-      <workItem from="1609094453695" duration="18929000" />
-    </task>
-    <task id="LOCAL-00009" summary="Added more HTML sections">
-      <created>1604717140406</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1604717140406</updated>
+      <workItem from="1609094453695" duration="19167000" />
     </task>
     <task id="LOCAL-00010" summary="Completed form.html">
       <created>1604803566287</created>
@@ -475,14 +485,20 @@
       <option name="project" value="LOCAL" />
       <updated>1609113330667</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="Added viewport meta to index pages">
+      <created>1609113679803</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1609113679803</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Completed pseudo elements" />
     <MESSAGE value="Added FreeCodeCamp project" />
     <MESSAGE value="Worked on responsiveness and font styles" />
     <MESSAGE value="Added links to projects" />
@@ -507,7 +523,8 @@
     <MESSAGE value="Minor changes to responsive behavior" />
     <MESSAGE value="Adding image" />
     <MESSAGE value="Minor fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Minor fixes" />
+    <MESSAGE value="Added viewport meta to index pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added viewport meta to index pages" />
   </component>
   <component name="WindowStateProjectService">
     <state x="828" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603556512808">
@@ -518,10 +535,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604452749372" />
-    <state x="582" y="95" key="CommitChangelistDialog2" timestamp="1609113330163">
+    <state x="582" y="95" key="CommitChangelistDialog2" timestamp="1609113679231">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="582" y="95" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1609113330163" />
+    <state x="582" y="95" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1609113679231" />
     <state x="1214" y="278" key="FileChooserDialogImpl" timestamp="1608838435568">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -530,10 +547,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604448284456" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1609113335471">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1609113683060">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609113335471" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609113683060" />
     <state x="761" y="429" width="395" height="184" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1604101643251">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
