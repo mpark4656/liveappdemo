@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CSS - Important</title>
+    <link rel="stylesheet" href="css/important.css">
+</head>
+<body>
+    <h1>Important Keyword</h1>
+    <p>The important keyword signals browser that the CSS attribute must override everything else.</p>
+    <p>
+        The below button has green background originally, but a CSS attribute with the important keyword makes
+        this pink
+    </p>
+    <button id="button">Button</button>
+    <h3>HTML Code for this Page</h3>
+    <pre><code>
+        &lt;!DOCTYPE html&gt;
+        &lt;html lang="en"&gt;
+        &lt;head&gt;
+            &lt;meta charset="UTF-8"&gt;
+            &lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;
+            &lt;title&gt;CSS - Important&lt;/title&gt;
+            &lt;link rel="stylesheet" href="css/important.css"&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+            &lt;h1&gt;Important Keyword&lt;/h1&gt;
+            &lt;p&gt;The important keyword signals browser that the CSS attribute must override everything else.&lt;/p&gt;
+            &lt;p&gt;
+                The below button has green background originally, but a CSS attribute with the important keyword makes
+                this pink
+            &lt;/p&gt;
+            &lt;button id="button"&gt;Button&lt;/button&gt;
+        &lt;/body&gt;
+        &lt;/html&gt;
+    </code></pre>
+    <h3>CSS Code for this Page</h3>
+    <pre><code>
+        button {
+            background: pink !important;
+        }
+
+        #button {
+            background: green;
+        }
+    </code></pre>
+</body>
+</html>

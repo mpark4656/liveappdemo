@@ -1,0 +1,7 @@
+button {
+    background: pink !important;
+}
+
+#button {
+    background: green;
+}
