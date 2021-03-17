@@ -1,0 +1,47 @@
+#first-box {
+    width: 200px;
+    height: 200px;
+    background-color: #e5989b;
+    border: black 1px solid;
+}
+
+#second-box {
+    border-width: 3px;
+    border-style: dotted;
+    border-color: black;
+    width: 200px;
+    height: 200px;
+}
+
+#third-box {
+    border: black 10px solid;
+    width: 200px;
+    height: 200px;
+    margin: 1px;
+}
+
+#fourth-box {
+    border: black 10px solid;
+    width: 200px;
+    height: 200px;
+    box-sizing: border-box;
+    margin: 1px;
+}
+
+#one-sided-box {
+    border-left: 2px purple dotted;
+    width: 200px;
+    height: 200px;
+}
+
+#rounded-box {
+    border: 2px green dotted;
+    border-radius: 10%;
+    width: 200px;
+    height: 200px;
+}
+
+#box-container {
+    display: flex;
+    flex-direction: row;
+}
