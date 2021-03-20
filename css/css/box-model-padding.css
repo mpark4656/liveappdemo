@@ -1,0 +1,30 @@
+#box-one {
+    width: 160px;
+    height: 160px;
+    border: 2px black dotted;
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+#box-two {
+    width: 160px;
+    height: 160px;
+    border: 2px black dotted;
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 30px;
+}
+
+.inner-box {
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
