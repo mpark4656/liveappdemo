@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CSS Box Model - Padding</title>
+    <link rel="stylesheet" href="css/box-model-padding.css">
+</head>
+<body>
+    <h1>Box Model - Padding</h1>
+    <p>
+        Padding is the space between the border of a box and the inner contents.
+        The pink area below represents the padding.
+    </p>
+    <div id="box-one">
+        <div class="inner-box">Inner Content</div>
+    </div>
+    <p>Padding can be applied to any side of the box. The below box has 30px left padding.</p>
+    <div id="box-two">
+        <div class="inner-box"></div>
+    </div>
+    <h3>HTML Code for This Page</h3>
+    <pre><code>
+        &lt;!DOCTYPE html&gt;
+        &lt;html lang="en"&gt;
+        &lt;head&gt;
+            &lt;meta charset="UTF-8"&gt;
+            &lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;
+            &lt;title&gt;CSS Box Model - Padding&lt;/title&gt;
+            &lt;link rel="stylesheet" href="css/box-model-padding.css"&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+            &lt;h1&gt;Box Model - Padding&lt;/h1&gt;
+            &lt;p&gt;
+                Padding is the space between the border of a box and the inner contents.
+                The pink area below represents the padding.
+            &lt;/p&gt;
+            &lt;div id="box-one"&gt;
+                &lt;div class="inner-box"&gt;Inner Content&lt;/div&gt;
+            &lt;/div&gt;
+            &lt;p&gt;Padding can be applied to any side of the box. The below box has 30px left padding.&lt;/p&gt;
+            &lt;div id="box-two"&gt;
+                &lt;div class="inner-box"&gt;&lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/body&gt;
+        &lt;/html&gt;
+    </code></pre>
+    <h3>CSS Code for This Page</h3>
+    <pre><code>
+        #box-one {
+            width: 160px;
+            height: 160px;
+            border: 2px black dotted;
+            background-color: pink;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        #box-two {
+            width: 160px;
+            height: 160px;
+            border: 2px black dotted;
+            background-color: pink;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-left: 30px;
+        }
+
+        .inner-box {
+            width: 150px;
+            height: 150px;
+            background-color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </code></pre>
+</body>
+</html>
