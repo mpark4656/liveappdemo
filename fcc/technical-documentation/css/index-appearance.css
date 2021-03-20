@@ -9,6 +9,11 @@
     height: 100%;
 }
 
+code {
+    background-color: lightgray;
+    display: block;
+}
+
 .navbar-header {
     border-right: 1px solid gray;
 }
