@@ -1,0 +1,27 @@
+#navbar {
+    border-right: 1px gray solid;
+    background-color: white;
+}
+
+#navbar ul {
+    list-style-type: none;
+    border-right: 1px solid gray;
+    height: 100%;
+}
+
+.navbar-header {
+    border-right: 1px solid gray;
+}
+
+.navbar-item {
+    border-top: 1px solid gray;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: dimgray;
+}
+
+.nav-link:visited {
+    color: dimgray;
+}
