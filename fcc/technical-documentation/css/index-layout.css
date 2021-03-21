@@ -9,12 +9,16 @@ body {
 }
 
 section {
-    padding: 20px;
+    padding: 0 10px;
 }
 
 main {
     margin-left: 300px;
     padding-top: 25px;
+}
+
+main li, code {
+    margin-bottom: 1em;
 }
 
 article {
@@ -31,11 +35,6 @@ article {
     justify-content: center;
     align-content: center;
     padding: 10px 0;
-}
-
-.navbar-header h1 {
-    margin: 0;
-    padding: 0;
 }
 
 .navbar-item {
