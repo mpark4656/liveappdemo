@@ -8,5 +8,138 @@
 </head>
 <body>
     <h1>CSS Display</h1>
+    <p>
+        Inline elements fit in alongside other elements. Block level elements take up a while "block" of space.
+        Using the display attribute, you can change a block element to inline element and vice versa.
+    </p>
+    <ul>
+        <li><strong>INLINE</strong>:
+            Width & Height are ignored. Margin & Padding push elements away horizontally but not vertically
+        </li>
+        <li><strong>BLOCK</strong>:
+            Block elements break the flow of a document. Width, Height, Margin, & Padding are respected.
+        </li>
+        <li><strong>INLINE-BLOCK</strong>:
+            Behaved like an inline element except Width, Height, Margin, & Padding are respected.
+        </li>
+    </ul>
+    <p>Below is a block element with the border and background color.</p>
+    <div id="block-example">This is a div element, which is a block element by default</div>
+    <p>Below is an inline element with the border and background color.</p>
+    <span id="inline-example">This is a span element, which is an inline element by default</span>
+    <p>As you can see below, the two h1 elements are behaving differently depending on inline or block display.</p>
+    <div class="container">
+        <h1>I'm a normal h1 element</h1>
+        <span>I'm a span element right next to the first h1 element.</span>
+    </div>
+    <div class="container">
+        <h1 id="inline-h1">I'm an h1 element that is inline.</h1>
+        <span>I'm a span element right next to the inline h1 element.</span>
+    </div>
+    <p>
+        Below is a span element (inline by default) that has been changed to block display.
+        This span is taking up an entire line, which a default inline span element doesn't do.
+    </p>
+    <span id="block-span">This is a block-display span.</span>
+    <p>
+        Span elements do not respect vertical margin or padding.
+        The two spans below have vertical margin set to 10px and yet, you don't see a margin between them.
+    </p>
+    <span class="span-with-margin">This is the first span element.</span><br>
+    <span class="span-with-margin">This is the second span element.</span>
+    <p>
+        If you change the spans to INLINE-BLOCK display, they will respect the vertical margin/padding.
+        Now, you see the vertical margin between the two spans.
+    </p>
+    <span class="inline-block-span-with-margin">This is the first span element.</span><br>
+    <span class="inline-block-span-with-margin">This is the second span element.</span>
+    <h3>HTML Code for This Page</h3>
+    <pre><code>
+        &lt;!DOCTYPE html&gt;
+        &lt;html lang="en"&gt;
+        &lt;head&gt;
+            &lt;meta charset="UTF-8"&gt;
+            &lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;
+            &lt;link rel="stylesheet" href="css/display.css"&gt;
+            &lt;title&gt;CSS - Display&lt;/title&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+            &lt;h1&gt;CSS Display&lt;/h1&gt;
+            &lt;p&gt;
+                Inline elements fit in alongside other elements. Block level elements take up a while "block" of space.
+                Using the display attribute, you can change a block element to inline element and vice versa.
+            &lt;/p&gt;
+            &lt;ul&gt;
+                &lt;li&gt;&lt;strong&gt;INLINE&lt;/strong&gt;:
+                    Width & Height are ignored. Margin & Padding push elements away horizontally but not vertically
+                &lt;/li&gt;
+                &lt;li&gt;&lt;strong&gt;BLOCK&lt;/strong&gt;:
+                    Block elements break the flow of a document. Width, Height, Margin, & Padding are respected.
+                &lt;/li&gt;
+                &lt;li&gt;&lt;strong&gt;INLINE-BLOCK&lt;/strong&gt;:
+                    Behaved like an inline element except Width, Height, Margin, & Padding are respected.
+                &lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;p&gt;Below is a block element with the border and background color.&lt;/p&gt;
+            &lt;div id="block-example"&gt;This is a div element, which is a block element by default&lt;/div&gt;
+            &lt;p&gt;Below is an inline element with the border and background color.&lt;/p&gt;
+            &lt;span id="inline-example"&gt;This is a span element, which is an inline element by default&lt;/span&gt;
+            &lt;p&gt;As you can see below, the two h1 elements are behaving differently depending on inline or block display.&lt;/p&gt;
+            &lt;div class="container"&gt;
+                &lt;h1&gt;I'm a normal h1 element&lt;/h1&gt;
+                &lt;span&gt;I'm a span element right next to the first h1 element.&lt;/span&gt;
+            &lt;/div&gt;
+            &lt;div class="container"&gt;
+                &lt;h1 id="inline-h1"&gt;I'm an h1 element that is inline.&lt;/h1&gt;
+                &lt;span&gt;I'm a span element right next to the inline h1 element.&lt;/span&gt;
+            &lt;/div&gt;
+            &lt;p&gt;
+                Below is a span element (inline by default) that has been changed to block display.
+                This span is taking up an entire line, which a default inline span element doesn't do.
+            &lt;/p&gt;
+            &lt;span id="block-span"&gt;This is a block-display span.&lt;/span&gt;
+            &lt;p&gt;
+                Span elements do not respect vertical margin or padding.
+                The two spans below have vertical margin set to 10px and yet, you don't see a margin between them.
+            &lt;/p&gt;
+            &lt;span class="span-with-margin"&gt;This is the first span element.&lt;/span&gt;&lt;br&gt;
+            &lt;span class="span-with-margin"&gt;This is the second span element.&lt;/span&gt;
+            &lt;p&gt;
+                If you change the spans to INLINE-BLOCK display, they will respect the vertical margin/padding.
+                Now, you see the vertical margin between the two spans.
+            &lt;/p&gt;
+            &lt;span class="inline-block-span-with-margin"&gt;This is the first span element.&lt;/span&gt;&lt;br&gt;
+            &lt;span class="inline-block-span-with-margin"&gt;This is the second span element.&lt;/span&gt;
+        &lt;/body&gt;
+        &lt;/html&gt;
+    </code></pre>
+    <h3>CSS Code for This Page</h3>
+    <pre><code>
+        #block-example, #inline-example, #block-span, .span-with-margin, .inline-block-span-with-margin {
+            background-color: pink;
+            border: solid 1px black;
+        }
+
+        .container {
+            margin: 20px;
+        }
+
+        #inline-h1 {
+            display: inline;
+        }
+
+        #block-span {
+            display: block;
+        }
+
+        .span-with-margin, .inline-block-span-with-margin {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        .inline-block-span-with-margin {
+            display: inline-block;
+        }
+    </code></pre>
 </body>
 </html>

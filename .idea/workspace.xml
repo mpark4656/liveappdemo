@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eb8c7c76-3401-44f5-bf95-d2ca4fa3a038" name="Default Changelist" comment="Minor change">
-      <change afterPath="$PROJECT_DIR$/css/box-model-margin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/css/box-model-margin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/css/display.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/display.html" afterDir="false" />
+    <list default="true" id="eb8c7c76-3401-44f5-bf95-d2ca4fa3a038" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/css/display.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/css/display.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/display.html" beforeDir="false" afterPath="$PROJECT_DIR$/css/display.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,14 +144,7 @@
       <workItem from="1615946457960" duration="2651000" />
       <workItem from="1616262759723" duration="16485000" />
       <workItem from="1616307567578" duration="594000" />
-      <workItem from="1616342545528" duration="1233000" />
-    </task>
-    <task id="LOCAL-00025" summary="Added attribute selectors">
-      <created>1608570999889</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1608570999889</updated>
+      <workItem from="1616342545528" duration="2700000" />
     </task>
     <task id="LOCAL-00026" summary="Added cope snipplets">
       <created>1608571636615</created>
@@ -492,14 +482,20 @@
       <option name="project" value="LOCAL" />
       <updated>1616293376564</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="Finished CSS box margin and started CSS display">
+      <created>1616343834209</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1616343834210</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Started the product landing page project" />
     <MESSAGE value="fixed responsiveness" />
     <MESSAGE value="Added viewport meta" />
     <MESSAGE value="Still working on product landing page" />
@@ -524,17 +520,18 @@
     <MESSAGE value="Added link to technical documentation project" />
     <MESSAGE value="Minor CSS changes" />
     <MESSAGE value="Completed Technical Documentation Page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed Technical Documentation Page" />
+    <MESSAGE value="Finished CSS box margin and started CSS display" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished CSS box margin and started CSS display" />
   </component>
   <component name="WindowStateProjectService">
     <state x="715" y="344" key="#Notifications" timestamp="1609647276831">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="715" y="344" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1609647276831" />
-    <state x="582" y="95" key="CommitChangelistDialog2" timestamp="1616293375807">
+    <state x="582" y="95" key="CommitChangelistDialog2" timestamp="1616343833451">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="582" y="95" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1616293375807" />
+    <state x="582" y="95" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1616343833451" />
     <state x="1214" y="278" key="FileChooserDialogImpl" timestamp="1608838435568">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

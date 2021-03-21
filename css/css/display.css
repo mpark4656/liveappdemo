@@ -1,0 +1,25 @@
+#block-example, #inline-example, #block-span, .span-with-margin, .inline-block-span-with-margin {
+    background-color: pink;
+    border: solid 1px black;
+}
+
+.container {
+    margin: 20px;
+}
+
+#inline-h1 {
+    display: inline;
+}
+
+#block-span {
+    display: block;
+}
+
+.span-with-margin, .inline-block-span-with-margin {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.inline-block-span-with-margin {
+    display: inline-block;
+}
