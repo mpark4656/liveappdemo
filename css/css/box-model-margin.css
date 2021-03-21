@@ -1,0 +1,20 @@
+#parent-box {
+    padding: 0;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+}
+
+#box {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 160px;
+    border: black dotted 1px;
+    margin: 20px;
+}
