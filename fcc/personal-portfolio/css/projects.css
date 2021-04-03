@@ -1,0 +1,40 @@
+#projects {
+    background-color: #e3e6e5;
+}
+
+#header-desc {
+    text-align: center;
+}
+
+#projects a {
+    color: black;
+    text-decoration: none;
+}
+
+#projects a:visited {
+    color: black;
+}
+
+card {
+    background-color: red;
+    border: 1px black solid;
+    margin: 1em;
+}
+
+.card-header {
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-body {
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.card-footer {
+    padding: 1em;
+}

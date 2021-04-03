@@ -1,0 +1,11 @@
+footer {
+    background-color: #292b2c;
+    color: white;
+}
+
+footer div {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 10vh;
+}

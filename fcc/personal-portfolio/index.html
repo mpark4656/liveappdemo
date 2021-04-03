@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Michael Park</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/welcome-section.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/projects.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@200;400&family=Passion+One&family=Righteous&display=swap"
+          rel="stylesheet">
+</head>
+<body>
+    <nav id="navbar" class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <span class="navbar-text">
+                <a class="navbar-brand">Michael Park</a>
+                <a id="linkedin-link"
+                   href="https://www.linkedin.com/in/mpark4656"
+                   target="_blank"
+                   title="My LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a id="profile-link"
+                   href="https://github.com/mpark4656"
+                   target="_blank"
+                   title="My GitHub"><i class="fab fa-github"></i></a>
+                <a id="email-link"
+                   href="mailto:mpark4656@gmail.com"
+                   title="My Email: mpark4656@gmail.com"><i class="far fa-envelope"></i></a>
+                <a id="phone-link"
+                   href="tel:757-602-7550"
+                   title="My Phone: (757) 602-7550"><i class="fas fa-phone-alt"></i></a>
+            </span>
+            <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="#about">About</a>
+                    <a class="nav-link" href="#projects">Projects</a>
+                    <a class="nav-link" href="#resume">Resume</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section id="welcome-section">
+        <div id="photo-area"><span id="photo-helper"></span><img src="img/portrait.jpg" alt="My Photo"></div>
+        <h1 class="header-underline-white">Michael H. Park</h1>
+        <p>Junior Software Developer in Yorktown, VA</p>
+    </section>
+    <section id="about" class="container">
+        <div class="row justify-content-center">
+            <h1 class="header-underline-black">About</h1>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-md">
+                <h2>Background</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium
+                    aliquid consectetur debitis, dolorem ex exercitationem expedita illo libero
+                    natus neque, perspiciatis provident quaerat quibusdam ratione repellat
+                    temporibus tenetur ut vitae!
+                </p>
+            </div>
+            <div class="col-md">
+                <h2>Highlights</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Animi cupiditate enim eos minima molestiae odit pariatur quos saepe tempore
+                    voluptas! Ad adipisci cum minima non placeat possimus quae recusandae temporibus!
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="container">
+            <div class="row justify-content-center">
+                <h1 class="header-underline-black">Projects</h1>
+                <p id="header-desc">My past and current on-going projects are listed.</p>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-4">
+                    <a href="https://github.com/mpark4656/HouseRentingSystem">
+                        <card class="card project-tile">
+                            <div class="card-header">
+                                <h5 class="card-title">House Rental System</h5>
+                            </div>
+                            <div class="card-body">
+                                <img src="img/houserentingsystem.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-footer">
+                                <p class="card-text">
+                                    Some quick example text to build on the card
+                                    title and make up the bulk of the card's content.
+                                </p>
+                            </div>
+                        </card>
+                    </a>
+                    <a href="https://github.com/mpark4656/CodeComp">
+                        <card class="card project-tile">
+                            <div class="card-header">
+                                <h5 class="card-title">CodeComp</h5>
+                            </div>
+                            <div class="card-body">
+
+                                <img src="img/codecomp.jpg" class="card-img-top" alt="...">
+
+                            </div>
+                            <div class="card-footer">
+                                <p class="card-text">
+                                    Some quick example text to
+                                    build on the card title and make up the bulk of the card's content.
+                                </p>
+                            </div>
+                        </card>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="https://github.com/mpark4656/ParkODU">
+                        <card class="card project-tile">
+                            <div class="card-header">
+                                <h5 class="card-title">ParkODU</h5>
+                            </div>
+                            <div class="card-body">
+                                <img src="img/parkodu.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-footer">
+                                <p class="card-text">
+                                    Some quick example text to build on the card title
+                                    and make up the bulk of the card's content.
+                                </p>
+                            </div>
+                        </card>
+                    </a>
+                    <a href="https://github.com/mpark4656/SMProject">
+                        <card class="card project-tile">
+                            <div class="card-header">
+                                <h5 class="card-title">SM Manager</h5>
+                            </div>
+                            <div class="card-body">
+                                <img src="img/smproject.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-footer">
+                                <p class="card-text">
+                                    Some quick example text to build on the card title
+                                    and make up the bulk of the card's content.
+                                </p>
+                            </div>
+                        </card>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="https://github.com/mpark4656/LiveAppDemo">
+                        <card class="card project-tile">
+                            <div class="card-header">
+                                <h5 class="card-title">Personal Web Programming Guides</h5>
+                            </div>
+                            <div class="card-body">
+                                <img src="img/liveappdemo.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-footer">
+                                <p class="card-text">
+                                    Some quick example text to build on the card title
+                                    and make up the bulk of the card's content.
+                                </p>
+                            </div>
+                        </card>
+                    </a>
+                    <a href="https://github.com/mpark4656/GradeBook">
+                        <card class="card project-tile">
+                            <div class="card-header">
+                                <h5 class="card-title">Gradebook</h5>
+                            </div>
+                            <div class="card-body">
+                                <img src="img/gradebook.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-footer">
+                                <p class="card-text">
+                                    Some quick example text to build on the card title
+                                    and make up the bulk of the card's content.
+                                </p>
+                            </div>
+                        </card>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="resume" class="container">
+        <div class="row justify-content-center">
+            <h1 class="header-underline-black">Resume</h1>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; Created By Michael Park</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+            crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+            crossorigin="anonymous">
+    </script>
+    <script src="https://kit.fontawesome.com/8d95f8aabd.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/activate-nav-link.js"></script>
+</body>
+</html>

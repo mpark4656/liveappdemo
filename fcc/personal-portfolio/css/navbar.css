@@ -1,0 +1,38 @@
+nav i {
+    margin: 0.2em;
+    color: white;
+}
+
+.navbar-brand {
+    font-family: 'Fredoka One', cursive;
+    font-size: 1.5em;
+    margin-right: 1em;
+}
+
+#linkedin-link, #profile-link {
+    border: 1px transparent solid;
+    border-radius: 50%;
+    padding: 4px;
+}
+
+#linkedin-link {
+    background-color: #2867B2;
+}
+
+#profile-link {
+    background-color: #292b2c;
+}
+
+#email-link {
+    border: 2px transparent solid;
+    background-color: #429bf5;
+    border-radius: 50%;
+    padding: 4px;
+}
+
+#phone-link {
+    background-color: #429bf5;
+    border: 2px transparent solid;
+    border-radius: 50%;
+    padding: 4px;
+}
