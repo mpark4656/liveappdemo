@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="eb8c7c76-3401-44f5-bf95-d2ca4fa3a038" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/fcc/personal-portfolio/css/resume.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/css/display.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/css/display.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/display.html" beforeDir="false" afterPath="$PROJECT_DIR$/css/display.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fcc/personal-portfolio/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/fcc/personal-portfolio/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fcc/personal-portfolio/css/projects.css" beforeDir="false" afterPath="$PROJECT_DIR$/fcc/personal-portfolio/css/projects.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fcc/personal-portfolio/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/fcc/personal-portfolio/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fcc/personal-portfolio/js/activate-nav-link.js" beforeDir="false" afterPath="$PROJECT_DIR$/fcc/personal-portfolio/js/activate-nav-link.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/js/primitives.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/js/primitives.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/primitives.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/primitives.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
         <option value="CSS File" />
       </list>
     </option>
@@ -45,17 +53,17 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\mpark\Google Drive\Projects\web\liveappdemo\jss" />
-      <recent name="C:\Users\mpark\Google Drive\Projects\web\liveappdemo\css" />
-      <recent name="C:\Users\mpark\Google Drive\Projects\web\liveappdemo\basic-html" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mpark\Google Drive\Projects\web\liveappdemo\js\js" />
       <recent name="C:\Users\mpark\Google Drive\Projects\web\liveappdemo\css\css" />
       <recent name="C:\Users\mpark\Google Drive\Projects\web\liveappdemo\css" />
       <recent name="C:\Users\mpark\Google Drive\Projects\web\liveappdemo\img" />
       <recent name="C:\Users\mpark\Google Drive\Projects\web\liveappdemo\index-css" />
-      <recent name="C:\Users\mpark\Google Drive\Projects\web\liveappdemo\index-js" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mpark\Google Drive\Projects\web\liveappdemo\jss" />
+      <recent name="C:\Users\mpark\Google Drive\Projects\web\liveappdemo\css" />
+      <recent name="C:\Users\mpark\Google Drive\Projects\web\liveappdemo\basic-html" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html">
@@ -144,42 +152,12 @@
       <workItem from="1615946457960" duration="2651000" />
       <workItem from="1616262759723" duration="16485000" />
       <workItem from="1616307567578" duration="594000" />
-      <workItem from="1616342545528" duration="2700000" />
-    </task>
-    <task id="LOCAL-00026" summary="Added cope snipplets">
-      <created>1608571636615</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1608571636615</updated>
-    </task>
-    <task id="LOCAL-00027" summary="Added peudo classes">
-      <created>1608571649406</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1608571649406</updated>
-    </task>
-    <task id="LOCAL-00028" summary="Added peudo classes">
-      <created>1608572286864</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1608572286864</updated>
-    </task>
-    <task id="LOCAL-00029" summary="Added peudo classes">
-      <created>1608572292392</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1608572292392</updated>
-    </task>
-    <task id="LOCAL-00030" summary="Completed pseudo elements">
-      <created>1608754002997</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1608754002997</updated>
+      <workItem from="1616342545528" duration="4654000" />
+      <workItem from="1616870528245" duration="596000" />
+      <workItem from="1617062648779" duration="1365000" />
+      <workItem from="1617070999083" duration="2756000" />
+      <workItem from="1617328682266" duration="595000" />
+      <workItem from="1617460901967" duration="28152000" />
     </task>
     <task id="LOCAL-00031" summary="Added FreeCodeCamp project">
       <created>1608844690056</created>
@@ -489,18 +467,48 @@
       <option name="project" value="LOCAL" />
       <updated>1616343834210</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="Completed CSS display">
+      <created>1616345343647</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1616345343647</updated>
+    </task>
+    <task id="LOCAL-00076" summary="Started Javascript">
+      <created>1617071723256</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1617071723257</updated>
+    </task>
+    <task id="LOCAL-00077" summary="Started personal portfolio project">
+      <created>1617481600228</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1617481600228</updated>
+    </task>
+    <task id="LOCAL-00078" summary="Adding images">
+      <created>1617481619028</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1617481619028</updated>
+    </task>
+    <task id="LOCAL-00079" summary="Added a link to a new project, Personal Portfolio">
+      <created>1617481643341</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1617481643341</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fixed responsiveness" />
-    <MESSAGE value="Added viewport meta" />
-    <MESSAGE value="Still working on product landing page" />
-    <MESSAGE value="Changed responsiveness a little bit" />
-    <MESSAGE value="Changed description of the landing page project" />
     <MESSAGE value="Completed Product landing page project" />
     <MESSAGE value="Minor changes to responsive behavior" />
     <MESSAGE value="Adding image" />
@@ -521,17 +529,26 @@
     <MESSAGE value="Minor CSS changes" />
     <MESSAGE value="Completed Technical Documentation Page" />
     <MESSAGE value="Finished CSS box margin and started CSS display" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished CSS box margin and started CSS display" />
+    <MESSAGE value="Completed CSS display" />
+    <MESSAGE value="Started Javascript" />
+    <MESSAGE value="Started personal portfolio project" />
+    <MESSAGE value="Adding images" />
+    <MESSAGE value="Added a link to a new project, Personal Portfolio" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a link to a new project, Personal Portfolio" />
   </component>
   <component name="WindowStateProjectService">
     <state x="715" y="344" key="#Notifications" timestamp="1609647276831">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="715" y="344" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1609647276831" />
-    <state x="582" y="95" key="CommitChangelistDialog2" timestamp="1616343833451">
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1617476412844">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="582" y="95" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1616343833451" />
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617476412844" />
+    <state x="582" y="95" key="CommitChangelistDialog2" timestamp="1617481642536">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="582" y="95" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1617481642536" />
     <state x="1214" y="278" key="FileChooserDialogImpl" timestamp="1608838435568">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -540,17 +557,17 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1609192969103" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1616293384320">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1617071727820">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1616293384320" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1617071727820" />
     <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1609192801994">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1609192801994" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1609097971459">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1617462914630">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1609097971459" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1617462914630" />
   </component>
 </project>

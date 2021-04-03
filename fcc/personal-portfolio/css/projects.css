@@ -16,8 +16,6 @@
 }
 
 card {
-    background-color: red;
-    border: 1px black solid;
     margin: 1em;
 }
 
@@ -29,7 +27,6 @@ card {
 }
 
 .card-body {
-    height: 350px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -37,4 +34,30 @@ card {
 }
 .card-footer {
     padding: 1em;
+}
+
+@media(min-width: 992px) {
+    .card-header {
+        height: 80px;
+    }
+
+    .card-body {
+        height: 350px;
+
+    }
+    .card-footer {
+        height: 350px;
+    }
+}
+
+@media(min-width: 1200px) {
+    .card-footer {
+        height: 300px;
+    }
+}
+
+@media(min-width: 1400px) {
+    .card-footer {
+        height: 250px;
+    }
 }

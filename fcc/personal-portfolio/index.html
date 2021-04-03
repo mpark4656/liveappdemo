@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/welcome-section.css">
     <link rel="stylesheet" href="css/about.css">
     <link rel="stylesheet" href="css/projects.css">
+    <link rel="stylesheet" href="css/resume.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@200;400&family=Passion+One&family=Righteous&display=swap"
@@ -25,10 +26,12 @@
                 <a id="linkedin-link"
                    href="https://www.linkedin.com/in/mpark4656"
                    target="_blank"
+                   rel="noopener noreferrer"
                    title="My LinkedIn"><i class="fab fa-linkedin-in"></i></a>
                 <a id="profile-link"
                    href="https://github.com/mpark4656"
                    target="_blank"
+                   rel="noopener noreferrer"
                    title="My GitHub"><i class="fab fa-github"></i></a>
                 <a id="email-link"
                    href="mailto:mpark4656@gmail.com"
@@ -59,39 +62,53 @@
         <h1 class="header-underline-white">Michael H. Park</h1>
         <p>Junior Software Developer in Yorktown, VA</p>
     </section>
-    <section id="about" class="container">
+    <section id="about" class="container scroll-section">
         <div class="row justify-content-center">
-            <h1 class="header-underline-black">About</h1>
+            <h1 class="header-underline-blue">About</h1>
         </div>
 
         <div class="row justify-content-center">
             <div class="col-md">
                 <h2>Background</h2>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium
-                    aliquid consectetur debitis, dolorem ex exercitationem expedita illo libero
-                    natus neque, perspiciatis provident quaerat quibusdam ratione repellat
-                    temporibus tenetur ut vitae!
+                    I graduated from Old Dominion University with a bachelor's degree in Computer Science in 2018 and
+                    I am currently pursuing a master's degree in computer science at the same university.
+                    I have experience in web programming and database programming. While I enjoy solving
+                    difficult programming challenges and learning advanced computer science concepts, I'm most excited
+                    to build applications to solve real-world problems and to enhance business processes through
+                    software solutions.
+                </p>
+                <p>
+                    I enjoy learning new things. I like to teach myself new technology tools in my spare time by
+                    watching online videos, reading tutorials and programming books. So far, I have been programming
+                    mostly on my own and have limited professional experience, but I'd love the opportunity to
+                    work with other developers to build cool things.
                 </p>
             </div>
             <div class="col-md">
-                <h2>Highlights</h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Animi cupiditate enim eos minima molestiae odit pariatur quos saepe tempore
-                    voluptas! Ad adipisci cum minima non placeat possimus quae recusandae temporibus!
-                </p>
+                <h2>Interests</h2>
+                <ul>
+                    <li>Object-Oriented Programming</li>
+                    <li>Data Structure</li>
+                    <li>Algorithm</li>
+                    <li>Database</li>
+                    <li>MVC</li>
+                    <li>Back-end Development</li>
+                    <li>Front-end Development</li>
+                    <li>Unit Testing</li>
+                    <li>API Services</li>
+                </ul>
             </div>
         </div>
     </section>
-    <section id="projects">
+    <section id="projects" class="scroll-section">
         <div class="container">
             <div class="row justify-content-center">
-                <h1 class="header-underline-black">Projects</h1>
+                <h1 class="header-underline-blue">Projects</h1>
                 <p id="header-desc">My past and current on-going projects are listed.</p>
             </div>
             <div class="row justify-content-center">
-                <div class="col-md-4">
+                <div class="col-lg-4">
                     <a href="https://github.com/mpark4656/HouseRentingSystem">
                         <card class="card project-tile">
                             <div class="card-header">
@@ -102,8 +119,9 @@
                             </div>
                             <div class="card-footer">
                                 <p class="card-text">
-                                    Some quick example text to build on the card
-                                    title and make up the bulk of the card's content.
+                                    A web application built with Java EE to allow home owners and renters
+                                    to exchange information effectively. This project is not yet finished and I'm
+                                    currently working on it.
                                 </p>
                             </div>
                         </card>
@@ -120,14 +138,15 @@
                             </div>
                             <div class="card-footer">
                                 <p class="card-text">
-                                    Some quick example text to
-                                    build on the card title and make up the bulk of the card's content.
+                                    This was a school project in CS350. I worked with 2 other teammates to build a
+                                    command-line tool that parses and tokenizes multiple code submissions and detect
+                                    possible copying or cheating.
                                 </p>
                             </div>
                         </card>
                     </a>
                 </div>
-                <div class="col-md-4">
+                <div class="col-lg-4">
                     <a href="https://github.com/mpark4656/ParkODU">
                         <card class="card project-tile">
                             <div class="card-header">
@@ -138,8 +157,9 @@
                             </div>
                             <div class="card-footer">
                                 <p class="card-text">
-                                    Some quick example text to build on the card title
-                                    and make up the bulk of the card's content.
+                                    This was my senior school project. This web application was built with Java Spring
+                                    Boot, Thymeleaf, and MongoDB to process parking usage data and predict parking
+                                    availability at certain times of the day.
                                 </p>
                             </div>
                         </card>
@@ -154,14 +174,15 @@
                             </div>
                             <div class="card-footer">
                                 <p class="card-text">
-                                    Some quick example text to build on the card title
-                                    and make up the bulk of the card's content.
+                                    This is a standalone desktop application written in C# that allows a help desk
+                                    user to manage tickets. I actually used this tool when I was working at NMCI
+                                    Service Desk many years ago.
                                 </p>
                             </div>
                         </card>
                     </a>
                 </div>
-                <div class="col-md-4">
+                <div class="col-lg-4">
                     <a href="https://github.com/mpark4656/LiveAppDemo">
                         <card class="card project-tile">
                             <div class="card-header">
@@ -172,8 +193,9 @@
                             </div>
                             <div class="card-footer">
                                 <p class="card-text">
-                                    Some quick example text to build on the card title
-                                    and make up the bulk of the card's content.
+                                    This is a personal compilation of web programming practices that I've created
+                                    from watching online tutorial videos from various sources, including Udemy. I've
+                                    also included personal web project challenges from FreeCodeCamp.
                                 </p>
                             </div>
                         </card>
@@ -188,8 +210,9 @@
                             </div>
                             <div class="card-footer">
                                 <p class="card-text">
-                                    Some quick example text to build on the card title
-                                    and make up the bulk of the card's content.
+                                    I recently started another web application project, this time using ASP.NET.
+                                    Gradebook is a course management system to be used by instructors to track
+                                    attendance and student grades.
                                 </p>
                             </div>
                         </card>
@@ -199,9 +222,122 @@
         </div>
     </section>
 
-    <section id="resume" class="container">
+    <section id="resume" class="container scroll-section">
         <div class="row justify-content-center">
-            <h1 class="header-underline-black">Resume</h1>
+            <h1 class="header-underline-blue">Resume</h1>
+            <h2>MICHAEL H. PARK</h2>
+            <p>
+                Email: mpark4656@gmail.com<br>
+                Phone: (757) 602-7550
+            </p>
+            <hr>
+            <h2>Objective</h2>
+            <p>
+                Motivated Computer Science graduate with fundamental knowledge of software design, development,
+                and testing. Seeking to utilize broad educational background with excellent analytical, technical,
+                and programming skills to thrive as an entry-level software developer.
+            </p>
+            <hr>
+            <h2>Education</h2>
+            <p>
+                <strong>Old Dominion University, Norfolk, VA</strong><br>
+                Bachelor of Science in Computer Science - Graduated May 2018<br>
+                Honors: Magna Cum Laude (GPA: 3.74/4.0)<br>
+                <strong>Revelant Coursework: </strong>Programming and Problem Solving in C++, Object-Oriented
+                Program Design, Introduction to Software Engineering, Advanced Data Structures / Algorithms,
+                Database Concepts, Website and Webpage Design, App Development for Smart Devices
+            </p>
+            <p>
+                <strong>Old Dominion University, Norfolk, VA</strong><br>
+                Master of Science in Computer Science - Expected Graduation: May 2023<br>
+            </p>
+            <hr>
+            <h2>Work Experience</h2>
+            <p>
+                <strong>OLD DOMINION UNIVERSITY, NORFOLK, VA</strong><br>
+                <strong>Information System Coordinator - April 2019 ~ Present</strong>
+            </p>
+            <h3>Duties and Responsibilities</h3>
+            <ul>
+                <li>Provide desktop support to Auxiliary Business Services</li>
+                <li>Consult with customers to identify their department’s IT needs and provide appropriate solutions</li>
+                <li>Manage critical applications and servers</li>
+                <li>Develop custom webpages and Oracle procedures and triggers</li>
+                <li>Use SQL to generate custom reports</li>
+            </ul>
+            <h3>Achievements</h3>
+            <ul>
+                <li>Developed a web-based temporary card issuance system for residence halls</li>
+                <li>
+                    Automated the process of disabling electronic door access for
+                    students and employees who were separated
+                </li>
+                <li>
+                    Programed various meal plans and enhanced the web portal for meal and stored-value credit plan sales
+                    to provide students and Faculty/Staff with more on-campus meal options
+                </li>
+            </ul>
+            <p>
+                <strong>LEGERITY LLC, VIRGINIA BEACH, VA</strong><br>
+                <strong>Junior PEGA Developer - July 2018 ~ April 2019</strong>
+            </p>
+            <h3>Duties and Responsibilities</h3>
+            <ul>
+                <li>
+                    Work as a part of a 5-member team to update Anthem’s automated claims adjudication application
+                </li>
+                <li>
+                    Refactor existing PEGA workflows and rules
+                </li>
+                <li>
+                    Obtain a solid understanding of software development by creating,
+                    testing, and deploying new PEGA rules
+                </li>
+                <li>Employ best software development practices</li>
+            </ul>
+            <h3>Achievements</h3>
+            <ul>
+                <li>Developed a web-based temporary card issuance system for residence halls</li>
+                <li>
+                    Automated the process of disabling electronic door access for
+                    students and employees who were separated
+                </li>
+                <li>
+                    Programed various meal plans and enhanced the web portal for meal and stored-value credit plan sales
+                    to provide students and Faculty/Staff with more on-campus meal options
+                </li>
+            </ul>
+            <hr>
+            <h2>
+                Skills
+            </h2>
+            <ul>
+                <li>Languages: C#, C++, Java, XML/HTML, JavaScript, CSS, SQL</li>
+                <li>Frameworks: ASP.NET, Java EE, Java Spring, jQuery, Bootstrap</li>
+                <li>IDE: IntelliJ, Eclipse</li>
+                <li>Version Control: Git</li>
+            </ul>
+            <hr>
+            <h2>Projects</h2>
+            <h3>ParkODU</h3>
+            <ul>
+                <li>School Project</li>
+                <li>Description: A software solution with the ability to analyze parking space availability in real-time.
+                    Utilizing cutting edge technology, we've developed a solution to solve all your parking
+                    management needs.</li>
+                <li>Languages/Frameworks: Java Spring, Thymeleaf, MongoDB, HTML, CSS, Javascript</li>
+                <li>Repository: https://github.com/mpark4656/ParkODU</li>
+            </ul>
+            <h3>House Rental System</h3>
+            <ul>
+                <li>Personal Project</li>
+                <li>
+                    Description: A web-based java project where house owners, clients, customers can
+                    exchange information effectively and inexpensively.
+                </li>
+                <li>Languages/Frameworks: Java EE, JSP, HTML, CSS, Javascript</li>
+                <li>Repository: https://github.com/mpark4656/HouseRentingSystem</li>
+            </ul>
         </div>
     </section>
 

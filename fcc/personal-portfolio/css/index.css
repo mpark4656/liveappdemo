@@ -10,6 +10,7 @@ body {
 #about h1, #projects h1, #resume h1, #contact h1 {
     font-family: 'Righteous', cursive;
     text-transform: uppercase;
+    color: steelblue;
 }
 
 .header-underline-white {
@@ -18,8 +19,8 @@ body {
     margin-bottom: 0.5em;
 }
 
-.header-underline-black {
-    border-bottom: black 3px solid;
+.header-underline-blue {
+    border-bottom: steelblue 3px solid;
     padding: 0.5em;
     margin-bottom: 1em;
     width: fit-content;
