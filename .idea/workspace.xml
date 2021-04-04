@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb8c7c76-3401-44f5-bf95-d2ca4fa3a038" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/fcc/personal-portfolio/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/fcc/personal-portfolio/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/numbers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fcc/personal-portfolio/css/welcome-section.css" beforeDir="false" afterPath="$PROJECT_DIR$/fcc/personal-portfolio/css/welcome-section.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,14 +152,9 @@
       <workItem from="1617062648779" duration="1365000" />
       <workItem from="1617070999083" duration="2756000" />
       <workItem from="1617328682266" duration="595000" />
-      <workItem from="1617460901967" duration="34945000" />
-    </task>
-    <task id="LOCAL-00034" summary="Completed Survey project">
-      <created>1608925984119</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1608925984119</updated>
+      <workItem from="1617460901967" duration="36635000" />
+      <workItem from="1617508088757" duration="2332000" />
+      <workItem from="1617553451710" duration="641000" />
     </task>
     <task id="LOCAL-00035" summary="Completed Survey project">
       <created>1608925996122</created>
@@ -495,7 +492,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617496127501</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="Fix for FreeCodeComp testing">
+      <created>1617496254729</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1617496254729</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -538,10 +542,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617476412844" />
-    <state x="582" y="95" key="CommitChangelistDialog2" timestamp="1617496126697">
+    <state x="582" y="95" key="CommitChangelistDialog2" timestamp="1617496253966">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="582" y="95" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1617496126697" />
+    <state x="582" y="95" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1617496253966" />
     <state x="1214" y="278" key="FileChooserDialogImpl" timestamp="1608838435568">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -550,10 +554,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1609192969103" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1617496131701">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1617496259860">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1617496131701" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1617496259860" />
     <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1609192801994">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
