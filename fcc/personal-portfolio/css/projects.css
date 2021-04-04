@@ -19,6 +19,11 @@ card {
     margin: 1em;
 }
 
+card:hover {
+    animation-name: shake;
+    animation-duration: 0.5s;
+}
+
 .card-header {
     padding: 1em;
     display: flex;
@@ -34,6 +39,18 @@ card {
 }
 .card-footer {
     padding: 1em;
+}
+
+@-webkit-keyframes shake {
+    0% {
+        transform: translateX(-5px);
+    }
+    50% {
+        transform: translateX(5px);
+    }
+    100% {
+        transform: translateX(0);
+    }
 }
 
 @media(min-width: 1200px) {

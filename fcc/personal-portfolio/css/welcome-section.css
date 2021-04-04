@@ -48,7 +48,25 @@
     }
 }
 
+@keyframes nameAnimation {
+    0% {
+        transform: translateX(-200px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
 @-webkit-keyframes photoAnimation {
+    0% {
+        transform: translateY(-200px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+@keyframes photoAnimation {
     0% {
         transform: translateY(-200px);
     }
@@ -66,6 +84,15 @@
     }
 }
 
+@keyframes descAnimation {
+    0% {
+        transform: translateX(200px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
 @-webkit-keyframes iconsAnimation {
     0% {
         transform: translateY(200px);
@@ -75,22 +102,39 @@
     }
 }
 
+@keyframes iconsAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
 #welcome-section h1 {
+    -webkit-animation-name: nameAnimation;
+    -webkit-animation-duration: 2s;
     animation-name: nameAnimation;
     animation-duration: 2s;
 }
 
 #photo-area {
+    -webkit-animation-name: photoAnimation;
+    -webkit-animation-duration: 2s;
     animation-name: photoAnimation;
     animation-duration: 2s;
 }
 
 #welcome-section p:first-of-type {
+    -webkit-animation-name: descAnimation;
+    -webkit-animation-duration: 2s;
     animation-name: descAnimation;
     animation-duration: 2s;
 }
 
 #welcome-section p:last-of-type {
+    -webkit-animation-name: iconsAnimation;
+    -webkit-animation-duration: 5s;
     animation-name: iconsAnimation;
-    animation-duration: 2s;
+    animation-duration: 5s;
 }
