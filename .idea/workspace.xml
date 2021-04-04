@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb8c7c76-3401-44f5-bf95-d2ca4fa3a038" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fcc/personal-portfolio/css/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/fcc/personal-portfolio/css/footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fcc/personal-portfolio/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/fcc/personal-portfolio/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fcc/personal-portfolio/css/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/fcc/personal-portfolio/css/navbar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fcc/personal-portfolio/css/projects.css" beforeDir="false" afterPath="$PROJECT_DIR$/fcc/personal-portfolio/css/projects.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fcc/personal-portfolio/css/resume.css" beforeDir="false" afterPath="$PROJECT_DIR$/fcc/personal-portfolio/css/resume.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fcc/personal-portfolio/css/welcome-section.css" beforeDir="false" afterPath="$PROJECT_DIR$/fcc/personal-portfolio/css/welcome-section.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fcc/personal-portfolio/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/fcc/personal-portfolio/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index-css/index-layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/index-css/index-layout.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,14 +150,7 @@
       <workItem from="1617062648779" duration="1365000" />
       <workItem from="1617070999083" duration="2756000" />
       <workItem from="1617328682266" duration="595000" />
-      <workItem from="1617460901967" duration="34480000" />
-    </task>
-    <task id="LOCAL-00032" summary="Worked on responsiveness and font styles">
-      <created>1608850134017</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1608850134017</updated>
+      <workItem from="1617460901967" duration="34803000" />
     </task>
     <task id="LOCAL-00033" summary="Added links to projects">
       <created>1608850826059</created>
@@ -503,14 +488,20 @@
       <option name="project" value="LOCAL" />
       <updated>1617489462512</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="Improved responsiveness in mobile browser">
+      <created>1617495983174</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1617495983174</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Minor changes to responsive behavior" />
     <MESSAGE value="Adding image" />
     <MESSAGE value="Minor fixes" />
     <MESSAGE value="Added viewport meta to index pages" />
@@ -535,7 +526,8 @@
     <MESSAGE value="Adding images" />
     <MESSAGE value="Added a link to a new project, Personal Portfolio" />
     <MESSAGE value="Completed Personal Portfolio" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed Personal Portfolio" />
+    <MESSAGE value="Improved responsiveness in mobile browser" />
+    <option name="LAST_COMMIT_MESSAGE" value="Improved responsiveness in mobile browser" />
   </component>
   <component name="WindowStateProjectService">
     <state x="715" y="344" key="#Notifications" timestamp="1609647276831">
@@ -546,10 +538,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617476412844" />
-    <state x="582" y="95" key="CommitChangelistDialog2" timestamp="1617489461621">
+    <state x="582" y="95" key="CommitChangelistDialog2" timestamp="1617495982378">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="582" y="95" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1617489461621" />
+    <state x="582" y="95" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1617495982378" />
     <state x="1214" y="278" key="FileChooserDialogImpl" timestamp="1608838435568">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -558,10 +550,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1609192969103" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1617489757498">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1617495988695">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1617489757498" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1617495988695" />
     <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1609192801994">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
