@@ -1,5 +1,7 @@
 #welcome-section {
     padding-top: 4em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
     background-color: #292b2c;
     color: white;
     height: 100vh;
@@ -22,7 +24,7 @@
     white-space: nowrap;
     border-radius:50%;
     text-align: center;
-    overflow:hidden;
+    overflow: hidden;
 }
 
 #photo-helper {

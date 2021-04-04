@@ -1,11 +1,19 @@
 footer {
     background-color: #292b2c;
     color: white;
+    height: 30vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
-footer div {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    height: 10vh;
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    color: white;
 }
