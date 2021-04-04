@@ -1,0 +1,19 @@
+#alpha-box {
+    background-color: rgba(244, 239, 34, 0.2);
+}
+
+#opacity-box {
+    background-color: rgba(244, 239, 34, 1);
+    opacity: 0.2;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    margin: 2em;
+}

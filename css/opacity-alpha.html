@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/opacity-alpha.css">
+    <title>Opacity & Alpha</title>
+</head>
+<body>
+    <h1>Opacity & Alpha</h1>
+    <p>
+        Alpha channel controls transparency of the background color.
+        It does not impact the transparency of the contents. The value of alpha channel is from 0 to 1
+        where 1 is no transparency and 0 is full transparency.
+    </p>
+    <div id="alpha-box" class="box">
+        This box has alpha channel of 0.2.
+    </div>
+    <p>
+        Opacity controls the transparency of all contents,
+        including the border (If there is one) and the child elements.
+    </p>
+    <div id="opacity-box" class="box">
+        This box has alpha opacity of 0.2.
+    </div>
+    <h3>HTML Code for This Page</h3>
+    <pre><code>
+        &lt;!DOCTYPE html&gt;
+        &lt;html lang="en"&gt;
+        &lt;head&gt;
+            &lt;meta charset="UTF-8"&gt;
+            &lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;
+            &lt;link rel="stylesheet" href="css/opacity-alpha.css"&gt;
+            &lt;title&gt;Opacity & Alpha&lt;/title&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+            &lt;h1&gt;Opacity & Alpha&lt;/h1&gt;
+            &lt;p&gt;
+                Alpha channel controls transparency of the background color.
+                It does not impact the transparency of the contents. The value of alpha channel is from 0 to 1
+                where 1 is no transparency and 0 is full transparency.
+            &lt;/p&gt;
+            &lt;div id="alpha-box" class="box"&gt;
+                This box has alpha channel of 0.2.
+            &lt;/div&gt;
+            &lt;p&gt;
+                Opacity controls the transparency of all contents,
+                including the border (If there is one) and the child elements.
+            &lt;/p&gt;
+            &lt;div id="opacity-box" class="box"&gt;
+                This box has alpha opacity of 0.2.
+            &lt;/div&gt;
+        &lt;/body&gt;
+        &lt;/html&gt;
+    </code></pre>
+    <h3>HTML Code for This Page</h3>
+    <pre><code>
+        #alpha-box {
+            background-color: rgba(244, 239, 34, 0.2);
+        }
+
+        #opacity-box {
+            background-color: rgba(244, 239, 34, 1);
+            opacity: 0.2;
+        }
+
+        .box {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid black;
+            width: 200px;
+            height: 200px;
+            margin: 2em;
+        }
+    </code></pre>
+</body>
+</html>
