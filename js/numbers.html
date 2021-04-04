@@ -2,9 +2,52 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Javascript Numbers</title>
 </head>
 <body>
-
+    <h1>Numbers in Javascript</h1>
+    <p>
+        Javascript has only one number type - no distinction between integers and decimals, for example.
+        Javascript has basic math operations and the tokens representing the basic arithmetic operations are
+        very similar to the ones found in other programming languages.
+    </p>
+    <ul>
+        <li>Addition: +</li>
+        <li>Subtraction: -</li>
+        <li>Multiplication: *</li>
+        <li>Division: /</li>
+        <li>Modulo: %</li>
+        <li>Raise to Power: **</li>
+    </ul>
+    <p>The order of operations is enforced</p>
+    <code><pre>
+        // The answer of the below operations is not 37. It's 27.
+        // 2 + (4 * 6) + 1
+        console.log(2 + 4 * 6 + 1);
+    </pre></code>
+    <p>
+        How do you know if a number is even or odd? Use modulo with 2.
+        If the remainder is 1, the number is odd. If the remainder is 0, the number is even.
+    </p>
+    <code><pre>
+        // The answer of the below operations is not 37. It's 27.
+        // 2 + (4 * 6) + 1
+        if(6 % 2 === 0) console.log('6 is even.');
+        if(5 % 2 === 1) console.log('5 is odd.');
+    </pre></code>
+    <p>You can raise a number to power using **.</p>
+    <code><pre>
+        console.log('2 to the 6th power is ' + 2 ** 6);
+    </pre></code>
+    <p>NaN: It stands for Not a Number. For example, 0 / 0 would result in NaN. NaN is considered a number type.</p>
+    <code><pre>
+        console.log('0 divided by 0 is ' + 0 / 0);
+    </pre></code>
+    <p>Infinity: 1 / 0 would result in infinity. Infinity is also considered a number type.</p>
+    <code><pre>
+        console.log('1 divided by 0 is ' + 1 / 0);
+    </pre></code>
+    <script type="text/javascript" src="js/numbers.js"></script>
 </body>
 </html>
