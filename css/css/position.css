@@ -1,0 +1,50 @@
+.box-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.box, .positioned-box {
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+}
+
+.box {
+    background-color: #429bf5;
+}
+
+.positioned-box {
+    background-color: #e5989b;
+}
+
+#static-box {
+    position: static;
+    top: 100px;
+}
+
+#relative-box {
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+#absolute-box-container {
+    position: relative;
+}
+
+#absolute-box {
+    position: absolute;
+    top: 50px;
+    left: 290px;
+}
+
+#fixed-box {
+    position: fixed;
+    top: 50px;
+    left: 50px;
+    z-index: -20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+}

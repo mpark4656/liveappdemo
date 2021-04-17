@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/position.css">
+    <title>Position</title>
+</head>
+<body>
+    <h1>Position</h1>
+    <p>
+        There are 5 positions. Position attribute can be used with top, right, bottom, left, and z-index except
+        the static position, which is not impacted.
+    </p>
+    <ul>
+        <li>static</li>
+        <li>relative</li>
+        <li>absolute</li>
+        <li>fixed</li>
+        <li>sticky</li>
+    </ul>
+    <p>
+        static is the default value for the position. All elements are static unless you specify different position
+        values
+    </p>
+    <h2>Static Position</h2>
+    <p>For static value, top, right, bottom, left, and z-index attributes have no impact.</p>
+    <div class="box-container">
+        <div class="box"></div>
+        <div id="static-box" class="positioned-box"></div>
+        <div class="box"></div>
+    </div>
+    <h2>Relative Position</h2>
+    <p>
+        top, right, bottom, left, and z-index will offset the element relative to itself. The middle box below
+        has been offset with the top and left attributes.
+    </p>
+    <div class="box-container">
+        <div class="box"></div>
+        <div id="relative-box" class="positioned-box"></div>
+        <div class="box"></div>
+    </div>
+    <h2>Absolute Position</h2>
+    <p>
+        The element is removed from the normal document flow (No space is created for it). It's position is relative
+        to the closest positioned ancestor (Closest element that is positioned except static).
+    </p>
+    <div id="absolute-box-container" class="box-container">
+        <div class="box"></div>
+        <div id="absolute-box" class="positioned-box"></div>
+        <div class="box"></div>
+    </div>
+    <h2>Fixed Position</h2>
+    <p>
+        The fixed element is removed from the normal document flow and no space is created for the element in the page.
+        It is positioned relative to the initial containing block established by the viewport, except when one of its
+        ancestors has a transform, perspective, or filter property set to something other than none. The final position
+        of a fixed element is determined by the values of top, right, bottom, and left.
+    </p>
+    <div id="fixed-box-container" class="box-container">
+        <div class="box"></div>
+        <div id="fixed-box" class="positioned-box">Fixed Position</div>
+        <div class="box"></div>
+    </div>
+    <h2>Sticky</h2>
+    <p>
+        Similar to fixed: It's not fixed when it's in a full view, but once you scroll past the element, it will
+        be fixed and "stick" to the containing block.
+    </p>
+    <h3>HTML Code for this Page</h3>
+    <pre><code>
+        &lt;!DOCTYPE html&gt;
+        &lt;html lang="en"&gt;
+        &lt;head&gt;
+            &lt;meta charset="UTF-8"&gt;
+            &lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;
+            &lt;link rel="stylesheet" href="css/position.css"&gt;
+            &lt;title&gt;Position&lt;/title&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+            &lt;h1&gt;Position&lt;/h1&gt;
+            &lt;p&gt;
+                There are 5 positions. Position attribute can be used with top, right, bottom, left, and z-index except
+                the static position, which is not impacted.
+            &lt;/p&gt;
+            &lt;ul&gt;
+                &lt;li&gt;static&lt;/li&gt;
+                &lt;li&gt;relative&lt;/li&gt;
+                &lt;li&gt;absolute&lt;/li&gt;
+                &lt;li&gt;fixed&lt;/li&gt;
+                &lt;li&gt;sticky&lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;p&gt;
+                static is the default value for the position. All elements are static unless you specify different position
+                values
+            &lt;/p&gt;
+            &lt;h2&gt;Static Position&lt;/h2&gt;
+            &lt;p&gt;For static value, top, right, bottom, left, and z-index attributes have no impact.&lt;/p&gt;
+            &lt;div class="box-container"&gt;
+                &lt;div class="box"&gt;&lt;/div&gt;
+                &lt;div id="static-box" class="positioned-box"&gt;&lt;/div&gt;
+                &lt;div class="box"&gt;&lt;/div&gt;
+            &lt;/div&gt;
+            &lt;h2&gt;Relative Position&lt;/h2&gt;
+            &lt;p&gt;
+                top, right, bottom, left, and z-index will offset the element relative to itself. The middle box below
+                has been offset with the top and left attributes.
+            &lt;/p&gt;
+            &lt;div class="box-container"&gt;
+                &lt;div class="box"&gt;&lt;/div&gt;
+                &lt;div id="relative-box" class="positioned-box"&gt;&lt;/div&gt;
+                &lt;div class="box"&gt;&lt;/div&gt;
+            &lt;/div&gt;
+            &lt;h2&gt;Absolute Position&lt;/h2&gt;
+            &lt;p&gt;
+                The element is removed from the normal document flow (No space is created for it). It's position is relative
+                to the closest positioned ancestor (Closest element that is positioned except static).
+            &lt;/p&gt;
+            &lt;div id="absolute-box-container" class="box-container"&gt;
+                &lt;div class="box"&gt;&lt;/div&gt;
+                &lt;div id="absolute-box" class="positioned-box"&gt;&lt;/div&gt;
+                &lt;div class="box"&gt;&lt;/div&gt;
+            &lt;/div&gt;
+            &lt;h2&gt;Fixed Position&lt;/h2&gt;
+            &lt;p&gt;
+                The fixed element is removed from the normal document flow and no space is created for the element in the page.
+                It is positioned relative to the initial containing block established by the viewport, except when one of its
+                ancestors has a transform, perspective, or filter property set to something other than none. The final position
+                of a fixed element is determined by the values of top, right, bottom, and left.
+            &lt;/p&gt;
+            &lt;div id="fixed-box-container" class="box-container"&gt;
+                &lt;div class="box"&gt;&lt;/div&gt;
+                &lt;div id="fixed-box" class="positioned-box"&gt;Fixed Position&lt;/div&gt;
+                &lt;div class="box"&gt;&lt;/div&gt;
+            &lt;/div&gt;
+            &lt;h2&gt;Sticky&lt;/h2&gt;
+            &lt;p&gt;
+                Similar to fixed: It's not fixed when it's in a full view, but once you scroll past the element, it will
+                be fixed and "stick" to the containing block.
+            &lt;/p&gt;
+            &lt;h3&gt;HTML Code for this Page&lt;/h3&gt;
+            &lt;pre&gt;&lt;code&gt;
+                
+            &lt;/code&gt;&lt;/pre&gt;
+        &lt;/body&gt;
+        &lt;/html&gt;
+    </code></pre>
+    <h3>HTML Code for this Page</h3>
+    <pre><code>
+        .box-container {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .box, .positioned-box {
+            width: 150px;
+            height: 150px;
+            margin: 5px;
+        }
+
+        .box {
+            background-color: #429bf5;
+        }
+
+        .positioned-box {
+            background-color: #e5989b;
+        }
+
+        #static-box {
+            position: static;
+            top: 100px;
+        }
+
+        #relative-box {
+            position: relative;
+            top: 50px;
+            left: 50px;
+        }
+
+        #absolute-box-container {
+            position: relative;
+        }
+
+        #absolute-box {
+            position: absolute;
+            top: 50px;
+            left: 290px;
+        }
+
+        #fixed-box {
+            position: fixed;
+            top: 50px;
+            left: 50px;
+            z-index: -20;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: gray;
+        }
+    </code></pre>
+</body>
+</html>
