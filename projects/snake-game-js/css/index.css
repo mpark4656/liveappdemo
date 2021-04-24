@@ -1,0 +1,39 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#board-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#game-over-message {
+    display: none;
+    color: red;
+}
+
+.board-row {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+.board-cell {
+    border: 1px black solid;
+    width: 50px;
+    height: 50px;
+}
+
+.empty {
+    background-color: white;
+}
+
+.snake {
+    background-color: green;
+}
+
+.food {
+    background-color: red;
+}
