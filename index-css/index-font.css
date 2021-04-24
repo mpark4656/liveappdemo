@@ -24,7 +24,7 @@ section ol a:visited {
     color: black;
 }
 
-section ol, section h1, section p {
+section ol, section h1, section h2, section p {
     font-family: 'Maven Pro', sans-serif;
 }
 

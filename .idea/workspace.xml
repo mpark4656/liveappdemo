@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb8c7c76-3401-44f5-bf95-d2ca4fa3a038" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/js/numbers.html" afterDir="false" />
+    <list default="true" id="eb8c7c76-3401-44f5-bf95-d2ca4fa3a038" name="Default Changelist" comment="Added a link for javascript number">
+      <change beforePath="$PROJECT_DIR$/.idea/html-intro.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/html-intro.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fcc/personal-portfolio/css/welcome-section.css" beforeDir="false" afterPath="$PROJECT_DIR$/fcc/personal-portfolio/css/welcome-section.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index-css/index-font.css" beforeDir="false" afterPath="$PROJECT_DIR$/index-css/index-font.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,9 +18,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -48,20 +49,21 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\mpark\Google Drive\Projects\web\liveappdemo\js\js" />
-      <recent name="C:\Users\mpark\Google Drive\Projects\web\liveappdemo\css\css" />
-      <recent name="C:\Users\mpark\Google Drive\Projects\web\liveappdemo\css" />
-      <recent name="C:\Users\mpark\Google Drive\Projects\web\liveappdemo\img" />
-      <recent name="C:\Users\mpark\Google Drive\Projects\web\liveappdemo\index-css" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mpark\Google Drive\Projects\web\liveappdemo\fcc\personal-portfolio\js" />
       <recent name="C:\Users\mpark\Google Drive\Projects\web\liveappdemo\jss" />
       <recent name="C:\Users\mpark\Google Drive\Projects\web\liveappdemo\css" />
       <recent name="C:\Users\mpark\Google Drive\Projects\web\liveappdemo\basic-html" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mpark\Google Drive\Projects\web\liveappdemo\projects" />
+      <recent name="C:\Users\mpark\Google Drive\Projects\web\liveappdemo\proj" />
+      <recent name="C:\Users\mpark\Google Drive\Projects\web\liveappdemo\css" />
+      <recent name="C:\Users\mpark\Google Drive\Projects\web\liveappdemo\js\js" />
+      <recent name="C:\Users\mpark\Google Drive\Projects\web\liveappdemo\css\css" />
+    </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
+  <component name="RunManager" selected="JavaScript Debug.index.html (3)">
     <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/liveappdemo/fcc/tribute/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -79,11 +81,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html (3)" />
         <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.index.html (4)" />
         <item itemvalue="JavaScript Debug.index.html (1)" />
         <item itemvalue="JavaScript Debug.index.html (2)" />
-        <item itemvalue="JavaScript Debug.index.html (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -154,77 +156,15 @@
       <workItem from="1617328682266" duration="595000" />
       <workItem from="1617460901967" duration="36635000" />
       <workItem from="1617508088757" duration="2332000" />
-      <workItem from="1617553451710" duration="641000" />
-    </task>
-    <task id="LOCAL-00035" summary="Completed Survey project">
-      <created>1608925996122</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1608925996122</updated>
-    </task>
-    <task id="LOCAL-00036" summary="Added link to the survey project">
-      <created>1608926242132</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1608926242132</updated>
-    </task>
-    <task id="LOCAL-00037" summary="Added link to the survey project">
-      <created>1608926822515</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1608926822515</updated>
-    </task>
-    <task id="LOCAL-00038" summary="Changed look &amp; feel">
-      <created>1608931278035</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1608931278035</updated>
-    </task>
-    <task id="LOCAL-00039" summary="New wallpaper">
-      <created>1608931404517</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1608931404517</updated>
-    </task>
-    <task id="LOCAL-00040" summary="Fixed minor font color in section">
-      <created>1608931611505</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1608931611505</updated>
-    </task>
-    <task id="LOCAL-00041" summary="Fixed minor font color in section">
-      <created>1608931652088</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1608931652088</updated>
-    </task>
-    <task id="LOCAL-00042" summary="Minor Changes">
-      <created>1608932853354</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1608932853354</updated>
-    </task>
-    <task id="LOCAL-00043" summary="Minor responsiveness change">
-      <created>1608933794117</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1608933794117</updated>
-    </task>
-    <task id="LOCAL-00044" summary="Added code snippets">
-      <created>1608942653998</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1608942653998</updated>
+      <workItem from="1617553451710" duration="7913000" />
+      <workItem from="1617577645096" duration="7000" />
+      <workItem from="1617577999001" duration="69000" />
+      <workItem from="1618543050088" duration="2202000" />
+      <workItem from="1618617819398" duration="5720000" />
+      <workItem from="1618677516833" duration="1216000" />
+      <workItem from="1619229286064" duration="828000" />
+      <workItem from="1619231537579" duration="2832000" />
+      <workItem from="1619277048482" duration="467000" />
     </task>
     <task id="LOCAL-00045" summary="Added a link to the third responsive webpage project">
       <created>1608942778217</created>
@@ -499,23 +439,83 @@
       <option name="project" value="LOCAL" />
       <updated>1617496254729</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="Added animation to personal profile and started JS numbers">
+      <created>1617554433898</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1617554433898</updated>
+    </task>
+    <task id="LOCAL-00085" summary="Changed some animations">
+      <created>1617557440363</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1617557440363</updated>
+    </task>
+    <task id="LOCAL-00086" summary="Finished Javascript number">
+      <created>1617557766760</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1617557766760</updated>
+    </task>
+    <task id="LOCAL-00087" summary="Added a link for javascript number">
+      <created>1617557787719</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1617557787720</updated>
+    </task>
+    <task id="LOCAL-00088" summary="Fixed a small issue">
+      <created>1617558240331</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1617558240331</updated>
+    </task>
+    <task id="LOCAL-00089" summary="Added opacity &amp; alpha channels">
+      <created>1617561937797</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1617561937797</updated>
+    </task>
+    <task id="LOCAL-00090" summary="Fixed one small mistake">
+      <created>1617561984973</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1617561984973</updated>
+    </task>
+    <task id="LOCAL-00091" summary="Added CSS - Position">
+      <created>1618638509492</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1618638509493</updated>
+    </task>
+    <task id="LOCAL-00092" summary="Added javascript variable">
+      <created>1618639638700</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1618639638700</updated>
+    </task>
+    <task id="LOCAL-00093" summary="Added const.js">
+      <created>1619234057651</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1619234057651</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Minor fixes" />
-    <MESSAGE value="Added viewport meta to index pages" />
-    <MESSAGE value="Fixed the position of dropdown menu items" />
-    <MESSAGE value="Changed readme" />
-    <MESSAGE value="Minor change" />
-    <MESSAGE value="Ran HTML5 Validator and fixed minor errors" />
-    <MESSAGE value="Added important keyword" />
-    <MESSAGE value="Added box model intro" />
-    <MESSAGE value="Completed the introduction of the box model" />
-    <MESSAGE value="Added css file for box padding." />
     <MESSAGE value="Added HTML file for box padding." />
     <MESSAGE value="Added link to box padding" />
     <MESSAGE value="Started Technical Documentation Page project" />
@@ -531,37 +531,39 @@
     <MESSAGE value="Completed Personal Portfolio" />
     <MESSAGE value="Improved responsiveness in mobile browser" />
     <MESSAGE value="Fix for FreeCodeComp testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix for FreeCodeComp testing" />
+    <MESSAGE value="Added animation to personal profile and started JS numbers" />
+    <MESSAGE value="Changed some animations" />
+    <MESSAGE value="Finished Javascript number" />
+    <MESSAGE value="Added a link for javascript number" />
+    <MESSAGE value="Fixed a small issue" />
+    <MESSAGE value="Added opacity &amp; alpha channels" />
+    <MESSAGE value="Fixed one small mistake" />
+    <MESSAGE value="Added CSS - Position" />
+    <MESSAGE value="Added javascript variable" />
+    <MESSAGE value="Added const.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added const.js" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="715" y="344" key="#Notifications" timestamp="1609647276831">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="715" y="344" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1609647276831" />
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1617476412844">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617476412844" />
-    <state x="582" y="95" key="CommitChangelistDialog2" timestamp="1617496253966">
+    <state x="582" y="95" key="CommitChangelistDialog2" timestamp="1619234056828">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="582" y="95" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1617496253966" />
-    <state x="1214" y="278" key="FileChooserDialogImpl" timestamp="1608838435568">
+    <state x="582" y="95" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1619234056828" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1619234666487">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1214" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1608838435568" />
-    <state x="461" y="165" key="SettingsEditor" timestamp="1609192969103">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1619234666487" />
+    <state x="720" y="222" key="RollbackChangesDialog" timestamp="1619234039435">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1609192969103" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1617496259860">
+    <state x="720" y="222" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1619234039434" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1619234066039">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1617496259860" />
-    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1609192801994">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1609192801994" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1619234066039" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1617462914630">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
