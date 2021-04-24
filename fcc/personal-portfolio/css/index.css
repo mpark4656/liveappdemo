@@ -62,4 +62,5 @@ i {
 
 .linkedin-link:hover, .profile-link:hover, .email-link:hover, .phone-link:hover {
     padding: 10px;
+    margin: 0;
 }
