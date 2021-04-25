@@ -1,0 +1,52 @@
+section {
+    width: 100%;
+}
+
+section div {
+    margin: 20px auto;
+    width: 200px;
+    border: 5px black solid;
+    padding: 10px;
+    text-align: center;
+}
+
+section div:nth-of-type(3n) {
+    background-color: cadetblue;
+}
+
+section div:nth-of-type(3n-2) {
+    background-color: #e5989b;
+}
+
+section div:nth-of-type(3n-1) {
+    background-color: coral;
+}
+
+section div:nth-of-type(1) {
+    transform-origin: top right;
+    transform: rotate(20deg);
+}
+
+section div:nth-of-type(2) {
+    transform: scale(0.7);
+}
+
+section div:nth-of-type(3) {
+    transform: translateX(200px);
+}
+
+section div:nth-of-type(4) {
+    transform: translate(-200px, -40px);
+}
+
+section div:nth-of-type(5) {
+    transform: skew(30deg);
+}
+
+section div:nth-of-type(6) {
+    transform: skew(10deg, 5deg);
+}
+
+section div:nth-of-type(7) {
+    transform: rotate(40deg) translateX(-300px) skew(10deg, 5deg) scale(1.3);
+}
