@@ -1,0 +1,37 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+#input-section {
+    margin: 2em auto;
+    display: flex;
+    flex-direction: row;
+}
+
+    #input-section input, #input-section label {
+        margin: 0 1em;
+    }
+
+#message {
+    margin: 2em auto;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.passed {
+    color: green;
+}
+
+.failed {
+    color: red;
+}
+
+#eye-icon:hover {
+    cursor: pointer;
+}

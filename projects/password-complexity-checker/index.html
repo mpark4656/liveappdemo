@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+    <title>Password Complexity Checker</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <main>
+        <h1>Enter your password</h1>
+        <section id="input-section">
+            <label for="password-input">Password:</label>
+            <input type="password" id="password-input" required><i id="eye-icon" class="far fa-eye-slash"></i>
+        </section>
+        <section>
+            <button id="check-password-btn">Check Password</button>
+            <button id="reset-btn">Reset</button>
+        </section>
+
+        <ul id="message" class="hidden">
+        </ul>
+    </main>
+    <script src="https://kit.fontawesome.com/8d95f8aabd.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/password-visibility.js"></script>
+    <script type="module" src="js/index.js"></script>
+</body>
+</html>
