@@ -1,0 +1,39 @@
+.circle {
+    border-radius: 50%;
+    background-color: pink;
+    width: 150px;
+    height: 150px;
+    transition: background-color 1s 1s;
+}
+
+.circle:hover {
+    background-color: cyan;
+}
+
+.square {
+    width: 70px;
+    height: 70px;
+    background-color: blue;
+    margin: 10px;
+    transition: margin-left 3s;
+}
+
+#square-container:hover .square {
+    margin-left: 500px;
+}
+
+.square:nth-of-type(1) {
+    transition-timing-function: ease-in;
+}
+
+.square:nth-of-type(2) {
+    transition-timing-function: ease-out;
+}
+
+.square:nth-of-type(3) {
+    transition-timing-function: cubic-bezier(0.7, 0, 0.84, 0);
+}
+
+.square:nth-of-type(4) {
+    transition-timing-function: cubic-bezier(0.85, 0, 0.15, 1);
+}
