@@ -4,19 +4,21 @@
     <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
     <title>Password Complexity Checker</title>
     <link rel="stylesheet" href="css/index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap" rel="stylesheet">
 </head>
 <body>
     <main>
-        <h1>Enter your password</h1>
+        <h1>Enter the Password</h1>
         <section id="input-section">
             <label for="password-input">Password:</label>
-            <input type="password" id="password-input" required><i id="eye-icon" class="far fa-eye-slash"></i>
+            <input type="password" id="password-input"><i id="eye-icon" class="far fa-eye-slash"></i>
         </section>
         <section>
             <button id="check-password-btn">Check Password</button>
             <button id="reset-btn">Reset</button>
+            <i class="far fa-times-square"></i>
         </section>
-
         <ul id="message" class="hidden">
         </ul>
     </main>

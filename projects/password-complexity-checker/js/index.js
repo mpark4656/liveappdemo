@@ -9,6 +9,10 @@ const HIDDEN_CLASS_NAME = "hidden";
 const FAILED_CLASS_NAME = "failed";
 const PASSED_CLASS_NAME = "passed";
 
+const ICON_BASE_CLASS_NAME = "far";
+const ICON_PASSED_CLASS_NAME = "fa-check-circle";
+const ICON_FAILED_CLASS_NAME = "fa-times-circle";
+
 let pwc = new PasswordChecker();
 pwc
     .setMinimumLength(12)
@@ -29,10 +33,20 @@ document.getElementById(SUBMIT_BUTTON_ID).addEventListener("click", function(eve
 
     for(let i = 0; i < results.length; i++) {
         let listItem = document.createElement("li");
-        listItem.innerText = results[i][1];
+        let iconElement = document.createElement("i");
+        iconElement.classList.add(ICON_BASE_CLASS_NAME);
 
-        if(results[i][0] === "passed") listItem.classList.add(PASSED_CLASS_NAME);
-        if(results[i][0] === "failed") listItem.classList.add(FAILED_CLASS_NAME);
+        if(results[i][0] === "passed") {
+            listItem.classList.add(PASSED_CLASS_NAME);
+            iconElement.classList.add(ICON_PASSED_CLASS_NAME);
+        }
+        if(results[i][0] === "failed") {
+            listItem.classList.add(FAILED_CLASS_NAME);
+            iconElement.classList.add(ICON_FAILED_CLASS_NAME);
+        }
+        let textNode = document.createTextNode(results[i][1]);
+        listItem.appendChild(iconElement);
+        listItem.appendChild(textNode);
         messageList.appendChild(listItem);
     }
     messageList.classList.remove(HIDDEN_CLASS_NAME);
