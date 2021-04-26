@@ -4,6 +4,10 @@ main {
     align-items: center;
 }
 
+h1 {
+    font-family: 'Anonymous Pro', monospace;
+}
+
 #button-section {
     margin-top: 2em;
     display: flex;
