@@ -4,6 +4,27 @@ main {
     align-items: center;
 }
 
+#button-section {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: row;
+}
+
+#button-section button {
+    margin: 0 1em;
+    padding: 0.5em 1em;
+    background: none;
+    border: 1px gray solid;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+#button-section button:hover {
+    cursor: pointer;
+    transform: translateY(-0.1em);
+    box-shadow: 0 2px 5px gray;
+}
+
 #board-container {
     display: flex;
     flex-direction: column;
@@ -21,7 +42,7 @@ main {
 }
 
 .board-cell {
-    border: 1px black solid;
+    border: 1px gray solid;
     width: 50px;
     height: 50px;
 }
@@ -32,8 +53,18 @@ main {
 
 .snake {
     background-color: green;
+    border-radius: 20%;
+}
+
+.snake-head {
+    border-radius: 50%;
+}
+
+.snake-tail {
+    background-color: darkgreen;
 }
 
 .food {
-    background-color: red;
+    background-color: gold;
+    border-radius: 50%;
 }

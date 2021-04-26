@@ -5,13 +5,20 @@ export class Game {
     #board;
     #boardSize;
     #snake;
-    #snakeDirection;
     #foodPosition;
 
-    constructor(board_size = 8, initialSnakePositions, snakeDirection = SnakeDirection.RIGHT) {
+    constructor(board_size, initialSnakePositions, initialSnakeDirection) {
+        this.resetGame(board_size, initialSnakePositions, initialSnakeDirection);
+    }
+
+    resetGame(
+        board_size = 10,
+        initialSnakePositions = [[4, 5], [4, 4], [4, 3], [4, 2], [4, 1]],
+        initialSnakeDirection = SnakeDirection.RIGHT
+    )
+    {
         this.#boardSize = board_size;
-        this.#snakeDirection = snakeDirection;
-        this.#snake = new Snake(initialSnakePositions);
+        this.#snake = new Snake(initialSnakePositions, initialSnakeDirection);
         this.#initBoard();
         this.#replaceSnake(this.#snake.getPositions);
         this.#createFood();
@@ -54,11 +61,7 @@ export class Game {
     }
 
     set setSnakeDirection(snakeDirection) {
-        if(snakeDirection === SnakeDirection.DOWN && this.#snakeDirection === SnakeDirection.UP) return;
-        if(snakeDirection === SnakeDirection.UP && this.#snakeDirection === SnakeDirection.DOWN) return;
-        if(snakeDirection === SnakeDirection.LEFT && this.#snakeDirection === SnakeDirection.RIGHT) return;
-        if(snakeDirection === SnakeDirection.RIGHT && this.#snakeDirection === SnakeDirection.LEFT) return;
-        this.#snakeDirection = snakeDirection;
+        this.#snake.setDirection = snakeDirection;
     }
 
     #createFood() {
@@ -76,7 +79,7 @@ export class Game {
     }
 
     moveSnake() {
-        let newPositions = this.#snake.move(this.#snakeDirection);
+        let newPositions = this.#snake.move();
 
         if(!this.#isOffBoard() && !this.#isRecentMoveInvalid()) {
             this.#replaceSnake(newPositions);
@@ -86,6 +89,14 @@ export class Game {
             this.#snake.grow();
             this.#createFood();
         }
+    }
+
+    getSnakeHeadPosition() {
+        return this.#snake.getHeadPosition();
+    }
+
+    getSnakeTailPosition() {
+        return this.#snake.getTailPosition();
     }
 
     isGameOver() {
