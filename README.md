@@ -2,8 +2,13 @@
 URL: https://liveappdemo.com
 
 ## Description
-Compilation of my personal HTML/CSS/JS practice files and personal projects.
-I got my project ideas from various sources such as FreeCodeCamp and Udemy.
+A compilation of my HTML/CSS/JS practice files and personal projects.
+Some of the project ideas are from various sources such as FreeCodeCamp and Udemy.
+Other project ideas are personal.
+
+## Personal Portfolio
+My personal portfolio is hosted on the same domain.
+Click [here](https://liveappdemo.com/projects/fcc/personal-portfolio/index.html)
 
 ## Languages
 * HTML
