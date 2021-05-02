@@ -5,13 +5,13 @@ export const CellContent = Object.freeze({
 })
 
 export class Cell {
-    #cellContent = CellContent.EMPTY;
+    cellContent = CellContent.EMPTY;
 
     set setCellContent(cellContent) {
-        this.#cellContent = cellContent;
+        this.cellContent = cellContent;
     }
 
     get getCellContent() {
-        return this.#cellContent;
+        return this.cellContent;
     }
 }
