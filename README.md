@@ -8,7 +8,7 @@ Other project ideas are personal.
 
 ## Personal Portfolio
 My personal portfolio is hosted on the same domain.
-Click [here](https://liveappdemo.com/projects/fcc/personal-portfolio/index.html)
+Click [here](https://liveappdemo.com/projects/fcc/personal-portfolio/index.html).
 
 ## Languages
 * HTML
