@@ -4,13 +4,49 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb8c7c76-3401-44f5-bf95-d2ca4fa3a038" name="Default Changelist" comment="Attempt to fix js modules not working in mobile">
-      <change afterPath="$PROJECT_DIR$/js/js/string.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/string.html" afterDir="false" />
+    <list default="true" id="eb8c7c76-3401-44f5-bf95-d2ca4fa3a038" name="Default Changelist" comment="Minor fix">
+      <change afterPath="$PROJECT_DIR$/projects/photo-blog/css/img.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/photo-blog/css/nav.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/photo-blog/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/password-complexity-checker/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/projects/password-complexity-checker/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/password-complexity-checker/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/password-complexity-checker/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fcc/personal-portfolio/css/about.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fcc/personal-portfolio/css/footer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fcc/personal-portfolio/css/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fcc/personal-portfolio/css/navbar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fcc/personal-portfolio/css/projects.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fcc/personal-portfolio/css/resume.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fcc/personal-portfolio/css/welcome-section.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fcc/personal-portfolio/img/codecomp.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fcc/personal-portfolio/img/gradebook.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fcc/personal-portfolio/img/houserentingsystem.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fcc/personal-portfolio/img/liveappdemo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fcc/personal-portfolio/img/parkodu.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fcc/personal-portfolio/img/portrait.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fcc/personal-portfolio/img/smproject.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fcc/personal-portfolio/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fcc/personal-portfolio/js/activate-nav-link.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fcc/personal-portfolio/js/fontawesome.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fcc/personal-portfolio/js/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fcc/product-landing-page/css/index-appearance.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fcc/product-landing-page/css/index-font.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fcc/product-landing-page/css/index-layout.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fcc/product-landing-page/img/company-logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fcc/product-landing-page/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fcc/product-landing-page/js/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fcc/survey/css/index-appearance.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fcc/survey/css/index-font.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fcc/survey/css/index-layout.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fcc/survey/img/wallpaper.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fcc/survey/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fcc/technical-documentation/css/index-appearance.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fcc/technical-documentation/css/index-font.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fcc/technical-documentation/css/index-layout.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fcc/technical-documentation/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fcc/tribute/css/index-font.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fcc/tribute/css/index-layout.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fcc/tribute/img/alan-turing.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fcc/tribute/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,9 +56,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -57,12 +93,6 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\mpark\Google Drive\Projects\web\liveappdemo\fcc\personal-portfolio\js" />
-      <recent name="C:\Users\mpark\Google Drive\Projects\web\liveappdemo\jss" />
-      <recent name="C:\Users\mpark\Google Drive\Projects\web\liveappdemo\css" />
-      <recent name="C:\Users\mpark\Google Drive\Projects\web\liveappdemo\basic-html" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\mpark\Google Drive\Projects\web\liveappdemo\projects" />
       <recent name="C:\Users\mpark\Google Drive\Projects\web\liveappdemo\proj" />
@@ -70,9 +100,18 @@
       <recent name="C:\Users\mpark\Google Drive\Projects\web\liveappdemo\js\js" />
       <recent name="C:\Users\mpark\Google Drive\Projects\web\liveappdemo\css\css" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mpark\Google Drive\Projects\web\liveappdemo\fcc\personal-portfolio\js" />
+      <recent name="C:\Users\mpark\Google Drive\Projects\web\liveappdemo\jss" />
+      <recent name="C:\Users\mpark\Google Drive\Projects\web\liveappdemo\css" />
+      <recent name="C:\Users\mpark\Google Drive\Projects\web\liveappdemo\basic-html" />
+    </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html (5)">
-    <configuration name="index.html (3)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/liveappdemo/projects/index.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.index.html (2)">
+    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/liveappdemo/projects/photo-blog/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/liveappdemo/projects/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="index.html (4)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/liveappdemo/fcc/product-landing-page/index.html" useBuiltInWebServerPort="true">
@@ -84,16 +123,13 @@
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/liveappdemo/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="string.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js/js/string.js" working-dir="$PROJECT_DIR$/js/js">
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.index.html (5)" />
-        <item itemvalue="Node.js.string.js" />
-        <item itemvalue="JavaScript Debug.index.html (3)" />
+        <item itemvalue="JavaScript Debug.index.html (2)" />
+        <item itemvalue="JavaScript Debug.index.html (1)" />
         <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.index.html (4)" />
+        <item itemvalue="JavaScript Debug.index.html (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -180,21 +216,8 @@
       <workItem from="1619489290041" duration="91000" />
       <workItem from="1619742948587" duration="2155000" />
       <workItem from="1619821721615" duration="1243000" />
-      <workItem from="1619914770931" duration="3896000" />
-    </task>
-    <task id="LOCAL-00069" summary="Added link to box padding">
-      <created>1616268941543</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1616268941543</updated>
-    </task>
-    <task id="LOCAL-00070" summary="Started Technical Documentation Page project">
-      <created>1616276355282</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1616276355282</updated>
+      <workItem from="1619914770931" duration="5224000" />
+      <workItem from="1619962774911" duration="5052000" />
     </task>
     <task id="LOCAL-00071" summary="Added link to technical documentation project">
       <created>1616276375241</created>
@@ -525,15 +548,27 @@
       <option name="project" value="LOCAL" />
       <updated>1619924197794</updated>
     </task>
-    <option name="localTasksCounter" value="118" />
+    <task id="LOCAL-00118" summary="Fixes">
+      <created>1619925308459</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1619925308459</updated>
+    </task>
+    <task id="LOCAL-00119" summary="Minor fix">
+      <created>1619926024679</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1619926024679</updated>
+    </task>
+    <option name="localTasksCounter" value="120" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fixed one small mistake" />
-    <MESSAGE value="Added CSS - Position" />
     <MESSAGE value="Added javascript variable" />
     <MESSAGE value="Added const.js" />
     <MESSAGE value="Added a personal javascript project" />
@@ -557,17 +592,19 @@
     <MESSAGE value="Reversing changes that didn't work" />
     <MESSAGE value="Minor change" />
     <MESSAGE value="Removed private variables and methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed private variables and methods" />
+    <MESSAGE value="Fixes" />
+    <MESSAGE value="Minor fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Minor fix" />
   </component>
   <component name="WindowStateProjectService">
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1617476412844">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617476412844" />
-    <state x="582" y="95" key="CommitChangelistDialog2" timestamp="1619924196852">
+    <state x="582" y="95" key="CommitChangelistDialog2" timestamp="1619971181142">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="582" y="95" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1619924196852" />
+    <state x="582" y="95" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1619971181142" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1619827632926">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -644,10 +681,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1619310612017" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1619924400280">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1619962791934">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1619924400280" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1619962791934" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1617462914630">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
