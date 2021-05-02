@@ -1,0 +1,67 @@
+header ul, footer ul, #dropdown-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#nav-bar {
+    background: white;
+}
+
+.nav-link {
+    padding: 15px 20px;
+    border: 1px gray solid;
+    border-radius: 4px;
+}
+
+#dropdown-list, #hamburger-link {
+    display: none;
+}
+
+.dropdown-item a {
+    padding: 20px;
+    background: rgb(217, 215, 215);
+}
+
+.dropdown-item a:hover {
+    background: white;
+}
+
+#header-title {
+    text-align: center;
+}
+
+#form input[type="email"] {
+    border: 1px gray solid;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+#submit, .card-button {
+    border-radius: 1px;
+    background: rgb(234, 203, 26);
+    border: none;
+    padding: 10px 20px;
+}
+
+.card {
+    padding: 2em;
+}
+
+.card-description {
+    text-align: center;
+}
+
+footer {
+    background: rgb(244, 232, 162);
+    padding-top: 1em;
+}
+
+@media (max-width: 1024px) {
+    #hamburger-link {
+        display: block;
+    }
+
+    #navbar-list {
+        display: none;
+    }
+}

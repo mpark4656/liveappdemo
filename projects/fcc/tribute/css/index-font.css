@@ -1,0 +1,24 @@
+time {
+    font-weight: bold;
+}
+
+#title {
+    font-family: 'Patua One', cursive;
+}
+
+main {
+    font-family: 'Nunito', sans-serif;
+}
+
+blockquote {
+    font-style: italic;
+}
+
+blockquote > span {
+    font-style: normal;
+}
+
+footer {
+    font-weight: bold;
+    margin-bottom: 30px;
+}

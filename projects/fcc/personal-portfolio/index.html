@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Michael Park</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/welcome-section.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/projects.css">
+    <link rel="stylesheet" href="css/resume.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@200;400&family=Passion+One&family=Righteous&display=swap"
+          rel="stylesheet">
+</head>
+<body>
+    <nav id="navbar" class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand">Michael Park</a>
+            <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="#about">About Me</a>
+                    <a class="nav-link" href="#projects">Projects</a>
+                    <a class="nav-link" href="#resume">Resume</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section id="welcome-section">
+        <div id="photo-area"><span id="photo-helper"></span><img src="img/portrait.jpg" alt="My Photo"></div>
+        <h1 class="header-underline-white">Michael H. Park</h1>
+        <p>Junior Software Developer in Yorktown, VA</p>
+        <p>
+            <a class="linkedin-link"
+               href="https://www.linkedin.com/in/mpark4656"
+               target="_blank"
+               rel="noopener noreferrer"
+               title="My LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a id="profile-link"
+               class="profile-link"
+               href="https://github.com/mpark4656"
+               target="_blank"
+               rel="noopener noreferrer"
+               title="My GitHub"><i class="fab fa-github"></i></a>
+            <a class="email-link"
+               href="mailto:mpark4656@gmail.com"
+               title="My Email: mpark4656@gmail.com"><i class="far fa-envelope"></i></a>
+            <a class="phone-link"
+               href="tel:757-602-7550"
+               title="My Phone: (757) 602-7550"><i class="fas fa-phone-alt"></i></a>
+        </p>
+    </section>
+    <section id="about" class="container scroll-section">
+        <div class="row justify-content-center">
+            <h1 class="header-underline-blue">About Me</h1>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-md">
+                <h2>Background</h2>
+                <p>
+                    I graduated from Old Dominion University with a bachelor's degree in Computer Science in 2018 and
+                    I am currently pursuing a master's degree in computer science at the same university.
+                    I have experience in web programming and database programming. While I enjoy solving
+                    difficult programming challenges and learning advanced computer science concepts, I'm most excited
+                    to build applications to solve real-world problems and to enhance business processes through
+                    software solutions.
+                </p>
+                <p>
+                    I enjoy learning new things. I like to teach myself new technology tools in my spare time by
+                    watching online videos, reading tutorials and programming books. So far, I have been programming
+                    mostly on my own and have limited professional experience, but I'd love the opportunity to
+                    work with other developers to build cool things.
+                </p>
+            </div>
+            <div class="col-md">
+                <h2>Interests</h2>
+                <ul>
+                    <li>Object-Oriented Programming</li>
+                    <li>Data Structure</li>
+                    <li>Algorithm</li>
+                    <li>Database</li>
+                    <li>MVC</li>
+                    <li>Back-end Development</li>
+                    <li>Front-end Development</li>
+                    <li>Unit Testing</li>
+                    <li>API Services</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="projects" class="scroll-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <h1 class="header-underline-blue">Projects</h1>
+                <p id="header-desc">My past and current on-going projects are listed.</p>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-xl-4">
+                    <a href="https://github.com/mpark4656/HouseRentingSystem">
+                        <card class="card project-tile">
+                            <div class="card-header">
+                                <h5 class="card-title">House Rental System</h5>
+                            </div>
+                            <div class="card-body">
+                                <img src="img/houserentingsystem.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-footer">
+                                <p class="card-text">
+                                    A web application built with Java EE to allow home owners and renters
+                                    to exchange information effectively. This project is not yet finished and I'm
+                                    currently working on it.
+                                </p>
+                            </div>
+                        </card>
+                    </a>
+                    <a href="https://github.com/mpark4656/CodeComp">
+                        <card class="card project-tile">
+                            <div class="card-header">
+                                <h5 class="card-title">CodeComp</h5>
+                            </div>
+                            <div class="card-body">
+
+                                <img src="img/codecomp.jpg" class="card-img-top" alt="...">
+
+                            </div>
+                            <div class="card-footer">
+                                <p class="card-text">
+                                    This was a school project in CS350. I worked with 2 other teammates to build a
+                                    command-line tool that parses and tokenizes multiple code submissions and detect
+                                    possible copying or cheating.
+                                </p>
+                            </div>
+                        </card>
+                    </a>
+                </div>
+                <div class="col-xl-4">
+                    <a href="https://github.com/mpark4656/ParkODU">
+                        <card class="card project-tile">
+                            <div class="card-header">
+                                <h5 class="card-title">ParkODU</h5>
+                            </div>
+                            <div class="card-body">
+                                <img src="img/parkodu.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-footer">
+                                <p class="card-text">
+                                    This was my senior school project. This web application was built with Java Spring
+                                    Boot, Thymeleaf, and MongoDB to process parking usage data and predict parking
+                                    availability at certain times of the day.
+                                </p>
+                            </div>
+                        </card>
+                    </a>
+                    <a href="https://github.com/mpark4656/SMProject">
+                        <card class="card project-tile">
+                            <div class="card-header">
+                                <h5 class="card-title">SM Manager</h5>
+                            </div>
+                            <div class="card-body">
+                                <img src="img/smproject.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-footer">
+                                <p class="card-text">
+                                    This is a standalone desktop application written in C# that allows a help desk
+                                    user to manage tickets. I actually used this tool when I was working at NMCI
+                                    Service Desk many years ago.
+                                </p>
+                            </div>
+                        </card>
+                    </a>
+                </div>
+                <div class="col-xl-4">
+                    <a href="https://github.com/mpark4656/LiveAppDemo">
+                        <card class="card project-tile">
+                            <div class="card-header">
+                                <h5 class="card-title">Personal Web Programming Guides</h5>
+                            </div>
+                            <div class="card-body">
+                                <img src="img/liveappdemo.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-footer">
+                                <p class="card-text">
+                                    This is a personal compilation of web programming practices that I've created
+                                    from watching online tutorial videos from various sources, including Udemy. I've
+                                    also included personal web project challenges from FreeCodeCamp.
+                                </p>
+                            </div>
+                        </card>
+                    </a>
+                    <a href="https://github.com/mpark4656/GradeBook">
+                        <card class="card project-tile">
+                            <div class="card-header">
+                                <h5 class="card-title">Gradebook</h5>
+                            </div>
+                            <div class="card-body">
+                                <img src="img/gradebook.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-footer">
+                                <p class="card-text">
+                                    I recently started another web application project, this time using ASP.NET.
+                                    Gradebook is a course management system to be used by instructors to track
+                                    attendance and student grades.
+                                </p>
+                            </div>
+                        </card>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="resume" class="container scroll-section">
+        <div class="row justify-content-center">
+            <h1 class="header-underline-blue">Resume</h1>
+            <h2>MICHAEL H. PARK</h2>
+            <p>
+                Email: mpark4656@gmail.com<br>
+                Phone: (757) 602-7550
+            </p>
+            <hr>
+            <h2>Objective</h2>
+            <p>
+                Motivated Computer Science graduate with fundamental knowledge of software design, development,
+                and testing. Seeking to utilize broad educational background with excellent analytical, technical,
+                and programming skills to thrive as an entry-level software developer.
+            </p>
+            <hr>
+            <h2>Education</h2>
+            <p>
+                <strong>Old Dominion University, Norfolk, VA</strong><br>
+                Bachelor of Science in Computer Science - Graduated May 2018<br>
+                Honors: Magna Cum Laude (GPA: 3.74/4.0)<br>
+                <strong>Revelant Coursework: </strong>Programming and Problem Solving in C++, Object-Oriented
+                Program Design, Introduction to Software Engineering, Advanced Data Structures / Algorithms,
+                Database Concepts, Website and Webpage Design, App Development for Smart Devices
+            </p>
+            <p>
+                <strong>Old Dominion University, Norfolk, VA</strong><br>
+                Master of Science in Computer Science - Expected Graduation: May 2023<br>
+            </p>
+            <hr>
+            <h2>Work Experience</h2>
+            <p>
+                <strong>OLD DOMINION UNIVERSITY, NORFOLK, VA</strong><br>
+                <strong>Information System Coordinator - April 2019 ~ Present</strong>
+            </p>
+            <h3>Duties and Responsibilities</h3>
+            <ul>
+                <li>Provide desktop support to Auxiliary Business Services</li>
+                <li>Consult with customers to identify their department’s IT needs and provide appropriate solutions</li>
+                <li>Manage critical applications and servers</li>
+                <li>Develop custom webpages and Oracle procedures and triggers</li>
+                <li>Use SQL to generate custom reports</li>
+            </ul>
+            <h3>Achievements</h3>
+            <ul>
+                <li>Developed a web-based temporary card issuance system for residence halls</li>
+                <li>
+                    Automated the process of disabling electronic door access for
+                    students and employees who were separated
+                </li>
+                <li>
+                    Programed various meal plans and enhanced the web portal for meal and stored-value credit plan sales
+                    to provide students and Faculty/Staff with more on-campus meal options
+                </li>
+            </ul>
+            <p>
+                <strong>LEGERITY LLC, VIRGINIA BEACH, VA</strong><br>
+                <strong>Junior PEGA Developer - July 2018 ~ April 2019</strong>
+            </p>
+            <h3>Duties and Responsibilities</h3>
+            <ul>
+                <li>
+                    Work as a part of a 5-member team to update Anthem’s automated claims adjudication application
+                </li>
+                <li>
+                    Refactor existing PEGA workflows and rules
+                </li>
+                <li>
+                    Obtain a solid understanding of software development by creating,
+                    testing, and deploying new PEGA rules
+                </li>
+                <li>Employ best software development practices</li>
+            </ul>
+            <h3>Achievements</h3>
+            <ul>
+                <li>Developed a web-based temporary card issuance system for residence halls</li>
+                <li>
+                    Automated the process of disabling electronic door access for
+                    students and employees who were separated
+                </li>
+                <li>
+                    Programed various meal plans and enhanced the web portal for meal and stored-value credit plan sales
+                    to provide students and Faculty/Staff with more on-campus meal options
+                </li>
+            </ul>
+            <hr>
+            <h2>
+                Skills
+            </h2>
+            <ul>
+                <li>Languages: C#, C++, Java, XML/HTML, JavaScript, CSS, SQL</li>
+                <li>Frameworks: ASP.NET, Java EE, Java Spring, jQuery, Bootstrap</li>
+                <li>IDE: IntelliJ, Eclipse</li>
+                <li>Version Control: Git</li>
+            </ul>
+            <hr>
+            <h2>Projects</h2>
+            <h3>ParkODU</h3>
+            <ul>
+                <li>School Project</li>
+                <li>Description: A software solution with the ability to analyze parking space availability in real-time.
+                    Utilizing cutting edge technology, we've developed a solution to solve all your parking
+                    management needs.</li>
+                <li>Languages/Frameworks: Java Spring, Thymeleaf, MongoDB, HTML, CSS, Javascript</li>
+                <li><a href="https://github.com/mpark4656/ParkODU">Repository</a></li>
+            </ul>
+            <h3>House Rental System</h3>
+            <ul>
+                <li>Personal Project</li>
+                <li>
+                    Description: A web-based java project where house owners, clients, customers can
+                    exchange information effectively and inexpensively.
+                </li>
+                <li>Languages/Frameworks: Java EE, JSP, HTML, CSS, Javascript</li>
+                <li><a href="https://github.com/mpark4656/HouseRentingSystem">Repository</a></li>
+            </ul>
+        </div>
+    </section>
+    <footer>
+        <p><a href="#welcome-section">Back To Top</a></p>
+        <p>
+            <a class="linkedin-link"
+               href="https://www.linkedin.com/in/mpark4656"
+               target="_blank"
+               rel="noopener noreferrer"
+               title="My LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a class="profile-link"
+               href="https://github.com/mpark4656"
+               target="_blank"
+               rel="noopener noreferrer"
+               title="My GitHub"><i class="fab fa-github"></i></a>
+            <a class="email-link"
+               href="mailto:mpark4656@gmail.com"
+               title="My Email: mpark4656@gmail.com"><i class="far fa-envelope"></i></a>
+            <a class="phone-link"
+               href="tel:757-602-7550"
+               title="My Phone: (757) 602-7550"><i class="fas fa-phone-alt"></i></a>
+        </p>
+        <p>&copy; Created By Michael Park</p>
+    </footer>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+            crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+            crossorigin="anonymous">
+    </script>
+    <script src="js/fontawesome.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/activate-nav-link.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+#projects {
+    background-color: #e3e6e5;
+}
+
+#header-desc {
+    text-align: center;
+}
+
+#projects a {
+    color: black;
+    text-decoration: none;
+}
+
+#projects a:visited {
+    color: black;
+}
+
+card {
+    margin: 1em;
+}
+
+card:hover {
+    animation-name: shake;
+    animation-duration: 0.5s;
+}
+
+.card-header {
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.card-footer {
+    padding: 1em;
+}
+
+@-webkit-keyframes shake {
+    0% {
+        transform: translateX(-5px);
+    }
+    50% {
+        transform: translateX(5px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@media(min-width: 1200px) {
+    .card-header {
+        height: 80px;
+    }
+
+    .card-body {
+        height: 300px;
+    }
+
+    .card-footer {
+        height: 300px;
+    }
+}
+
+@media(min-width: 1400px) {
+    .card-body {
+        height: 350px;
+    }
+
+    .card-footer {
+        height: 250px;
+    }
+}

@@ -1,0 +1,50 @@
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#img-div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+#title {
+    margin-bottom: 0;
+}
+
+#image, #img-caption {
+    max-width: 30%;
+}
+
+#img-caption {
+    max-width: 50%;
+}
+
+ul {
+    padding-left: 0;
+    max-width: 50%;
+}
+
+@media (max-width: 700px) {
+    #img-caption {
+        max-width: 90%;
+    }
+
+    ul {
+        max-width: 80%;
+    }
+}
+
+@media (max-width: 500px) {
+    ul {
+        padding-left: 40px;
+        max-width: 90%;
+    }
+
+    main {
+        align-items: stretch;
+    }
+}
