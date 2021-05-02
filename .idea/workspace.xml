@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb8c7c76-3401-44f5-bf95-d2ca4fa3a038" name="Default Changelist" comment="Added a link for javascript number">
-      <change beforePath="$PROJECT_DIR$/.idea/html-intro.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/html-intro.iml" afterDir="false" />
+    <list default="true" id="eb8c7c76-3401-44f5-bf95-d2ca4fa3a038" name="Default Changelist" comment="Attempt to fix js modules not working in mobile">
+      <change afterPath="$PROJECT_DIR$/js/js/string.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/string.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index-css/index-font.css" beforeDir="false" afterPath="$PROJECT_DIR$/index-css/index-font.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/password-complexity-checker/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/projects/password-complexity-checker/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/password-complexity-checker/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/password-complexity-checker/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +21,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -29,6 +31,12 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1jKbgKRQrqVVB0jEj4iLtiedOZa" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -45,7 +53,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="vcs.Subversion" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -63,29 +71,29 @@
       <recent name="C:\Users\mpark\Google Drive\Projects\web\liveappdemo\css\css" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html (3)">
-    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/liveappdemo/fcc/tribute/index.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="index.html (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/liveappdemo/fcc/survey/index.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.index.html (5)">
     <configuration name="index.html (3)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/liveappdemo/projects/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="index.html (4)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/liveappdemo/fcc/product-landing-page/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="index.html (5)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/liveappdemo/projects/password-complexity-checker/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/liveappdemo/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="string.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js/js/string.js" working-dir="$PROJECT_DIR$/js/js">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html (5)" />
+        <item itemvalue="Node.js.string.js" />
         <item itemvalue="JavaScript Debug.index.html (3)" />
         <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.index.html (4)" />
-        <item itemvalue="JavaScript Debug.index.html (1)" />
-        <item itemvalue="JavaScript Debug.index.html (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -164,175 +172,15 @@
       <workItem from="1618677516833" duration="1216000" />
       <workItem from="1619229286064" duration="828000" />
       <workItem from="1619231537579" duration="2832000" />
-      <workItem from="1619277048482" duration="467000" />
-    </task>
-    <task id="LOCAL-00045" summary="Added a link to the third responsive webpage project">
-      <created>1608942778217</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1608942778218</updated>
-    </task>
-    <task id="LOCAL-00046" summary="Added cascading and specificity of CSS">
-      <created>1609027204416</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1609027204416</updated>
-    </task>
-    <task id="LOCAL-00047" summary="Started the product landing page project">
-      <created>1609035205183</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1609035205183</updated>
-    </task>
-    <task id="LOCAL-00048" summary="fixed responsiveness">
-      <created>1609101688819</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1609101688819</updated>
-    </task>
-    <task id="LOCAL-00049" summary="Added viewport meta">
-      <created>1609101766980</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1609101766980</updated>
-    </task>
-    <task id="LOCAL-00050" summary="Still working on product landing page">
-      <created>1609101791329</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1609101791329</updated>
-    </task>
-    <task id="LOCAL-00051" summary="Changed responsiveness a little bit">
-      <created>1609102162114</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1609102162114</updated>
-    </task>
-    <task id="LOCAL-00052" summary="Changed description of the landing page project">
-      <created>1609102225186</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1609102225186</updated>
-    </task>
-    <task id="LOCAL-00053" summary="Completed Product landing page project">
-      <created>1609112628795</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1609112628795</updated>
-    </task>
-    <task id="LOCAL-00054" summary="Minor change">
-      <created>1609112819985</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1609112819985</updated>
-    </task>
-    <task id="LOCAL-00055" summary="Minor changes to responsive behavior">
-      <created>1609113090437</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1609113090437</updated>
-    </task>
-    <task id="LOCAL-00056" summary="Adding image">
-      <created>1609113100345</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1609113100345</updated>
-    </task>
-    <task id="LOCAL-00057" summary="Minor fixes">
-      <created>1609113330667</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1609113330667</updated>
-    </task>
-    <task id="LOCAL-00058" summary="Added viewport meta to index pages">
-      <created>1609113679803</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1609113679803</updated>
-    </task>
-    <task id="LOCAL-00059" summary="Added viewport meta to index pages">
-      <created>1609113907111</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1609113907111</updated>
-    </task>
-    <task id="LOCAL-00060" summary="Fixed the position of dropdown menu items">
-      <created>1609116073079</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1609116073079</updated>
-    </task>
-    <task id="LOCAL-00061" summary="Changed readme">
-      <created>1609116236301</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1609116236302</updated>
-    </task>
-    <task id="LOCAL-00062" summary="Minor change">
-      <created>1609116272451</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1609116272451</updated>
-    </task>
-    <task id="LOCAL-00063" summary="Ran HTML5 Validator and fixed minor errors">
-      <created>1609192836526</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1609192836526</updated>
-    </task>
-    <task id="LOCAL-00064" summary="Added important keyword">
-      <created>1609647127056</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1609647127056</updated>
-    </task>
-    <task id="LOCAL-00065" summary="Added box model intro">
-      <created>1615946490829</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1615946490830</updated>
-    </task>
-    <task id="LOCAL-00066" summary="Completed the introduction of the box model">
-      <created>1615949054977</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1615949054977</updated>
-    </task>
-    <task id="LOCAL-00067" summary="Added css file for box padding.">
-      <created>1616268917028</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1616268917029</updated>
-    </task>
-    <task id="LOCAL-00068" summary="Added HTML file for box padding.">
-      <created>1616268929009</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1616268929009</updated>
+      <workItem from="1619277048482" duration="1864000" />
+      <workItem from="1619303849556" duration="10189000" />
+      <workItem from="1619364691984" duration="24420000" />
+      <workItem from="1619396784519" duration="2810000" />
+      <workItem from="1619481344006" duration="2925000" />
+      <workItem from="1619489290041" duration="91000" />
+      <workItem from="1619742948587" duration="2155000" />
+      <workItem from="1619821721615" duration="1243000" />
+      <workItem from="1619914770931" duration="3896000" />
     </task>
     <task id="LOCAL-00069" summary="Added link to box padding">
       <created>1616268941543</created>
@@ -509,61 +357,297 @@
       <option name="project" value="LOCAL" />
       <updated>1619234057651</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="Added a personal javascript project">
+      <created>1619277537272</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1619277537272</updated>
+    </task>
+    <task id="LOCAL-00095" summary="Updated font for h2">
+      <created>1619277575734</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1619277575734</updated>
+    </task>
+    <task id="LOCAL-00096" summary="Updated subtitle in index.html">
+      <created>1619277707188</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1619277707188</updated>
+    </task>
+    <task id="LOCAL-00097" summary="Fixed spelling">
+      <created>1619277724896</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1619277724896</updated>
+    </task>
+    <task id="LOCAL-00098" summary="Removed distracting transitions and fixed social icon expanding on mouse hover">
+      <created>1619278054223</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1619278054223</updated>
+    </task>
+    <task id="LOCAL-00099" summary="Adding the snake game directory">
+      <created>1619278380237</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1619278380237</updated>
+    </task>
+    <task id="LOCAL-00100" summary="Completed css transition">
+      <created>1619310296356</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1619310296356</updated>
+    </task>
+    <task id="LOCAL-00101" summary="Completed transform">
+      <created>1619312697864</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1619312697864</updated>
+    </task>
+    <task id="LOCAL-00102" summary="Completed special button effect exercise">
+      <created>1619315722935</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1619315722935</updated>
+    </task>
+    <task id="LOCAL-00103" summary="Completed background">
+      <created>1619320834278</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1619320834279</updated>
+    </task>
+    <task id="LOCAL-00104" summary="Completed background">
+      <created>1619320853440</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1619320853440</updated>
+    </task>
+    <task id="LOCAL-00105" summary="Started password checker project">
+      <created>1619377933222</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1619377933223</updated>
+    </task>
+    <task id="LOCAL-00106" summary="Added a link to the password checker program">
+      <created>1619378060395</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1619378060395</updated>
+    </task>
+    <task id="LOCAL-00107" summary="Added some styling">
+      <created>1619380634375</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1619380634375</updated>
+    </task>
+    <task id="LOCAL-00108" summary="Fixed a bug and tweaked styling">
+      <created>1619395484328</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1619395484328</updated>
+    </task>
+    <task id="LOCAL-00109" summary="Changed font family for heading">
+      <created>1619395636031</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1619395636031</updated>
+    </task>
+    <task id="LOCAL-00110" summary="Minor change to responsiveness">
+      <created>1619397139690</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1619397139691</updated>
+    </task>
+    <task id="LOCAL-00111" summary="Minor change to responsiveness">
+      <created>1619397849716</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1619397849716</updated>
+    </task>
+    <task id="LOCAL-00112" summary="Browser warning">
+      <created>1619397951189</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1619397951189</updated>
+    </task>
+    <task id="LOCAL-00113" summary="Attempt to fix js modules not working in mobile">
+      <created>1619398304385</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1619398304386</updated>
+    </task>
+    <task id="LOCAL-00114" summary="Reversing changes that didn't work">
+      <created>1619398873737</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1619398873737</updated>
+    </task>
+    <task id="LOCAL-00115" summary="Minor change">
+      <created>1619401708567</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1619401708567</updated>
+    </task>
+    <task id="LOCAL-00116" summary="Removed private variables and methods">
+      <created>1619923788273</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1619923788273</updated>
+    </task>
+    <task id="LOCAL-00117" summary="Removed private variables and methods">
+      <created>1619924197794</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1619924197794</updated>
+    </task>
+    <option name="localTasksCounter" value="118" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added HTML file for box padding." />
-    <MESSAGE value="Added link to box padding" />
-    <MESSAGE value="Started Technical Documentation Page project" />
-    <MESSAGE value="Added link to technical documentation project" />
-    <MESSAGE value="Minor CSS changes" />
-    <MESSAGE value="Completed Technical Documentation Page" />
-    <MESSAGE value="Finished CSS box margin and started CSS display" />
-    <MESSAGE value="Completed CSS display" />
-    <MESSAGE value="Started Javascript" />
-    <MESSAGE value="Started personal portfolio project" />
-    <MESSAGE value="Adding images" />
-    <MESSAGE value="Added a link to a new project, Personal Portfolio" />
-    <MESSAGE value="Completed Personal Portfolio" />
-    <MESSAGE value="Improved responsiveness in mobile browser" />
-    <MESSAGE value="Fix for FreeCodeComp testing" />
-    <MESSAGE value="Added animation to personal profile and started JS numbers" />
-    <MESSAGE value="Changed some animations" />
-    <MESSAGE value="Finished Javascript number" />
-    <MESSAGE value="Added a link for javascript number" />
-    <MESSAGE value="Fixed a small issue" />
-    <MESSAGE value="Added opacity &amp; alpha channels" />
     <MESSAGE value="Fixed one small mistake" />
     <MESSAGE value="Added CSS - Position" />
     <MESSAGE value="Added javascript variable" />
     <MESSAGE value="Added const.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added const.js" />
+    <MESSAGE value="Added a personal javascript project" />
+    <MESSAGE value="Updated font for h2" />
+    <MESSAGE value="Updated subtitle in index.html" />
+    <MESSAGE value="Fixed spelling" />
+    <MESSAGE value="Removed distracting transitions and fixed social icon expanding on mouse hover" />
+    <MESSAGE value="Adding the snake game directory" />
+    <MESSAGE value="Completed css transition" />
+    <MESSAGE value="Completed transform" />
+    <MESSAGE value="Completed special button effect exercise" />
+    <MESSAGE value="Completed background" />
+    <MESSAGE value="Started password checker project" />
+    <MESSAGE value="Added a link to the password checker program" />
+    <MESSAGE value="Added some styling" />
+    <MESSAGE value="Fixed a bug and tweaked styling" />
+    <MESSAGE value="Changed font family for heading" />
+    <MESSAGE value="Minor change to responsiveness" />
+    <MESSAGE value="Browser warning" />
+    <MESSAGE value="Attempt to fix js modules not working in mobile" />
+    <MESSAGE value="Reversing changes that didn't work" />
+    <MESSAGE value="Minor change" />
+    <MESSAGE value="Removed private variables and methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed private variables and methods" />
   </component>
   <component name="WindowStateProjectService">
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1617476412844">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617476412844" />
-    <state x="582" y="95" key="CommitChangelistDialog2" timestamp="1619234056828">
+    <state x="582" y="95" key="CommitChangelistDialog2" timestamp="1619924196852">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="582" y="95" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1619234056828" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1619234666487">
+    <state x="582" y="95" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1619924196852" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1619827632926">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1619234666487" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1619827632926" />
+    <state width="1899" height="347" key="GridCell.Tab.0.bottom" timestamp="1619489381229">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="347" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1619489381229" />
+    <state width="1899" height="347" key="GridCell.Tab.0.center" timestamp="1619489381228">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="347" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1619489381228" />
+    <state width="1899" height="347" key="GridCell.Tab.0.left" timestamp="1619489381228">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="347" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1619489381228" />
+    <state width="1899" height="347" key="GridCell.Tab.0.right" timestamp="1619489381228">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="347" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1619489381228" />
+    <state width="1899" height="347" key="GridCell.Tab.1.bottom" timestamp="1619489381229">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1619489381229" />
+    <state width="1899" height="347" key="GridCell.Tab.1.center" timestamp="1619489381229">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="347" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1619489381229" />
+    <state width="1899" height="347" key="GridCell.Tab.1.left" timestamp="1619489381229">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="347" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1619489381229" />
+    <state width="1899" height="347" key="GridCell.Tab.1.right" timestamp="1619489381229">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="347" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1619489381229" />
+    <state width="1899" height="347" key="GridCell.Tab.2.bottom" timestamp="1619489381230">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="347" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1619489381230" />
+    <state width="1899" height="347" key="GridCell.Tab.2.center" timestamp="1619489381230">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="347" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1619489381229" />
+    <state width="1899" height="347" key="GridCell.Tab.2.left" timestamp="1619489381229">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="347" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1619489381229" />
+    <state width="1899" height="347" key="GridCell.Tab.2.right" timestamp="1619489381230">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="347" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1619489381230" />
+    <state width="1899" height="347" key="GridCell.Tab.3.bottom" timestamp="1619489381231">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="347" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1619489381231" />
+    <state width="1899" height="347" key="GridCell.Tab.3.center" timestamp="1619489381230">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="347" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1619489381230" />
+    <state width="1899" height="347" key="GridCell.Tab.3.left" timestamp="1619489381230">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="347" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1619489381230" />
+    <state width="1899" height="347" key="GridCell.Tab.3.right" timestamp="1619489381230">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="347" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1619489381230" />
     <state x="720" y="222" key="RollbackChangesDialog" timestamp="1619234039435">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="720" y="222" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1619234039434" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1619234066039">
+    <state x="461" y="165" key="SettingsEditor" timestamp="1619310612017">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1619234066039" />
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1619310612017" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1619924400280">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1619924400280" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1617462914630">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
