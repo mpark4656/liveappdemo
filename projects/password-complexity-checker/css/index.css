@@ -81,9 +81,30 @@ button:hover {
     cursor: pointer;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 550px) {
     #input-section {
         flex-direction: column;
         align-items: start;
+    }
+}
+
+@media (max-width: 420px) {
+    #input-section {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    input {
+        max-width: 60%;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    #button-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
