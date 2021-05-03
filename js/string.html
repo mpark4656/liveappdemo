@@ -19,6 +19,20 @@
         console.log(singleQuoteStr);
         console.log(backTickStr);
     </code></pre>
+    <p>
+        String is a collection of characters. Each character can be accessed with an index, starting at 0.
+        Strings are immutable, so you can't change or modify any characters in a string. You can only reassign
+        a new value to a string variable.
+    </p>
+    <pre><code>
+        let str = "Test";
+        console.log(str[0]);    // T
+        console.log(str[1]);    // e
+        console.log(str[2]);    // s
+        console.log(str[3]);    // t
+        str[3] = "T";           // Nope
+        console.log(str);       // str still has "Test"
+    </code></pre>
     <script type="text/javascript" src="js/string.js"></script>
 </body>
 </html>

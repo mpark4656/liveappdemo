@@ -5,3 +5,11 @@ let backTickStr = `String with backtick marks or template string ${5 + 2}`;
 console.log(doubleQuoteStr);
 console.log(singleQuoteStr);
 console.log(backTickStr);
+
+let str = "Test";
+console.log(str[0]);    // T
+console.log(str[1]);    // e
+console.log(str[2]);    // s
+console.log(str[3]);    // t
+str[3] = "T";           // Nope
+console.log(str);       // str still has "Test"
