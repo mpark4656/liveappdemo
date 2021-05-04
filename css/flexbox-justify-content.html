@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+    <title>Flexbox - Justify Content</title>
+    <link rel="stylesheet" href="css/flexbox-justify-content.css">
+</head>
+<body>
+    <h1>Flexbox - Justify Content</h1>
+    <p>
+        Justify-content behaves differently depending on whether the flex direction is row or column.
+        flex-start is the default value for justify-content.
+    </p>
+    <p>
+        For the row direction, flex-start puts all elements on the left side of the row.
+        Flex-end puts all elements on the right of the row.
+        Center puts all elements in the center of the row.
+        Essentially, justify content aligns items on the horizontal axis for the row flex direction.
+    </p>
+    <div id="justify-start-row-container" class="box-container row-container">
+        <div class="justify-box">1</div>
+        <div class="justify-box">2</div>
+        <div class="justify-box">3</div>
+        <div class="justify-box">4</div>
+        <div class="justify-box">5</div>
+    </div>
+    <div id="justify-end-row-container" class="box-container row-container">
+        <div class="justify-box">1</div>
+        <div class="justify-box">2</div>
+        <div class="justify-box">3</div>
+        <div class="justify-box">4</div>
+        <div class="justify-box">5</div>
+    </div>
+    <div id="justify-center-row-container" class="box-container row-container">
+        <div class="justify-box">1</div>
+        <div class="justify-box">2</div>
+        <div class="justify-box">3</div>
+        <div class="justify-box">4</div>
+        <div class="justify-box">5</div>
+    </div>
+    <p>
+        Space-between takes all space and distribute it between the elements but on the outside edges.
+        Space-around gives each element the same amount of space around it.
+        Space-evenly gives each element the same amount of space around it as well as between the elements and the
+        container.
+    </p>
+    <div id="justify-space-between-row-container" class="box-container row-container">
+        <div class="justify-box">1</div>
+        <div class="justify-box">2</div>
+        <div class="justify-box">3</div>
+        <div class="justify-box">4</div>
+        <div class="justify-box">5</div>
+    </div>
+    <div id="justify-space-around-row-container" class="box-container row-container">
+        <div class="justify-box">1</div>
+        <div class="justify-box">2</div>
+        <div class="justify-box">3</div>
+        <div class="justify-box">4</div>
+        <div class="justify-box">5</div>
+    </div>
+    <div id="justify-space-evenly-row-container" class="box-container row-container">
+        <div class="justify-box">1</div>
+        <div class="justify-box">2</div>
+        <div class="justify-box">3</div>
+        <div class="justify-box">4</div>
+        <div class="justify-box">5</div>
+    </div>
+
+    <p>
+        For flex direction of column, the justify content attribute aligns items along the vertical axis.
+        The examples below are flex-start and space-evenly.
+    </p>
+    <div id="justify-start-column-container" class="col-container box-container">
+        <div class="justify-box">1</div>
+        <div class="justify-box">2</div>
+        <div class="justify-box">3</div>
+        <div class="justify-box">4</div>
+        <div class="justify-box">5</div>
+    </div>
+    <div id="justify-space-evenly-column-container" class="col-container box-container">
+        <div class="justify-box">1</div>
+        <div class="justify-box">2</div>
+        <div class="justify-box">3</div>
+        <div class="justify-box">4</div>
+        <div class="justify-box">5</div>
+    </div>
+    <h3>HTML Code for this Page</h3>
+    <pre><code>
+        &lt;!DOCTYPE html&gt;
+        &lt;html lang="en"&gt;
+        &lt;head&gt;
+            &lt;meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1"&gt;
+            &lt;title&gt;Flexbox - Justify Content&lt;/title&gt;
+            &lt;link rel="stylesheet" href="css/flexbox-justify-content.css"&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+            &lt;h1&gt;Flexbox - Justify Content&lt;/h1&gt;
+            &lt;p&gt;
+                Justify-content behaves differently depending on whether the flex direction is row or column.
+                flex-start is the default value for justify-content.
+            &lt;/p&gt;
+            &lt;p&gt;
+                For the row direction, flex-start puts all elements on the left side of the row.
+                Flex-end puts all elements on the right of the row.
+                Center puts all elements in the center of the row.
+                Essentially, justify content aligns items on the horizontal axis for the row flex direction.
+            &lt;/p&gt;
+            &lt;div id="justify-start-row-container" class="box-container row-container"&gt;
+                &lt;div class="justify-box"&gt;1&lt;/div&gt;
+                &lt;div class="justify-box"&gt;2&lt;/div&gt;
+                &lt;div class="justify-box"&gt;3&lt;/div&gt;
+                &lt;div class="justify-box"&gt;4&lt;/div&gt;
+                &lt;div class="justify-box"&gt;5&lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div id="justify-end-row-container" class="box-container row-container"&gt;
+                &lt;div class="justify-box"&gt;1&lt;/div&gt;
+                &lt;div class="justify-box"&gt;2&lt;/div&gt;
+                &lt;div class="justify-box"&gt;3&lt;/div&gt;
+                &lt;div class="justify-box"&gt;4&lt;/div&gt;
+                &lt;div class="justify-box"&gt;5&lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div id="justify-center-row-container" class="box-container row-container"&gt;
+                &lt;div class="justify-box"&gt;1&lt;/div&gt;
+                &lt;div class="justify-box"&gt;2&lt;/div&gt;
+                &lt;div class="justify-box"&gt;3&lt;/div&gt;
+                &lt;div class="justify-box"&gt;4&lt;/div&gt;
+                &lt;div class="justify-box"&gt;5&lt;/div&gt;
+            &lt;/div&gt;
+            &lt;p&gt;
+                Space-between takes all space and distribute it between the elements but on the outside edges.
+                Space-around gives each element the same amount of space around it.
+                Space-evenly gives each element the same amount of space around it as well as between the elements and the
+                container.
+            &lt;/p&gt;
+            &lt;div id="justify-space-between-row-container" class="box-container row-container"&gt;
+                &lt;div class="justify-box"&gt;1&lt;/div&gt;
+                &lt;div class="justify-box"&gt;2&lt;/div&gt;
+                &lt;div class="justify-box"&gt;3&lt;/div&gt;
+                &lt;div class="justify-box"&gt;4&lt;/div&gt;
+                &lt;div class="justify-box"&gt;5&lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div id="justify-space-around-row-container" class="box-container row-container"&gt;
+                &lt;div class="justify-box"&gt;1&lt;/div&gt;
+                &lt;div class="justify-box"&gt;2&lt;/div&gt;
+                &lt;div class="justify-box"&gt;3&lt;/div&gt;
+                &lt;div class="justify-box"&gt;4&lt;/div&gt;
+                &lt;div class="justify-box"&gt;5&lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div id="justify-space-evenly-row-container" class="box-container row-container"&gt;
+                &lt;div class="justify-box"&gt;1&lt;/div&gt;
+                &lt;div class="justify-box"&gt;2&lt;/div&gt;
+                &lt;div class="justify-box"&gt;3&lt;/div&gt;
+                &lt;div class="justify-box"&gt;4&lt;/div&gt;
+                &lt;div class="justify-box"&gt;5&lt;/div&gt;
+            &lt;/div&gt;
+        
+            &lt;p&gt;
+                For flex direction of column, the justify content attribute aligns items along the vertical axis.
+                The examples below are flex-start and space-evenly.
+            &lt;/p&gt;
+            &lt;div id="justify-start-column-container" class="col-container box-container"&gt;
+                &lt;div class="justify-box"&gt;1&lt;/div&gt;
+                &lt;div class="justify-box"&gt;2&lt;/div&gt;
+                &lt;div class="justify-box"&gt;3&lt;/div&gt;
+                &lt;div class="justify-box"&gt;4&lt;/div&gt;
+                &lt;div class="justify-box"&gt;5&lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div id="justify-space-evenly-column-container" class="col-container box-container"&gt;
+                &lt;div class="justify-box"&gt;1&lt;/div&gt;
+                &lt;div class="justify-box"&gt;2&lt;/div&gt;
+                &lt;div class="justify-box"&gt;3&lt;/div&gt;
+                &lt;div class="justify-box"&gt;4&lt;/div&gt;
+                &lt;div class="justify-box"&gt;5&lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/body&gt;
+        &lt;/html&gt;
+    </code></pre>
+    <h3>CSS Code for this Page</h3>
+    <pre><code>
+        #justify-start-row-container {
+            justify-content: flex-start;
+        }
+
+        #justify-end-row-container {
+            justify-content: flex-end;
+        }
+
+        #justify-center-row-container {
+            justify-content: center;
+        }
+
+        #justify-space-between-row-container {
+            justify-content: space-between;
+        }
+
+        #justify-space-around-row-container {
+            justify-content: space-around;
+        }
+
+        #justify-space-evenly-row-container {
+            justify-content: space-evenly;
+        }
+
+        #justify-start-column-container {
+            justify-content: flex-start;
+        }
+
+        #justify-space-evenly-column-container {
+            justify-content: space-evenly;
+        }
+
+        .row-container {
+            flex-direction: row;
+            width: 90%;
+            height: 300px;
+        }
+
+        .col-container {
+            flex-direction: column;
+            width: 300px;
+            height: 1500px;
+        }
+
+        .box-container {
+            display: flex;
+            background-color: #003049;
+            margin: 1% auto;
+            border: 5px solid #003049;
+        }
+
+        .justify-box {
+            height: 100px;
+            width: 100px;
+            color: white;
+            font-size: 2em;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .justify-box:nth-of-type(1) {
+            background-color: #80ffdb;
+            color: #003049;
+        }
+
+        .justify-box:nth-of-type(2) {
+            background-color: #64dfdf;
+            color: #003049;
+        }
+
+        .justify-box:nth-of-type(3) {
+            background-color: #48bfe3;
+            color: #003049;
+        }
+
+        .justify-box:nth-of-type(4) {
+            background-color: #5390d9;
+        }
+
+        .justify-box:nth-of-type(5) {
+            background-color: #6930c3;
+        }
+    </code></pre>
+</body>
+</html>
