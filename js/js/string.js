@@ -13,3 +13,8 @@ console.log(str[2]);    // s
 console.log(str[3]);    // t
 str[3] = "T";           // Nope
 console.log(str);       // str still has "Test"
+
+let msg = "Leave me alone";
+console.log(msg.toUpperCase());  // Prints the message in all uppercase
+let strWithSpaces = "    Trim Me!    ";
+console.log(strWithSpaces.trim());  // Spaces before and after the string are trimmed.
