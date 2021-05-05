@@ -18,3 +18,14 @@ let msg = "Leave me alone";
 console.log(msg.toUpperCase());  // Prints the message in all uppercase
 let strWithSpaces = "    Trim Me!    ";
 console.log(strWithSpaces.trim());  // Spaces before and after the string are trimmed.
+
+let tvShow = "catdog";
+console.log(tvShow.indexOf("cat")); // 0
+console.log(tvShow.indexOf("dog")); // 3
+console.log(tvShow.indexOf("z"))    // -1  Not Found
+
+let sliceThis = "ABCDEFGHIJKLMN";
+console.log(sliceThis.slice(1));    // "BCDEFGHIJKLMN"
+console.log(sliceThis.slice(5, 7)); // "FG"
+console.log(sliceThis.slice(-1));   // "N"   (Starts from the end)
+console.log(sliceThis.slice(50));   // ""
