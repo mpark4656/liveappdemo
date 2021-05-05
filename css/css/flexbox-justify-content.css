@@ -1,32 +1,24 @@
-#justify-start-row-container {
+.start {
     justify-content: flex-start;
 }
 
-#justify-end-row-container {
+.end {
     justify-content: flex-end;
 }
 
-#justify-center-row-container {
+.center {
     justify-content: center;
 }
 
-#justify-space-between-row-container {
+.space-between {
     justify-content: space-between;
 }
 
-#justify-space-around-row-container {
+.space-around {
     justify-content: space-around;
 }
 
-#justify-space-evenly-row-container {
-    justify-content: space-evenly;
-}
-
-#justify-start-column-container {
-    justify-content: flex-start;
-}
-
-#justify-space-evenly-column-container {
+.space-evenly {
     justify-content: space-evenly;
 }
 
