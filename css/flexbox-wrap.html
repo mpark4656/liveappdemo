@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+    <title>Flexbox - Flex Wrap</title>
+    <link rel="stylesheet" href="css/flexbox-wrap.css">
+</head>
+<body>
+    <h1>Flexbox - Flex Wrap</h1>
+    <p>
+        Flex wrap is a property that decides if elements are going to wrap along the main axis onto a new line.
+        nowrap is the default value.
+    </p>
+
+    <p>Below is the column-direction flex container without the wrap property.</p>
+    <div class="box-container col-container">
+        <div class="wrap-box">1</div>
+        <div class="wrap-box">2</div>
+        <div class="wrap-box">3</div>
+        <div class="wrap-box">4</div>
+        <div class="wrap-box">5</div>
+    </div>
+
+    <p>With the flex-wrap set to "wrap", the elements wrap from left to right.</p>
+    <div class="box-container col-container wrap">
+        <div class="wrap-box">1</div>
+        <div class="wrap-box">2</div>
+        <div class="wrap-box">3</div>
+        <div class="wrap-box">4</div>
+        <div class="wrap-box">5</div>
+    </div>
+
+    <p>With the flex-wrap set to "wrap-reverse", the elements wrap from right to left.</p>
+    <div class="box-container col-container wrap-reverse">
+        <div class="wrap-box">1</div>
+        <div class="wrap-box">2</div>
+        <div class="wrap-box">3</div>
+        <div class="wrap-box">4</div>
+        <div class="wrap-box">5</div>
+    </div>
+
+    <p>Below is the row-direction flex container without the wrap property.</p>
+    <div class="box-container row-container">
+        <div class="wrap-box">1</div>
+        <div class="wrap-box">2</div>
+        <div class="wrap-box">3</div>
+        <div class="wrap-box">4</div>
+        <div class="wrap-box">5</div>
+    </div>
+
+    <p>With the flex-wrap set to "wrap", the elements wrap from top to bottom.</p>
+    <div class="box-container row-container wrap">
+        <div class="wrap-box">1</div>
+        <div class="wrap-box">2</div>
+        <div class="wrap-box">3</div>
+        <div class="wrap-box">4</div>
+        <div class="wrap-box">5</div>
+    </div>
+
+    <p>With the flex-wrap set to "wrap", the elements wrap from bottom to top.</p>
+    <div class="box-container row-container wrap-reverse">
+        <div class="wrap-box">1</div>
+        <div class="wrap-box">2</div>
+        <div class="wrap-box">3</div>
+        <div class="wrap-box">4</div>
+        <div class="wrap-box">5</div>
+    </div>
+    <h3>HTML Code for this Page</h3>
+    <pre><code>
+        &lt;!DOCTYPE html&gt;
+        &lt;html lang="en"&gt;
+        &lt;head&gt;
+            &lt;meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1"&gt;
+            &lt;title&gt;Flexbox - Flex Wrap&lt;/title&gt;
+            &lt;link rel="stylesheet" href="css/flexbox-wrap.css"&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+            &lt;h1&gt;Flexbox - Flex Wrap&lt;/h1&gt;
+            &lt;p&gt;
+                Flex wrap is a property that decides if elements are going to wrap along the main axis onto a new line.
+                nowrap is the default value.
+            &lt;/p&gt;
+        
+            &lt;p&gt;Below is the column-direction flex container without the wrap property.&lt;/p&gt;
+            &lt;div class="box-container col-container"&gt;
+                &lt;div class="wrap-box"&gt;1&lt;/div&gt;
+                &lt;div class="wrap-box"&gt;2&lt;/div&gt;
+                &lt;div class="wrap-box"&gt;3&lt;/div&gt;
+                &lt;div class="wrap-box"&gt;4&lt;/div&gt;
+                &lt;div class="wrap-box"&gt;5&lt;/div&gt;
+            &lt;/div&gt;
+        
+            &lt;p&gt;With the flex-wrap set to "wrap", the elements wrap from left to right.&lt;/p&gt;
+            &lt;div class="box-container col-container wrap"&gt;
+                &lt;div class="wrap-box"&gt;1&lt;/div&gt;
+                &lt;div class="wrap-box"&gt;2&lt;/div&gt;
+                &lt;div class="wrap-box"&gt;3&lt;/div&gt;
+                &lt;div class="wrap-box"&gt;4&lt;/div&gt;
+                &lt;div class="wrap-box"&gt;5&lt;/div&gt;
+            &lt;/div&gt;
+        
+            &lt;p&gt;With the flex-wrap set to "wrap-reverse", the elements wrap from right to left.&lt;/p&gt;
+            &lt;div class="box-container col-container wrap-reverse"&gt;
+                &lt;div class="wrap-box"&gt;1&lt;/div&gt;
+                &lt;div class="wrap-box"&gt;2&lt;/div&gt;
+                &lt;div class="wrap-box"&gt;3&lt;/div&gt;
+                &lt;div class="wrap-box"&gt;4&lt;/div&gt;
+                &lt;div class="wrap-box"&gt;5&lt;/div&gt;
+            &lt;/div&gt;
+        
+            &lt;p&gt;Below is the row-direction flex container without the wrap property.&lt;/p&gt;
+            &lt;div class="box-container row-container"&gt;
+                &lt;div class="wrap-box"&gt;1&lt;/div&gt;
+                &lt;div class="wrap-box"&gt;2&lt;/div&gt;
+                &lt;div class="wrap-box"&gt;3&lt;/div&gt;
+                &lt;div class="wrap-box"&gt;4&lt;/div&gt;
+                &lt;div class="wrap-box"&gt;5&lt;/div&gt;
+            &lt;/div&gt;
+        
+            &lt;p&gt;With the flex-wrap set to "wrap", the elements wrap from top to bottom.&lt;/p&gt;
+            &lt;div class="box-container row-container wrap"&gt;
+                &lt;div class="wrap-box"&gt;1&lt;/div&gt;
+                &lt;div class="wrap-box"&gt;2&lt;/div&gt;
+                &lt;div class="wrap-box"&gt;3&lt;/div&gt;
+                &lt;div class="wrap-box"&gt;4&lt;/div&gt;
+                &lt;div class="wrap-box"&gt;5&lt;/div&gt;
+            &lt;/div&gt;
+        
+            &lt;p&gt;With the flex-wrap set to "wrap", the elements wrap from bottom to top.&lt;/p&gt;
+            &lt;div class="box-container row-container wrap-reverse"&gt;
+                &lt;div class="wrap-box"&gt;1&lt;/div&gt;
+                &lt;div class="wrap-box"&gt;2&lt;/div&gt;
+                &lt;div class="wrap-box"&gt;3&lt;/div&gt;
+                &lt;div class="wrap-box"&gt;4&lt;/div&gt;
+                &lt;div class="wrap-box"&gt;5&lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/body&gt;
+        &lt;/html&gt;
+    </code></pre>
+    <h3>CSS Code for this Page</h3>
+    <pre><code>
+        .wrap-reverse {
+            flex-wrap: wrap-reverse;
+        }
+
+        .wrap {
+            flex-wrap: wrap;
+        }
+
+        .col-container {
+            flex-direction: column;
+            width: 90%;
+            height: 300px;
+        }
+
+        .row-container {
+            flex-direction: row;
+            width: 300px;
+            height: 400px;
+        }
+
+        .box-container {
+            display: flex;
+            background-color: #003049;
+            margin: 1% auto;
+            border: 5px solid #003049;
+        }
+
+        .wrap-box {
+            height: 100px;
+            width: 100px;
+            color: white;
+            font-size: 2em;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .wrap-box:nth-of-type(1) {
+            background-color: #80ffdb;
+            color: #003049;
+        }
+
+        .wrap-box:nth-of-type(2) {
+            background-color: #64dfdf;
+            color: #003049;
+        }
+
+        .wrap-box:nth-of-type(3) {
+            background-color: #48bfe3;
+            color: #003049;
+        }
+
+        .wrap-box:nth-of-type(4) {
+            background-color: #5390d9;
+        }
+
+        .wrap-box:nth-of-type(5) {
+            background-color: #6930c3;
+        }
+    </code></pre>
+</body>
+</html>
