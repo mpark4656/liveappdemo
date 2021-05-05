@@ -18,7 +18,7 @@
         The default direction of flex is "row", which means the items are placed on a horizontal row,
         left to right.
     </p>
-    <div id="direction-row-container" class="box-container">
+    <div class="box-container row">
         <div class="direction-box">1</div>
         <div class="direction-box">2</div>
         <div class="direction-box">3</div>
@@ -29,7 +29,7 @@
         Flex direction of "row-reverse" still places the items horizontally but in the reverse order and
         from right to left.
     </p>
-    <div id="direction-row-reverse-container" class="box-container">
+    <div class="box-container row-reverse">
         <div class="direction-box">1</div>
         <div class="direction-box">2</div>
         <div class="direction-box">3</div>
@@ -41,7 +41,7 @@
         the items to "fit" inside the container. That's why these boxes are smaller. The height of the box container
         is limited to 300px.
     </p>
-    <div id="direction-col-container" class="box-container">
+    <div class="box-container column">
         <div class="direction-box">1</div>
         <div class="direction-box">2</div>
         <div class="direction-box">3</div>
@@ -49,7 +49,7 @@
         <div class="direction-box">5</div>
     </div>
     <p>Flex direction of "column-reverse" places the items vertically from bottom to top.</p>
-    <div id="direction-col-reverse-container" class="box-container">
+    <div class="box-container column-reverse">
         <div class="direction-box">1</div>
         <div class="direction-box">2</div>
         <div class="direction-box">3</div>
@@ -78,7 +78,7 @@
                 The default direction of flex is "row", which means the items are placed on a horizontal row,
                 left to right.
             &lt;/p&gt;
-            &lt;div id="direction-row-container" class="box-container"&gt;
+            &lt;div class="box-container row"&gt;
                 &lt;div class="direction-box"&gt;1&lt;/div&gt;
                 &lt;div class="direction-box"&gt;2&lt;/div&gt;
                 &lt;div class="direction-box"&gt;3&lt;/div&gt;
@@ -89,7 +89,7 @@
                 Flex direction of "row-reverse" still places the items horizontally but in the reverse order and
                 from right to left.
             &lt;/p&gt;
-            &lt;div id="direction-row-reverse-container" class="box-container"&gt;
+            &lt;div class="box-container row-reverse"&gt;
                 &lt;div class="direction-box"&gt;1&lt;/div&gt;
                 &lt;div class="direction-box"&gt;2&lt;/div&gt;
                 &lt;div class="direction-box"&gt;3&lt;/div&gt;
@@ -101,7 +101,7 @@
                 the items to "fit" inside the container. That's why these boxes are smaller. The height of the box container
                 is limited to 300px.
             &lt;/p&gt;
-            &lt;div id="direction-col-container" class="box-container"&gt;
+            &lt;div class="box-container column"&gt;
                 &lt;div class="direction-box"&gt;1&lt;/div&gt;
                 &lt;div class="direction-box"&gt;2&lt;/div&gt;
                 &lt;div class="direction-box"&gt;3&lt;/div&gt;
@@ -109,7 +109,7 @@
                 &lt;div class="direction-box"&gt;5&lt;/div&gt;
             &lt;/div&gt;
             &lt;p&gt;Flex direction of "column-reverse" places the items vertically from bottom to top.&lt;/p&gt;
-            &lt;div id="direction-col-reverse-container" class="box-container"&gt;
+            &lt;div class="box-container column-reverse"&gt;
                 &lt;div class="direction-box"&gt;1&lt;/div&gt;
                 &lt;div class="direction-box"&gt;2&lt;/div&gt;
                 &lt;div class="direction-box"&gt;3&lt;/div&gt;
@@ -121,19 +121,19 @@
     </code></pre>
     <h3>CSS Code for this Page</h3>
     <pre><code>
-        #direction-row-container {
+        .row {
             flex-direction: row;
         }
 
-        #direction-row-reverse-container{
+        .row-reverse {
             flex-direction: row-reverse;
         }
 
-        #direction-col-container {
+        .column {
             flex-direction: column;
         }
 
-        #direction-col-reverse-container {
+        .column-reverse {
             flex-direction: column-reverse;
         }
 
