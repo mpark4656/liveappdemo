@@ -123,5 +123,247 @@
             <code>flex: 2 2 10%;</code>
         </li>
     </ul>
+    <h3>HTML Code for this Page</h3>
+    <pre><code>
+        &lt;!DOCTYPE html&gt;
+        &lt;html lang="en"&gt;
+        &lt;head&gt;
+            &lt;meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1"&gt;
+            &lt;title&gt;Flexbox - Other Properties&lt;/title&gt;
+            &lt;link rel="stylesheet" href="css/flexbox-others.css"&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+            &lt;h1&gt;Flexbox - Other Properties&lt;/h1&gt;
+            &lt;h2&gt;Align-Content&lt;/h2&gt;
+            &lt;p&gt;Align-content works when wrap is turned on. It controls the spacing between rows or columns.&lt;/p&gt;
+            &lt;p&gt;flex-start puts all rows at the top.&lt;/p&gt;
+            &lt;div class="box-container row align-content-start"&gt;
+                &lt;div class="box"&gt;1&lt;/div&gt;
+                &lt;div class="box"&gt;2&lt;/div&gt;
+                &lt;div class="box"&gt;3&lt;/div&gt;
+                &lt;div class="box"&gt;4&lt;/div&gt;
+                &lt;div class="box"&gt;5&lt;/div&gt;
+            &lt;/div&gt;
+            &lt;p&gt;center puts all rows at the center.&lt;/p&gt;
+            &lt;div class="box-container row align-content-center"&gt;
+                &lt;div class="box"&gt;1&lt;/div&gt;
+                &lt;div class="box"&gt;2&lt;/div&gt;
+                &lt;div class="box"&gt;3&lt;/div&gt;
+                &lt;div class="box"&gt;4&lt;/div&gt;
+                &lt;div class="box"&gt;5&lt;/div&gt;
+            &lt;/div&gt;
+            &lt;p&gt;
+                space-between puts equal spacing between rows, but there is no spacing between first and last rows and the edge.
+            &lt;/p&gt;
+            &lt;div class="box-container row align-content-space-between"&gt;
+                &lt;div class="box"&gt;1&lt;/div&gt;
+                &lt;div class="box"&gt;2&lt;/div&gt;
+                &lt;div class="box"&gt;3&lt;/div&gt;
+                &lt;div class="box"&gt;4&lt;/div&gt;
+                &lt;div class="box"&gt;5&lt;/div&gt;
+            &lt;/div&gt;
+            &lt;p&gt;
+                space-evenly puts equal spacing between rows even between first and last rows and the edge.
+            &lt;/p&gt;
+            &lt;div class="box-container row align-content-space-evenly"&gt;
+                &lt;div class="box"&gt;1&lt;/div&gt;
+                &lt;div class="box"&gt;2&lt;/div&gt;
+                &lt;div class="box"&gt;3&lt;/div&gt;
+                &lt;div class="box"&gt;4&lt;/div&gt;
+                &lt;div class="box"&gt;5&lt;/div&gt;
+            &lt;/div&gt;
+            &lt;p&gt;
+                Align-self is a property we apply to the item inside a flexbox.
+                Below, the third box has been applied a self-align of flex-end.
+                The last box has been applied a self-align of center;
+            &lt;/p&gt;
+            &lt;div class="box-container row no-wrap"&gt;
+                &lt;div class="box"&gt;1&lt;/div&gt;
+                &lt;div class="box"&gt;2&lt;/div&gt;
+                &lt;div class="box align-self-end"&gt;3&lt;/div&gt;
+                &lt;div class="box"&gt;4&lt;/div&gt;
+                &lt;div class="box align-self-center"&gt;5&lt;/div&gt;
+            &lt;/div&gt;
+            &lt;h2&gt;Flex-Basis, Grow, and Shrink&lt;/h2&gt;
+            &lt;p&gt;
+                Flex-basis is the initial size that our items need to be added as to the flex box.
+                It overrides the width of the item. It may be a width or height depending on the main axis (row vs. column).
+            &lt;/p&gt;
+            &lt;p&gt;
+                As shown below, in the row flexbox, setting flex-basis to 200px forces the first box to have the 200px width,
+                regardless of its original width. min-width and max-width still trump the flex-basis size.
+            &lt;/p&gt;
+            &lt;div class="box-container row basis-container"&gt;
+                &lt;div class="box basis"&gt;1&lt;/div&gt;
+                &lt;div class="box"&gt;2&lt;/div&gt;
+                &lt;div class="box"&gt;3&lt;/div&gt;
+                &lt;div class="box"&gt;4&lt;/div&gt;
+                &lt;div class="box"&gt;5&lt;/div&gt;
+            &lt;/div&gt;
+            &lt;p&gt;
+                flex-grow is assigned a unit-less value and the value represents the proportion of the space that the item
+                must take up given there is enough space. For example, an item with flex-grow of 2 will take up twice as much
+                space as an item with flex-grow of 1, but only if there is enough space (The default width of all items will
+                not change, meaning the size of other items won't shrink to support the defined proportion).
+            &lt;/p&gt;
+            &lt;div class="box-container row basis-container"&gt;
+                &lt;div class="box grow-2"&gt;1&lt;/div&gt;
+                &lt;div class="box grow-1"&gt;2&lt;/div&gt;
+                &lt;div class="box grow-1"&gt;3&lt;/div&gt;
+                &lt;div class="box grow-1"&gt;4&lt;/div&gt;
+                &lt;div class="box grow-2"&gt;5&lt;/div&gt;
+            &lt;/div&gt;
+            &lt;p&gt;
+                flex-shrink is assigned a unit-less value as well. It forces an item to shrink with a certain proportion
+                when there is not enough space. The first and last items below have flex-shrink set to 1.
+            &lt;/p&gt;
+            &lt;div class="box-container row shrink-container"&gt;
+                &lt;div class="box shrink-2"&gt;1&lt;/div&gt;
+                &lt;div class="box shrink-1"&gt;2&lt;/div&gt;
+                &lt;div class="box shrink-1"&gt;3&lt;/div&gt;
+                &lt;div class="box shrink-1"&gt;4&lt;/div&gt;
+                &lt;div class="box shrink-2"&gt;5&lt;/div&gt;
+            &lt;/div&gt;
+            &lt;h2&gt;Flex Shorthand&lt;/h2&gt;
+            &lt;p&gt;
+                Flex-basis, grow, and shrink are common that there is a shorthand for this.
+            &lt;/p&gt;
+            &lt;ul&gt;
+                &lt;li&gt;
+                    One value, unit-less number: flex-grow&lt;br&gt;
+                    &lt;code&gt;flex: 2;&lt;/code&gt;
+                &lt;/li&gt;
+                &lt;li&gt;
+                    One value with unit: flex-basis&lt;br&gt;
+                    &lt;code&gt;flex: 10px;&lt;/code&gt;
+                &lt;/li&gt;
+                &lt;li&gt;
+                    Two values: flex-grow | flex-basis&lt;br&gt;
+                    &lt;code&gt;flex: 2 30px;&lt;/code&gt;
+                &lt;/li&gt;
+                &lt;li&gt;
+                    Two values: flex-grow | flex-shrink&lt;br&gt;
+                    &lt;code&gt;flex: 2 2;&lt;/code&gt;
+                &lt;/li&gt;
+                &lt;li&gt;
+                    Three values: flex-grow | flex-shrink | flex-basis&lt;br&gt;
+                    &lt;code&gt;flex: 2 2 10%;&lt;/code&gt;
+                &lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/body&gt;
+        &lt;/html&gt;        
+    </code></pre>
+    <h3>CSS Code for this Page</h3>
+    <pre><code>
+        .basis-container {
+            height: 100px !important;
+            width: 90% !important;
+            flex-wrap: nowrap !important;
+        }
+
+        .shrink-container {
+            height: 100px !important;
+            width: 30% !important;
+            flex-wrap: nowrap !important;
+        }
+
+        .basis {
+            flex-basis: 200px;
+        }
+
+        .grow-1 {
+            flex-grow: 1;
+        }
+
+        .grow-2 {
+            flex-grow: 2;
+        }
+
+        .shrink-1 {
+            flex-shrink: 1;
+        }
+
+        .shrink-2 {
+            flex-shrink: 2;
+        }
+
+        .align-content-start {
+            align-content: flex-start;
+        }
+
+        .align-content-center {
+            align-content: center;
+        }
+
+        .align-content-space-between {
+            align-content: space-between;
+        }
+
+        .align-content-space-evenly {
+            align-content: space-evenly;
+        }
+
+        .align-self-end {
+            align-self: flex-end;
+        }
+
+        .align-self-center {
+            align-self: center;
+        }
+
+        .row {
+            flex-direction: row;
+        }
+
+        .no-wrap {
+            height: 200px !important;
+            width: 90% !important;
+            flex-wrap: nowrap;
+        }
+
+        .box-container {
+            display: flex;
+            flex-wrap: wrap;
+            background-color: #003049;
+            margin: 1% auto;
+            border: 5px solid #003049;
+            height: 500px;
+            width: 200px;
+        }
+
+        .box {
+            height: 100px;
+            width: 100px;
+            color: white;
+            font-size: 2em;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .box:nth-of-type(1) {
+            background-color: #80ffdb;
+            color: #003049;
+        }
+
+        .box:nth-of-type(2) {
+            background-color: #64dfdf;
+            color: #003049;
+        }
+
+        .box:nth-of-type(3) {
+            background-color: #48bfe3;
+            color: #003049;
+        }
+
+        .box:nth-of-type(4) {
+            background-color: #5390d9;
+        }
+
+        .box:nth-of-type(5) {
+            background-color: #6930c3;
+        }
+    </code></pre>
 </body>
 </html>
