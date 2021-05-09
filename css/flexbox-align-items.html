@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+    <title>Flexbox - Align Items</title>
+    <link rel="stylesheet" href="css/flexbox-align-items.css">
+</head>
+<body>
+    <h1>Flexbox - Align Items</h1>
+    <p>
+        The boxes below are in a row-directional flex box. The items are justified in the center.
+        With the flex-end align-items, the items are pushed to the bottom. The default is flex-start.
+    </p>
+    <div class="box-container align-flex-end row">
+        <div class="align-box">1</div>
+        <div class="align-box">2</div>
+        <div class="align-box">3</div>
+        <div class="align-box">4</div>
+        <div class="align-box">5</div>
+    </div>
+    <p>
+        If you want to place items centered horizontally and vertically,
+        you can set both justify-content and align-items to center. This is true for both row and column directions.
+    </p>
+    <div class="box-container align-flex-center row">
+        <div class="align-box">1</div>
+        <div class="align-box">2</div>
+        <div class="align-box">3</div>
+        <div class="align-box">4</div>
+        <div class="align-box">5</div>
+    </div>
+    <p>Baseline allows you to align items using the baseline of the texts.</p>
+    <div class="box-container align-flex-baseline row">
+        <div class="align-box">1</div>
+        <div class="align-box" style="height: 2em;">2</div>
+        <div class="align-box">3</div>
+        <div class="align-box" style="height: 2em;">4</div>
+        <div class="align-box">5</div>
+    </div>
+    <p>
+        The main axis of the column direction flexbox is vertical. The align-items value of flex-end pushes
+        the elements to the right.
+    </p>
+    <div class="box-container align-flex-end column">
+        <div class="align-box">1</div>
+        <div class="align-box">2</div>
+        <div class="align-box">3</div>
+        <div class="align-box">4</div>
+        <div class="align-box">5</div>
+    </div>
+    <p>
+        The align-items value of center places the items in the center horizontally.
+    </p>
+    <div class="box-container align-flex-center column">
+        <div class="align-box">1</div>
+        <div class="align-box">2</div>
+        <div class="align-box">3</div>
+        <div class="align-box">4</div>
+        <div class="align-box">5</div>
+    </div>
+    <h3>HTML Code for this Page</h3>
+    <pre><code>
+        &lt;!DOCTYPE html&gt;
+        &lt;html lang="en"&gt;
+        &lt;head&gt;
+            &lt;meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1"&gt;
+            &lt;title&gt;Flexbox - Align Items&lt;/title&gt;
+            &lt;link rel="stylesheet" href="css/flexbox-align-items.css"&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+            &lt;h1&gt;Flexbox - Align Items&lt;/h1&gt;
+            &lt;p&gt;
+                The boxes below are in a row-directional flex box. The items are justified in the center.
+                With the flex-end align-items, the items are pushed to the bottom. The default is flex-start.
+            &lt;/p&gt;
+            &lt;div class="box-container align-flex-end row"&gt;
+                &lt;div class="align-box"&gt;1&lt;/div&gt;
+                &lt;div class="align-box"&gt;2&lt;/div&gt;
+                &lt;div class="align-box"&gt;3&lt;/div&gt;
+                &lt;div class="align-box"&gt;4&lt;/div&gt;
+                &lt;div class="align-box"&gt;5&lt;/div&gt;
+            &lt;/div&gt;
+            &lt;p&gt;
+                If you want to place items centered horizontally and vertically,
+                you can set both justify-content and align-items to center. This is true for both row and column directions.
+            &lt;/p&gt;
+            &lt;div class="box-container align-flex-center row"&gt;
+                &lt;div class="align-box"&gt;1&lt;/div&gt;
+                &lt;div class="align-box"&gt;2&lt;/div&gt;
+                &lt;div class="align-box"&gt;3&lt;/div&gt;
+                &lt;div class="align-box"&gt;4&lt;/div&gt;
+                &lt;div class="align-box"&gt;5&lt;/div&gt;
+            &lt;/div&gt;
+            &lt;p&gt;Baseline allows you to align items using the baseline of the texts.&lt;/p&gt;
+            &lt;div class="box-container align-flex-baseline row"&gt;
+                &lt;div class="align-box"&gt;1&lt;/div&gt;
+                &lt;div class="align-box" style="height: 2em;"&gt;2&lt;/div&gt;
+                &lt;div class="align-box"&gt;3&lt;/div&gt;
+                &lt;div class="align-box" style="height: 2em;"&gt;4&lt;/div&gt;
+                &lt;div class="align-box"&gt;5&lt;/div&gt;
+            &lt;/div&gt;
+            &lt;p&gt;
+                The main axis of the column direction flexbox is vertical. The align-items value of flex-end pushes
+                the elements to the right.
+            &lt;/p&gt;
+            &lt;div class="box-container align-flex-end column"&gt;
+                &lt;div class="align-box"&gt;1&lt;/div&gt;
+                &lt;div class="align-box"&gt;2&lt;/div&gt;
+                &lt;div class="align-box"&gt;3&lt;/div&gt;
+                &lt;div class="align-box"&gt;4&lt;/div&gt;
+                &lt;div class="align-box"&gt;5&lt;/div&gt;
+            &lt;/div&gt;
+            &lt;p&gt;
+                The align-items value of center places the items in the center horizontally.
+            &lt;/p&gt;
+            &lt;div class="box-container align-flex-center column"&gt;
+                &lt;div class="align-box"&gt;1&lt;/div&gt;
+                &lt;div class="align-box"&gt;2&lt;/div&gt;
+                &lt;div class="align-box"&gt;3&lt;/div&gt;
+                &lt;div class="align-box"&gt;4&lt;/div&gt;
+                &lt;div class="align-box"&gt;5&lt;/div&gt;
+            &lt;/div&gt;
+            &lt;h3&gt;HTML Code for this Page&lt;/h3&gt;
+        &lt;/body&gt;
+        &lt;/html&gt;
+    </code></pre>
+    <h3>CSS Code for this Page</h3>
+    <pre><code>
+        .align-flex-end {
+            align-items: flex-end;
+        }
+
+        .align-flex-center {
+            align-items: center;
+        }
+
+        .align-flex-baseline {
+            align-items: baseline;
+        }
+
+        .row {
+            flex-direction: row;
+        }
+
+        .column {
+            flex-direction: column;
+        }
+
+        .box-container {
+            display: flex;
+            justify-content: center;
+
+            background-color: #003049;
+            width: 90%;
+            height: 300px;
+            margin: 0 auto;
+            border: 5px solid #003049;
+        }
+
+        .align-box {
+            height: 100px;
+            width: 100px;
+            color: white;
+            font-size: 2em;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .align-box:nth-of-type(1) {
+            background-color: #80ffdb;
+            color: #003049;
+        }
+
+        .align-box:nth-of-type(2) {
+            background-color: #64dfdf;
+            color: #003049;
+        }
+
+        .align-box:nth-of-type(3) {
+            background-color: #48bfe3;
+            color: #003049;
+        }
+
+        .align-box:nth-of-type(4) {
+            background-color: #5390d9;
+        }
+
+        .align-box:nth-of-type(5) {
+            background-color: #6930c3;
+        }
+    </code></pre>
+</body>
+</html>
