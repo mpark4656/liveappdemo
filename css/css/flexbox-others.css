@@ -1,0 +1,109 @@
+.basis-container {
+    height: 100px !important;
+    width: 90% !important;
+    flex-wrap: nowrap !important;
+}
+
+.shrink-container {
+    height: 100px !important;
+    width: 30% !important;
+    flex-wrap: nowrap !important;
+}
+
+.basis {
+    flex-basis: 200px;
+}
+
+.grow-1 {
+    flex-grow: 1;
+}
+
+.grow-2 {
+    flex-grow: 2;
+}
+
+.shrink-1 {
+    flex-shrink: 1;
+}
+
+.shrink-2 {
+    flex-shrink: 2;
+}
+
+.align-content-start {
+    align-content: flex-start;
+}
+
+.align-content-center {
+    align-content: center;
+}
+
+.align-content-space-between {
+    align-content: space-between;
+}
+
+.align-content-space-evenly {
+    align-content: space-evenly;
+}
+
+.align-self-end {
+    align-self: flex-end;
+}
+
+.align-self-center {
+    align-self: center;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.no-wrap {
+    height: 200px !important;
+    width: 90% !important;
+    flex-wrap: nowrap;
+}
+
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #003049;
+    margin: 1% auto;
+    border: 5px solid #003049;
+    height: 500px;
+    width: 200px;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    color: white;
+    font-size: 2em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.box:nth-of-type(1) {
+    background-color: #80ffdb;
+    color: #003049;
+}
+
+.box:nth-of-type(2) {
+    background-color: #64dfdf;
+    color: #003049;
+}
+
+.box:nth-of-type(3) {
+    background-color: #48bfe3;
+    color: #003049;
+}
+
+.box:nth-of-type(4) {
+    background-color: #5390d9;
+}
+
+.box:nth-of-type(5) {
+    background-color: #6930c3;
+}
