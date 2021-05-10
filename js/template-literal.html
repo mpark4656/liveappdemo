@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+    <title>String Template Literal</title>
+</head>
+<body>
+    <h1>String Template Literal</h1>
+    <p>
+        Backticks (`) are used to encapsulate strings, but it allows you to interpolate expressions using the ${var}
+        syntax. Inside ${} you can use any javascript expression. This helps avoid repetitive usage of + to concatenate
+        strings that contain variables.
+    </p>
+    <pre><code>
+        let product = "Artichoke";
+        let price = 3.99;
+        let qty = 5;
+
+        console.log(
+            `You bought ${qty} of ${product} at $${price} each. The total price is ${(price * qty).toFixed(2)}.`
+        );
+    </code></pre>
+    <script type="text/javascript" src="js/template-literal.js"></script>
+</body>
+</html>
