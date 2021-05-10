@@ -5,6 +5,7 @@ body {
 
 nav {
     padding: 10px;
+    border-radius: 10px;
 }
 
 nav ol {
@@ -29,6 +30,8 @@ section li {
 
 header {
     margin: auto;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px 1px rgb(100, 211, 241);
 }
 
 header div {
