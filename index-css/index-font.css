@@ -33,6 +33,15 @@ header {
     color: white;
 }
 
+header a {
+    color: white;
+    transition: 0.5s;
+}
+
 header a:visited {
     color: white;
+}
+
+header a:hover {
+    color: blue;
 }
