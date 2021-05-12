@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+    <title>Math Object in Javascript</title>
+</head>
+<body>
+    <h1>Math Object</h1>
+    <p>The build-in Math object provides some mathematics utilities</p>
+    <ul>
+        <li>PI constant</li>
+        <li>Absolute Value</li>
+        <li>Power function</li>
+        <li>Square Root</li>
+        <li>Rounding</li>
+        <li>floor & ceiling</li>
+        <li>Random number</li>
+        <li>Many more...</li>
+    </ul>
+    <p>Math.random() generates a decimal number between 0 (inclusive) and 1 (exclusive).</p>
+    <p>What if you want a random integer? Just floor the result from Math.random().</p>
+    <pre><code>
+        console.log(`The value of PI is ${Math.PI}`);
+        console.log(`Floor always rounds down - ${Math.floor(2.67)}`);
+        console.log(`Ceiling always rounds up - ${Math.ceil(2.67)}`);
+        console.log(`The square root of 4 is ${Math.sqrt(4)}`);
+
+        let randomInteger = Math.floor(Math.random() * 10);
+        console.log(randomInteger);
+    </code></pre>
+    <script src="js/math.js"></script>
+</body>
+</html>
