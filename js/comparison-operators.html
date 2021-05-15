@@ -28,6 +28,25 @@
     <pre><code>
         "test" == "test"   // true
     </code></pre>
+    <h2>Triple (Strict) vs. Double (Loose) Equality</h2>
+    <p>
+        Double equality checks if two values are equal regardless of the type.
+        Both operands are converted to the same type.
+    </p>
+    <pre><code>
+        1 == 1              // true
+        1 == '1'            // true
+        null == undefined   // true
+        0 == false          // true
+
+        1 === 1              // true
+        1 === '1'            // false
+        null === undefined   // false
+        0 === false          // false
+
+        0 !== '0'   // true
+        0 != '0'    // false
+    </code></pre>
     <script src="js/comparison-operators.js"></script>
 </body>
 </html>
