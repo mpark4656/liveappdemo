@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+    <title>Console, Alert, and Prompt</title>
+    <style>
+        .button {
+            padding: 1em;
+            background-color: #6930c3;
+            border: 1px black solid;
+            color: white;
+            transition: box-shadow 0.3s;
+        }
+
+        .button:hover {
+            box-shadow: 1px 1px 1px 2px gray;
+        }
+
+        .button:active {
+            background-color: white;
+            color: black;
+            border: 2px gray solid;
+        }
+    </style>
+</head>
+<body>
+    <h1>Console, Alert, and Prompt</h1>
+    <h2>Console</h2>
+    <p>console.log() simply prints a message.</p>
+    <pre><code>
+        console.log("We've seen this before!");
+    </code></pre>
+    <p>console.clear() clears any messages in the console.</p>
+    <pre><code>
+        console.clear();
+    </code></pre>
+    <p>Console also has other methods such as warn and error.</p>
+    <h2>Alert</h2>
+    <p>Alert creates a generic popup. Click the button below for an alert.</p>
+    <button id="alert-button" class="button">Click for Alert</button>
+    <h3>Prompt</h3>
+    <p>Prompt opens a popup box that asks user for an input.</p>
+    <button id="prompt-button" class="button">Click for Prompt</button>
+    <script type="text/javascript" src="js/console-alert-prompt.js"></script>
+</body>
+</html>
