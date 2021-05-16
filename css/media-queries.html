@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+    <title>Media Queries</title>
+    <link rel="stylesheet" href="css/media-queries.css">
+</head>
+<body>
+    <h1>Media Queries</h1>
+    <p>
+        Main mechanism to make responsive websites - most common attributes are max-width and min-width.
+        These are the widths of a viewpoint. A viewpoint represents a polygonal area in computer graphics that is
+        currently being viewed. In web browser terms, it refers to the part of the document you're viewing which is
+        currently visible in its window.
+    </p>
+    <p>
+        The below 3 boxes are originally placed in a row if the viewport is large enough (at least 500px to be exact).
+        However, if the viewport shrinks, they will be placed in a column. Also, when using a mobile device, the text
+        color inside the boxes is black when in the portrait mode, but red when in the landscape mode.
+    </p>
+    <div class="flex-container">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+    </div>
+    <h3>HTML Code for this Page</h3>
+    <pre><code>
+        &lt;!DOCTYPE html&gt;
+        &lt;html lang="en"&gt;
+        &lt;head&gt;
+            &lt;meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1"&gt;
+            &lt;title&gt;Media Queries&lt;/title&gt;
+            &lt;link rel="stylesheet" href="css/media-queries.css"&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+            &lt;h1&gt;Media Queries&lt;/h1&gt;
+            &lt;p&gt;
+                Main mechanism to make responsive websites - most common attributes are max-width and min-width.
+                These are the widths of a viewpoint. A viewpoint represents a polygonal area in computer graphics that is
+                currently being viewed. In web browser terms, it refers to the part of the document you're viewing which is
+                currently visible in its window.
+            &lt;/p&gt;
+            &lt;p&gt;
+                The below 3 boxes are originally placed in a row if the viewport is large enough (at least 500px to be exact).
+                However, if the viewport shrinks, they will be placed in a column. Also, when using a mobile device, the text
+                color inside the boxes is black when in the portrait mode, but red when in the landscape mode.
+            &lt;/p&gt;
+            &lt;div class="flex-container"&gt;
+                &lt;div class="box"&gt;1&lt;/div&gt;
+                &lt;div class="box"&gt;2&lt;/div&gt;
+                &lt;div class="box"&gt;3&lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/body&gt;
+        &lt;/html&gt;
+    </code></pre>
+    <h3>CSS Code for this Page</h3>
+    <pre><code>
+        .flex-container {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .box {
+            width: 100px;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 1em;
+            border-radius: 10px;
+            border: 1px darkgray solid;
+            box-shadow: 0 2px 10px 2px darkgray;
+            color: black;
+        }
+
+        @media (max-width: 500px) {
+            .flex-container {
+                flex-direction: column;
+            }
+        }
+
+        @media (orientation: landscape) {
+            .box {
+                color: red;
+            }
+        }
+    </code></pre>
+</body>
+</html>
