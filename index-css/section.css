@@ -1,0 +1,35 @@
+section {
+    background: rgba(255, 255, 255, 0.9);
+    margin: 2em auto;
+    padding: 2em;
+    min-height: 900px;
+    width: 50%;
+}
+
+section ol a {
+    color: black;
+}
+
+section ol a:visited {
+    color: black;
+}
+
+section ol, section h1, section h2, section p {
+    font-family: 'Maven Pro', sans-serif;
+}
+
+section li {
+    margin-bottom: 5px;
+}
+
+@media (max-width: 1024px) {
+    section {
+        width: 70%;
+    }
+}
+
+@media (max-width: 768px) {
+    section {
+        width: 80%;
+    }
+}

@@ -1,0 +1,25 @@
+body {
+    background-image: linear-gradient(215deg, rgba(100, 211, 241,0.2), rgba(100, 211, 241,0.2)), url("../img/wallpaper.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100%;
+    width: 99%;
+}
+
+@media (max-width: 768px) {
+    body {
+        width: 98%;
+    }
+}
+
+@media (max-width: 412px) {
+    body {
+        width: 96%;
+    }
+}
+
+@media (max-width: 329px) {
+    body {
+        width: 95%;
+    }
+}

@@ -1,0 +1,56 @@
+nav {
+    background: rgba(32, 99, 117, 0.9);
+    padding: 15px 0;
+    width: 100%;
+    border-radius: 10px;
+}
+
+nav ol {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 0.5em;
+    border-bottom: 3px solid transparent;
+    font-size: 1.5em;
+}
+
+nav li:hover {
+    border-bottom: 3px solid white;
+}
+
+nav a {
+    text-decoration: none;
+    font-family: 'Viga', sans-serif;
+    color: white;
+}
+
+nav a:visited {
+    color: white;
+}
+
+nav a.underlined {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    nav {
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 412px) {
+    nav {
+        font-size: 0.7em;
+    }
+}
+
+@media (max-width: 329px) {
+    nav {
+        font-size: 0.5em;
+    }
+}

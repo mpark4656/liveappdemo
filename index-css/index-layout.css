@@ -47,10 +47,6 @@ iframe {
     margin: auto;
 }
 
-.row {
-    margin: 0;
-}
-
 @media (max-width: 1024px) {
     section {
         width: 70%;

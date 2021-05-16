@@ -1,0 +1,25 @@
+header {
+    background: rgba(32, 99, 117, 0.9);
+    text-align: center;
+    color: white;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px 1px rgb(100, 211, 241);
+}
+
+header div {
+    padding: 1em;
+}
+
+header a {
+    color: white;
+    transition: 0.5s;
+}
+
+header a:visited {
+    color: white;
+}
+
+header a:hover {
+    color: blue;
+}
