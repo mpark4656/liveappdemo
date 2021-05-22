@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+    <title>Logical Operators</title>
+</head>
+<body>
+  <h1>Logical Operators</h1>
+  <h2>AND (&&)</h2>
+  <p>
+    Joins left and right boolean operands. Both operands must be true for the operator to return true.
+    AND operator has precedence over OR.
+  </p>
+  <h2>OR (||)</h2>
+  <p>
+    Only one of the operands must be true.
+  </p>
+  <h3>Not (!)</h3>
+  <p>Flips true to false and vice versa. </p>
+  <pre><code>
+    const age = 90;
+    if(age < 5 || age >= 65) {
+        console.log("FREE");
+    } else if(age > 5 && age < 10) {
+        console.log("$10");
+    } else if(!(age >= 65)) {
+        console.log("$20");
+    }
+  </code></pre>
+  <script type="text/javascript" src="logical-operators.html"></script>
+</body>
+</html>
