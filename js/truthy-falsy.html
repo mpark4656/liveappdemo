@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+    <title>Truthy and Falsy Values</title>
+</head>
+<body>
+    <h1>Truthy and Falsy Values</h1>
+    <p>All JS values have an inherent truthyness or falsyness about them.</p>
+    <ul>
+        <li>false</li>
+        <li>0</li>
+        <li>"" (Empty String)</li>
+        <li>null</li>
+        <li>undefined</li>
+        <li>NaN</li>
+    </ul>
+    <p>All other values are truthy.</p>
+    <p>Below is an example of using string's truthy/falsy nature to evaluate if the input has been provided.</p>
+    <button id="prompt-button">Click Here</button>
+    <pre><code>
+        document.querySelector("#prompt-button").addEventListener("click", event => {
+            const input = prompt("Enter something");
+            if(input.trim()) {
+                alert(`You entered something: ${input.trim()}.`);
+            } else {
+                alert(`No characters in your input.`);
+            }
+        })
+    </code></pre>
+    <script type="text/javascript" src="js/truthy-falsy.js"></script>
+</body>
+</html>
