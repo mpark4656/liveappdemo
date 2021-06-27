@@ -6,7 +6,31 @@
 </head>
 <body>
     <h1>Arrays</h1>
+    <p>There are several methods for adding or removing items in arrays</p>
+    <ul>
+        <li>push - add to end</li>
+        <li>pop - remove from end</li>
+        <li>shift - remove from start</li>
+        <li>unshift - add to start</li>
+    </ul>
+    <pre><code>
+        let movieLine = ['tom', 'nancy', 'pablo', 'oliver', 'eva'];
 
+        // Show the current array
+        console.log(movieLine);
+
+        // Remove the first element
+        movieLine.shift();
+
+        // Add jerry to the beginning of the array
+        movieLine.unshift('jerry');
+
+        // Remove the last element
+        movieLine.pop();
+
+        // Add mike to the end of the array
+        movieLine.push('mike');
+    </code></pre>
     <script type="text/javascript" src="js/array.js"></script>
 </body>
 </html>
